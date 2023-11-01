@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "c19a7626",
+   "id": "371820e9",
    "metadata": {
     "papermill": {
-     "duration": 0.003607,
-     "end_time": "2023-11-01T09:04:49.196286",
+     "duration": 0.003706,
+     "end_time": "2023-11-01T21:08:04.831096",
      "exception": false,
-     "start_time": "2023-11-01T09:04:49.192679",
+     "start_time": "2023-11-01T21:08:04.827390",
      "status": "completed"
     },
     "tags": []
@@ -54,13 +54,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "32ab6f8c",
+   "id": "b0cb90ef",
    "metadata": {
     "papermill": {
-     "duration": 0.002507,
-     "end_time": "2023-11-01T09:04:49.202021",
+     "duration": 0.002404,
+     "end_time": "2023-11-01T21:08:04.836168",
      "exception": false,
-     "start_time": "2023-11-01T09:04:49.199514",
+     "start_time": "2023-11-01T21:08:04.833764",
      "status": "completed"
     },
     "tags": []
@@ -81,20 +81,20 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "714020f6",
+   "id": "f357af27",
    "metadata": {
     "_kg_hide-input": true,
     "execution": {
-     "iopub.execute_input": "2023-11-01T09:04:49.213057Z",
-     "iopub.status.busy": "2023-11-01T09:04:49.209981Z",
-     "iopub.status.idle": "2023-11-01T09:05:35.811338Z",
-     "shell.execute_reply": "2023-11-01T09:05:35.809219Z"
+     "iopub.execute_input": "2023-11-01T21:08:04.845613Z",
+     "iopub.status.busy": "2023-11-01T21:08:04.843240Z",
+     "iopub.status.idle": "2023-11-01T21:08:51.376996Z",
+     "shell.execute_reply": "2023-11-01T21:08:51.374904Z"
     },
     "papermill": {
-     "duration": 46.610184,
-     "end_time": "2023-11-01T09:05:35.814628",
+     "duration": 46.541685,
+     "end_time": "2023-11-01T21:08:51.380314",
      "exception": false,
-     "start_time": "2023-11-01T09:04:49.204444",
+     "start_time": "2023-11-01T21:08:04.838629",
      "status": "completed"
     },
     "tags": []
@@ -148,20 +148,20 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "4576f02d",
+   "id": "3077722f",
    "metadata": {
     "_kg_hide-output": false,
     "execution": {
-     "iopub.execute_input": "2023-11-01T09:05:35.863319Z",
-     "iopub.status.busy": "2023-11-01T09:05:35.824429Z",
-     "iopub.status.idle": "2023-11-01T09:06:17.777472Z",
-     "shell.execute_reply": "2023-11-01T09:06:17.775507Z"
+     "iopub.execute_input": "2023-11-01T21:08:51.425847Z",
+     "iopub.status.busy": "2023-11-01T21:08:51.390737Z",
+     "iopub.status.idle": "2023-11-01T21:09:28.743407Z",
+     "shell.execute_reply": "2023-11-01T21:09:28.741034Z"
     },
     "papermill": {
-     "duration": 41.962395,
-     "end_time": "2023-11-01T09:06:17.781421",
+     "duration": 37.362444,
+     "end_time": "2023-11-01T21:09:28.747218",
      "exception": false,
-     "start_time": "2023-11-01T09:05:35.819026",
+     "start_time": "2023-11-01T21:08:51.384774",
      "status": "completed"
     },
     "tags": []
@@ -295,27 +295,18 @@
     "trip_jan_2023 <- read_csv('/kaggle/input/cyclistic-trip-csv-files/202301-divvy-tripdata.csv')\n",
     "trip_dec_2022 <- read_csv('/kaggle/input/cyclistic-trip-csv-files/202212-divvy-tripdata.csv')\n",
     "trip_nov_2022 <- read_csv('/kaggle/input/cyclistic-trip-csv-files/202211-divvy-tripdata.csv')\n",
-    "trip_oct_2022 <- read_csv('/kaggle/input/cyclistic-trip-csv-files/202210-divvy-tripdata.csv')\n",
-    "\n",
-    "# Join rows from all data sets\n",
-    "# added a column ride_length calculated by subtracting the started_at timestamp from the ended_at timestamp\n",
-    "# added a column day_of_week that gives the day of the week numerically given that Sunday is the first (1)\n",
-    "complete_trip_data_raw <- bind_rows(trip_sep_2023, trip_aug_2023, trip_jul_2023, trip_jun_2023, trip_may_2023, trip_apr_2023, trip_mar_2023, trip_feb_2023, trip_jan_2023, trip_dec_2022, trip_nov_2022, trip_oct_2022) %>%\n",
-    "    mutate(\n",
-    "        ride_length=(as_hms(difftime(ended_at, started_at))), # added a column ride_length calculated by subtracting the started_at timestamp from the ended_at timestamp\n",
-    "        day_of_week=wday(started_at, week_start=7)\n",
-    "    )"
+    "trip_oct_2022 <- read_csv('/kaggle/input/cyclistic-trip-csv-files/202210-divvy-tripdata.csv')"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ef541a7d",
+   "id": "b6a6e4fa",
    "metadata": {
     "papermill": {
-     "duration": 0.006237,
-     "end_time": "2023-11-01T09:06:17.795258",
+     "duration": 0.006686,
+     "end_time": "2023-11-01T21:09:28.761934",
      "exception": false,
-     "start_time": "2023-11-01T09:06:17.789021",
+     "start_time": "2023-11-01T21:09:28.755248",
      "status": "completed"
     },
     "tags": []
@@ -328,6 +319,38 @@
     "\n",
     "\n",
     "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "ca49eb66",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-01T21:09:28.779158Z",
+     "iopub.status.busy": "2023-11-01T21:09:28.777418Z",
+     "iopub.status.idle": "2023-11-01T21:09:36.557336Z",
+     "shell.execute_reply": "2023-11-01T21:09:36.555337Z"
+    },
+    "papermill": {
+     "duration": 7.791868,
+     "end_time": "2023-11-01T21:09:36.560340",
+     "exception": false,
+     "start_time": "2023-11-01T21:09:28.768472",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# Join rows from all data sets\n",
+    "# added a column ride_length calculated by subtracting the started_at timestamp from the ended_at timestamp\n",
+    "# added a column day_of_week that gives the day of the week numerically given that Sunday is the first (1)\n",
+    "complete_trip_data_raw <- bind_rows(trip_sep_2023, trip_aug_2023, trip_jul_2023, trip_jun_2023, trip_may_2023, trip_apr_2023, trip_mar_2023, trip_feb_2023, trip_jan_2023, trip_dec_2022, trip_nov_2022, trip_oct_2022) %>%\n",
+    "    mutate(\n",
+    "        ride_length=(as_hms(difftime(ended_at, started_at))), # added a column ride_length calculated by subtracting the started_at timestamp from the ended_at timestamp\n",
+    "        day_of_week=wday(started_at, week_start=7)\n",
+    "    )\n"
    ]
   }
  ],
@@ -347,14 +370,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 92.399571,
-   "end_time": "2023-11-01T09:06:18.025443",
+   "duration": 95.522317,
+   "end_time": "2023-11-01T21:09:36.789510",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-11-01T09:04:45.625872",
+   "start_time": "2023-11-01T21:08:01.267193",
    "version": "2.4.0"
   }
  },
