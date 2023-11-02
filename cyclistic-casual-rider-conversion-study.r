@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "306a5642",
+   "id": "56b3f361",
    "metadata": {
     "papermill": {
-     "duration": 0.006467,
-     "end_time": "2023-11-02T01:18:02.749071",
+     "duration": 0.007433,
+     "end_time": "2023-11-02T12:41:34.239756",
      "exception": false,
-     "start_time": "2023-11-02T01:18:02.742604",
+     "start_time": "2023-11-02T12:41:34.232323",
      "status": "completed"
     },
     "tags": []
@@ -54,13 +54,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c432abcc",
+   "id": "b84af55f",
    "metadata": {
     "papermill": {
-     "duration": 0.005162,
-     "end_time": "2023-11-02T01:18:02.759799",
+     "duration": 0.005879,
+     "end_time": "2023-11-02T12:41:34.251697",
      "exception": false,
-     "start_time": "2023-11-02T01:18:02.754637",
+     "start_time": "2023-11-02T12:41:34.245818",
      "status": "completed"
     },
     "tags": []
@@ -81,20 +81,20 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "492e8184",
+   "id": "86784948",
    "metadata": {
     "_kg_hide-input": true,
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:18:02.777385Z",
-     "iopub.status.busy": "2023-11-02T01:18:02.773957Z",
-     "iopub.status.idle": "2023-11-02T01:18:38.242399Z",
-     "shell.execute_reply": "2023-11-02T01:18:38.240465Z"
+     "iopub.execute_input": "2023-11-02T12:41:34.270257Z",
+     "iopub.status.busy": "2023-11-02T12:41:34.266941Z",
+     "iopub.status.idle": "2023-11-02T12:42:13.301404Z",
+     "shell.execute_reply": "2023-11-02T12:42:13.298963Z"
     },
     "papermill": {
-     "duration": 35.479985,
-     "end_time": "2023-11-02T01:18:38.245258",
+     "duration": 39.047661,
+     "end_time": "2023-11-02T12:42:13.305190",
      "exception": false,
-     "start_time": "2023-11-02T01:18:02.765273",
+     "start_time": "2023-11-02T12:41:34.257529",
      "status": "completed"
     },
     "tags": []
@@ -139,26 +139,27 @@
     "library('tidyverse')\n",
     "library('lubridate')\n",
     "library('dplyr')\n",
-    "library('hms')"
+    "library('hms')\n",
+    "library('stringr')"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "47fa5bad",
+   "id": "26b0f1da",
    "metadata": {
     "_kg_hide-output": false,
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:18:38.309176Z",
-     "iopub.status.busy": "2023-11-02T01:18:38.260072Z",
-     "iopub.status.idle": "2023-11-02T01:19:12.709581Z",
-     "shell.execute_reply": "2023-11-02T01:19:12.707419Z"
+     "iopub.execute_input": "2023-11-02T12:42:13.380850Z",
+     "iopub.status.busy": "2023-11-02T12:42:13.320359Z",
+     "iopub.status.idle": "2023-11-02T12:42:55.717084Z",
+     "shell.execute_reply": "2023-11-02T12:42:55.714653Z"
     },
     "papermill": {
-     "duration": 34.461345,
-     "end_time": "2023-11-02T01:19:12.712740",
+     "duration": 42.408466,
+     "end_time": "2023-11-02T12:42:55.719865",
      "exception": false,
-     "start_time": "2023-11-02T01:18:38.251395",
+     "start_time": "2023-11-02T12:42:13.311399",
      "status": "completed"
     },
     "tags": []
@@ -297,13 +298,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "797e251f",
+   "id": "78bb5047",
    "metadata": {
     "papermill": {
-     "duration": 0.008622,
-     "end_time": "2023-11-02T01:19:12.730637",
+     "duration": 0.011697,
+     "end_time": "2023-11-02T12:42:55.741248",
      "exception": false,
-     "start_time": "2023-11-02T01:19:12.722015",
+     "start_time": "2023-11-02T12:42:55.729551",
      "status": "completed"
     },
     "tags": []
@@ -320,13 +321,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "38545739",
+   "id": "8d7f0b81",
    "metadata": {
     "papermill": {
-     "duration": 0.008553,
-     "end_time": "2023-11-02T01:19:12.749661",
+     "duration": 0.009385,
+     "end_time": "2023-11-02T12:42:55.760459",
      "exception": false,
-     "start_time": "2023-11-02T01:19:12.741108",
+     "start_time": "2023-11-02T12:42:55.751074",
      "status": "completed"
     },
     "tags": []
@@ -338,19 +339,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "66154114",
+   "id": "d833ae0c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:19:12.770718Z",
-     "iopub.status.busy": "2023-11-02T01:19:12.768973Z",
-     "iopub.status.idle": "2023-11-02T01:19:20.104087Z",
-     "shell.execute_reply": "2023-11-02T01:19:20.101830Z"
+     "iopub.execute_input": "2023-11-02T12:42:55.784534Z",
+     "iopub.status.busy": "2023-11-02T12:42:55.782533Z",
+     "iopub.status.idle": "2023-11-02T12:43:05.662750Z",
+     "shell.execute_reply": "2023-11-02T12:43:05.660269Z"
     },
     "papermill": {
-     "duration": 7.348683,
-     "end_time": "2023-11-02T01:19:20.107116",
+     "duration": 9.89625,
+     "end_time": "2023-11-02T12:43:05.666267",
      "exception": false,
-     "start_time": "2023-11-02T01:19:12.758433",
+     "start_time": "2023-11-02T12:42:55.770017",
      "status": "completed"
     },
     "tags": []
@@ -370,13 +371,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "2dc53cd3",
+   "id": "2f9e6d10",
    "metadata": {
     "papermill": {
-     "duration": 0.009453,
-     "end_time": "2023-11-02T01:19:20.125748",
+     "duration": 0.010283,
+     "end_time": "2023-11-02T12:43:05.686782",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.116295",
+     "start_time": "2023-11-02T12:43:05.676499",
      "status": "completed"
     },
     "tags": []
@@ -388,19 +389,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "bf68d4ab",
+   "id": "f4107918",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:19:20.148512Z",
-     "iopub.status.busy": "2023-11-02T01:19:20.146550Z",
-     "iopub.status.idle": "2023-11-02T01:19:20.185894Z",
-     "shell.execute_reply": "2023-11-02T01:19:20.183223Z"
+     "iopub.execute_input": "2023-11-02T12:43:05.711049Z",
+     "iopub.status.busy": "2023-11-02T12:43:05.709096Z",
+     "iopub.status.idle": "2023-11-02T12:43:05.753967Z",
+     "shell.execute_reply": "2023-11-02T12:43:05.751739Z"
     },
     "papermill": {
-     "duration": 0.053502,
-     "end_time": "2023-11-02T01:19:20.188917",
+     "duration": 0.06076,
+     "end_time": "2023-11-02T12:43:05.757207",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.135415",
+     "start_time": "2023-11-02T12:43:05.696447",
      "status": "completed"
     },
     "tags": []
@@ -436,54 +437,39 @@
   },
   {
    "cell_type": "markdown",
-   "id": "8a2672c1",
+   "id": "e28ed1c1",
    "metadata": {
     "papermill": {
-     "duration": 0.008769,
-     "end_time": "2023-11-02T01:19:20.207273",
+     "duration": 0.01004,
+     "end_time": "2023-11-02T12:43:05.777574",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.198504",
+     "start_time": "2023-11-02T12:43:05.767534",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "Our aggregated data contains 5,674,399 rows as seen above."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "9f9841b2",
-   "metadata": {
-    "papermill": {
-     "duration": 0.00858,
-     "end_time": "2023-11-02T01:19:20.224503",
-     "exception": false,
-     "start_time": "2023-11-02T01:19:20.215923",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
+    "Our aggregated data contains 5,674,399 rows as seen above.\n",
+    "\n",
     "Investigating the data showed that several end station data was missing."
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "4a678d8f",
+   "id": "95115887",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:19:20.245688Z",
-     "iopub.status.busy": "2023-11-02T01:19:20.243867Z",
-     "iopub.status.idle": "2023-11-02T01:19:20.614623Z",
-     "shell.execute_reply": "2023-11-02T01:19:20.611888Z"
+     "iopub.execute_input": "2023-11-02T12:43:05.801998Z",
+     "iopub.status.busy": "2023-11-02T12:43:05.800093Z",
+     "iopub.status.idle": "2023-11-02T12:43:06.237057Z",
+     "shell.execute_reply": "2023-11-02T12:43:06.233898Z"
     },
     "papermill": {
-     "duration": 0.384488,
-     "end_time": "2023-11-02T01:19:20.617649",
+     "duration": 0.453568,
+     "end_time": "2023-11-02T12:43:06.241077",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.233161",
+     "start_time": "2023-11-02T12:43:05.787509",
      "status": "completed"
     },
     "tags": []
@@ -585,13 +571,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1fdd79c1",
+   "id": "11b19831",
    "metadata": {
     "papermill": {
-     "duration": 0.009141,
-     "end_time": "2023-11-02T01:19:20.636316",
+     "duration": 0.010865,
+     "end_time": "2023-11-02T12:43:06.262489",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.627175",
+     "start_time": "2023-11-02T12:43:06.251624",
      "status": "completed"
     },
     "tags": []
@@ -603,19 +589,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "962f027b",
+   "id": "9716b5ed",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:19:20.658630Z",
-     "iopub.status.busy": "2023-11-02T01:19:20.656900Z",
-     "iopub.status.idle": "2023-11-02T01:19:21.255161Z",
-     "shell.execute_reply": "2023-11-02T01:19:21.252563Z"
+     "iopub.execute_input": "2023-11-02T12:43:06.287470Z",
+     "iopub.status.busy": "2023-11-02T12:43:06.285485Z",
+     "iopub.status.idle": "2023-11-02T12:43:07.063406Z",
+     "shell.execute_reply": "2023-11-02T12:43:07.061154Z"
     },
     "papermill": {
-     "duration": 0.612864,
-     "end_time": "2023-11-02T01:19:21.258373",
+     "duration": 0.793485,
+     "end_time": "2023-11-02T12:43:07.066200",
      "exception": false,
-     "start_time": "2023-11-02T01:19:20.645509",
+     "start_time": "2023-11-02T12:43:06.272715",
      "status": "completed"
     },
     "tags": []
@@ -697,13 +683,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0f50b6e4",
+   "id": "2f08ae39",
    "metadata": {
     "papermill": {
-     "duration": 0.009521,
-     "end_time": "2023-11-02T01:19:21.277569",
+     "duration": 0.010504,
+     "end_time": "2023-11-02T12:43:07.087374",
      "exception": false,
-     "start_time": "2023-11-02T01:19:21.268048",
+     "start_time": "2023-11-02T12:43:07.076870",
      "status": "completed"
     },
     "tags": []
@@ -717,19 +703,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "254d2658",
+   "id": "c4a791c8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-02T01:19:21.300443Z",
-     "iopub.status.busy": "2023-11-02T01:19:21.298766Z",
-     "iopub.status.idle": "2023-11-02T01:19:23.686170Z",
-     "shell.execute_reply": "2023-11-02T01:19:23.684212Z"
+     "iopub.execute_input": "2023-11-02T12:43:07.113304Z",
+     "iopub.status.busy": "2023-11-02T12:43:07.111336Z",
+     "iopub.status.idle": "2023-11-02T12:43:10.392221Z",
+     "shell.execute_reply": "2023-11-02T12:43:10.389932Z"
     },
     "papermill": {
-     "duration": 2.402613,
-     "end_time": "2023-11-02T01:19:23.689796",
+     "duration": 3.296832,
+     "end_time": "2023-11-02T12:43:10.395059",
      "exception": false,
-     "start_time": "2023-11-02T01:19:21.287183",
+     "start_time": "2023-11-02T12:43:07.098227",
      "status": "completed"
     },
     "tags": []
@@ -738,7 +724,567 @@
    "source": [
     "# Removing all station related rows with empty data (NA)\n",
     "df_cleaned <- df %>%\n",
-    "    drop_na(end_station_name, end_station_id, start_station_name, start_station_id)"
+    "    drop_na(end_station_name, end_station_id, start_station_name, start_station_id)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "36199dba",
+   "metadata": {
+    "papermill": {
+     "duration": 0.010746,
+     "end_time": "2023-11-02T12:43:10.416193",
+     "exception": false,
+     "start_time": "2023-11-02T12:43:10.405447",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Included in the dataset are stations with an asterisk (*) at the end, all belonging to IDs with 'charging' in them. We'll remove the asterisks to avoid any issues."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "51677eec",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-02T12:43:10.441928Z",
+     "iopub.status.busy": "2023-11-02T12:43:10.440053Z",
+     "iopub.status.idle": "2023-11-02T12:43:20.960138Z",
+     "shell.execute_reply": "2023-11-02T12:43:20.958006Z"
+    },
+    "papermill": {
+     "duration": 10.536461,
+     "end_time": "2023-11-02T12:43:20.963131",
+     "exception": false,
+     "start_time": "2023-11-02T12:43:10.426670",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 10 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>start_station_name</th><th scope=col>end_station_name</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Roscoe St   </span></td><td><span style=white-space:pre-wrap>Clarendon Ave &amp; Junior Ter         </span></td></tr>\n",
+       "\t<tr><th scope=row>2</th><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Roscoe St   </span></td><td><span style=white-space:pre-wrap>Damen Ave &amp; Pierce Ave             </span></td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>Fort Dearborn Dr &amp; 31st St</td><td><span style=white-space:pre-wrap>MLK Jr Dr &amp; 29th St                </span></td></tr>\n",
+       "\t<tr><th scope=row>4</th><td><span style=white-space:pre-wrap>Morgan St &amp; Lake St       </span></td><td><span style=white-space:pre-wrap>Kingsbury St &amp; Kinzie St           </span></td></tr>\n",
+       "\t<tr><th scope=row>5</th><td><span style=white-space:pre-wrap>Morgan St &amp; Lake St       </span></td><td><span style=white-space:pre-wrap>Clark St &amp; Lake St                 </span></td></tr>\n",
+       "\t<tr><th scope=row>6</th><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Roscoe St   </span></td><td><span style=white-space:pre-wrap>Southport Ave &amp; Wrightwood Ave     </span></td></tr>\n",
+       "\t<tr><th scope=row>7</th><td>Bissell St &amp; Armitage Ave </td><td><span style=white-space:pre-wrap>Wells St &amp; Evergreen Ave           </span></td></tr>\n",
+       "\t<tr><th scope=row>8</th><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Roscoe St   </span></td><td><span style=white-space:pre-wrap>Lakefront Trail &amp; Bryn Mawr Ave    </span></td></tr>\n",
+       "\t<tr><th scope=row>9</th><td><span style=white-space:pre-wrap>Morgan St &amp; Lake St       </span></td><td><span style=white-space:pre-wrap>Michigan Ave &amp; Washington St       </span></td></tr>\n",
+       "\t<tr><th scope=row>10</th><td><span style=white-space:pre-wrap>Morgan St &amp; Lake St       </span></td><td>Orleans St &amp; Merchandise Mart Plaza</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 10 × 2\n",
+       "\\begin{tabular}{r|ll}\n",
+       "  & start\\_station\\_name & end\\_station\\_name\\\\\n",
+       "  & <chr> & <chr>\\\\\n",
+       "\\hline\n",
+       "\t1 & Lincoln Ave \\& Roscoe St    & Clarendon Ave \\& Junior Ter         \\\\\n",
+       "\t2 & Lincoln Ave \\& Roscoe St    & Damen Ave \\& Pierce Ave             \\\\\n",
+       "\t3 & Fort Dearborn Dr \\& 31st St & MLK Jr Dr \\& 29th St                \\\\\n",
+       "\t4 & Morgan St \\& Lake St        & Kingsbury St \\& Kinzie St           \\\\\n",
+       "\t5 & Morgan St \\& Lake St        & Clark St \\& Lake St                 \\\\\n",
+       "\t6 & Lincoln Ave \\& Roscoe St    & Southport Ave \\& Wrightwood Ave     \\\\\n",
+       "\t7 & Bissell St \\& Armitage Ave  & Wells St \\& Evergreen Ave           \\\\\n",
+       "\t8 & Lincoln Ave \\& Roscoe St    & Lakefront Trail \\& Bryn Mawr Ave    \\\\\n",
+       "\t9 & Morgan St \\& Lake St        & Michigan Ave \\& Washington St       \\\\\n",
+       "\t10 & Morgan St \\& Lake St        & Orleans St \\& Merchandise Mart Plaza\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 10 × 2\n",
+       "\n",
+       "| <!--/--> | start_station_name &lt;chr&gt; | end_station_name &lt;chr&gt; |\n",
+       "|---|---|---|\n",
+       "| 1 | Lincoln Ave &amp; Roscoe St    | Clarendon Ave &amp; Junior Ter          |\n",
+       "| 2 | Lincoln Ave &amp; Roscoe St    | Damen Ave &amp; Pierce Ave              |\n",
+       "| 3 | Fort Dearborn Dr &amp; 31st St | MLK Jr Dr &amp; 29th St                 |\n",
+       "| 4 | Morgan St &amp; Lake St        | Kingsbury St &amp; Kinzie St            |\n",
+       "| 5 | Morgan St &amp; Lake St        | Clark St &amp; Lake St                  |\n",
+       "| 6 | Lincoln Ave &amp; Roscoe St    | Southport Ave &amp; Wrightwood Ave      |\n",
+       "| 7 | Bissell St &amp; Armitage Ave  | Wells St &amp; Evergreen Ave            |\n",
+       "| 8 | Lincoln Ave &amp; Roscoe St    | Lakefront Trail &amp; Bryn Mawr Ave     |\n",
+       "| 9 | Morgan St &amp; Lake St        | Michigan Ave &amp; Washington St        |\n",
+       "| 10 | Morgan St &amp; Lake St        | Orleans St &amp; Merchandise Mart Plaza |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "   start_station_name         end_station_name                   \n",
+       "1  Lincoln Ave & Roscoe St    Clarendon Ave & Junior Ter         \n",
+       "2  Lincoln Ave & Roscoe St    Damen Ave & Pierce Ave             \n",
+       "3  Fort Dearborn Dr & 31st St MLK Jr Dr & 29th St                \n",
+       "4  Morgan St & Lake St        Kingsbury St & Kinzie St           \n",
+       "5  Morgan St & Lake St        Clark St & Lake St                 \n",
+       "6  Lincoln Ave & Roscoe St    Southport Ave & Wrightwood Ave     \n",
+       "7  Bissell St & Armitage Ave  Wells St & Evergreen Ave           \n",
+       "8  Lincoln Ave & Roscoe St    Lakefront Trail & Bryn Mawr Ave    \n",
+       "9  Morgan St & Lake St        Michigan Ave & Washington St       \n",
+       "10 Morgan St & Lake St        Orleans St & Merchandise Mart Plaza"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Remove asterisks from start and end station names\n",
+    "df_cleaned <- df_cleaned %>%\n",
+    "    mutate(\n",
+    "        start_station_name=str_replace(start_station_name,\"[*]\",\"\"),\n",
+    "        end_station_name=str_replace(end_station_name,\"[*]\", \"\")\n",
+    "    )\n",
+    "\n",
+    "# Review Sample of cleaned station names\n",
+    "df_cleaned %>% filter(grepl(\"charging\", start_station_id)) %>% select(start_station_name, end_station_name) %>% head(10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ff6225bc",
+   "metadata": {
+    "papermill": {
+     "duration": 0.011361,
+     "end_time": "2023-11-02T12:43:20.985599",
+     "exception": false,
+     "start_time": "2023-11-02T12:43:20.974238",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "A now for a sample review of the cleaned data set."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "93d6a911",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-02T12:43:21.015138Z",
+     "iopub.status.busy": "2023-11-02T12:43:21.012513Z",
+     "iopub.status.idle": "2023-11-02T12:43:21.186567Z",
+     "shell.execute_reply": "2023-11-02T12:43:21.184226Z"
+    },
+    "papermill": {
+     "duration": 0.193813,
+     "end_time": "2023-11-02T12:43:21.190894",
+     "exception": false,
+     "start_time": "2023-11-02T12:43:20.997081",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 50 × 15</caption>\n",
+       "<thead>\n",
+       "\t<tr><th></th><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>start_station_name</th><th scope=col>start_station_id</th><th scope=col>end_station_name</th><th scope=col>end_station_id</th><th scope=col>start_lat</th><th scope=col>start_lng</th><th scope=col>end_lat</th><th scope=col>end_lng</th><th scope=col>member_casual</th><th scope=col>ride_length</th><th scope=col>day_of_week</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><th scope=row>1</th><td>011C1903BF4E2E28</td><td>classic_bike </td><td>2023-09-23 00:27:50</td><td>2023-09-23 00:33:27</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave         </span></td><td>TA1309000061</td><td>Sheffield Ave &amp; Wellington Ave </td><td>TA1307000052</td><td>41.92914</td><td>-87.64908</td><td>41.93625</td><td>-87.65266</td><td>member</td><td>00:05:37</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>87DB80E048A1BF9F</td><td>classic_bike </td><td>2023-09-02 09:26:43</td><td>2023-09-02 09:38:19</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl              </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave     </span></td><td>TA1306000026</td><td>41.93125</td><td>-87.64434</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:11:36</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>7C2EB7AF669066E3</td><td>electric_bike</td><td>2023-09-25 18:30:11</td><td>2023-09-25 18:41:39</td><td><span style=white-space:pre-wrap>Financial Pl &amp; Ida B Wells Dr       </span></td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Racine Ave &amp; 15th St           </span></td><td><span style=white-space:pre-wrap>13304       </span></td><td>41.87506</td><td>-87.63314</td><td>41.86127</td><td>-87.65663</td><td>member</td><td>00:11:28</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>57D197B010269CE3</td><td>classic_bike </td><td>2023-09-13 15:30:49</td><td>2023-09-13 15:39:18</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl              </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Belmont Ave       </span></td><td>TA1308000019</td><td>41.93125</td><td>-87.64434</td><td>41.93974</td><td>-87.65887</td><td>member</td><td>00:08:29</td><td>4</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>8A2CEA7C8C8074D8</td><td>classic_bike </td><td>2023-09-18 15:58:58</td><td>2023-09-18 16:05:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave         </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave     </span></td><td>TA1306000026</td><td>41.92914</td><td>-87.64908</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:06:06</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>40D9EF382CC6C53D</td><td>classic_bike </td><td>2023-09-17 11:58:50</td><td>2023-09-17 12:08:36</td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave          </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td>California Ave &amp; Milwaukee Ave </td><td><span style=white-space:pre-wrap>13084       </span></td><td>41.92957</td><td>-87.70786</td><td>41.92269</td><td>-87.69715</td><td>member</td><td>00:09:46</td><td>1</td></tr>\n",
+       "\t<tr><th scope=row>7</th><td>3812B98E9406040E</td><td>classic_bike </td><td>2023-09-12 16:01:28</td><td>2023-09-12 16:17:47</td><td><span style=white-space:pre-wrap>Financial Pl &amp; Ida B Wells Dr       </span></td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Adler Planetarium              </span></td><td><span style=white-space:pre-wrap>13431       </span></td><td>41.87502</td><td>-87.63309</td><td>41.86610</td><td>-87.60727</td><td>member</td><td>00:16:19</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>8</th><td>EBA56298CB3C803F</td><td>classic_bike </td><td>2023-09-24 13:17:23</td><td>2023-09-24 13:50:43</td><td><span style=white-space:pre-wrap>Clark St &amp; Schreiber Ave            </span></td><td>KA1504000156</td><td><span style=white-space:pre-wrap>Oakley Ave &amp; Touhy Ave         </span></td><td><span style=white-space:pre-wrap>RP-004      </span></td><td>41.99990</td><td>-87.67007</td><td>42.01234</td><td>-87.68824</td><td>member</td><td>00:33:20</td><td>1</td></tr>\n",
+       "\t<tr><th scope=row>9</th><td>C6BD5AF648F11D11</td><td>electric_bike</td><td>2023-09-28 18:09:40</td><td>2023-09-28 18:15:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave         </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St         </span></td><td>TA1309000025</td><td>41.92919</td><td>-87.64914</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:05:24</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>10</th><td>585C82FA2E006DE9</td><td>classic_bike </td><td>2023-09-22 12:30:41</td><td>2023-09-22 12:42:21</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave         </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St         </span></td><td>TA1309000025</td><td>41.92914</td><td>-87.64908</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:11:40</td><td>6</td></tr>\n",
+       "\t<tr><th scope=row>11</th><td>95E72C49D692F822</td><td>classic_bike </td><td>2023-09-07 16:28:17</td><td>2023-09-07 16:31:25</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl              </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Clark St &amp; Wellington Ave      </span></td><td>TA1307000136</td><td>41.93125</td><td>-87.64434</td><td>41.93650</td><td>-87.64754</td><td>member</td><td>00:03:08</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>12</th><td>26094B920577B434</td><td>classic_bike </td><td>2023-09-04 16:53:28</td><td>2023-09-04 16:56:33</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl              </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Clark St &amp; Wellington Ave      </span></td><td>TA1307000136</td><td>41.93125</td><td>-87.64434</td><td>41.93650</td><td>-87.64754</td><td>member</td><td>00:03:05</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>13</th><td>A13DECC07C318A6F</td><td>classic_bike </td><td>2023-09-14 10:37:54</td><td>2023-09-14 10:40:16</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl              </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Clark St &amp; Wellington Ave      </span></td><td>TA1307000136</td><td>41.93125</td><td>-87.64434</td><td>41.93650</td><td>-87.64754</td><td>member</td><td>00:02:22</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>14</th><td>BE665598CC823457</td><td>electric_bike</td><td>2023-09-09 22:42:44</td><td>2023-09-09 22:49:49</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave         </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Addison St       </span></td><td>TA1309000050</td><td>41.92917</td><td>-87.64915</td><td>41.94618</td><td>-87.67331</td><td>member</td><td>00:07:05</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>15</th><td>34AB2700E7062615</td><td>classic_bike </td><td>2023-09-30 14:04:04</td><td>2023-09-30 14:04:33</td><td><span style=white-space:pre-wrap>Wabash Ave &amp; Grand Ave              </span></td><td>TA1307000117</td><td><span style=white-space:pre-wrap>Wabash Ave &amp; Grand Ave         </span></td><td>TA1307000117</td><td>41.89147</td><td>-87.62676</td><td>41.89147</td><td>-87.62676</td><td>member</td><td>00:00:29</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>16</th><td>CAE833F56B978BB5</td><td>classic_bike </td><td>2023-09-30 14:08:57</td><td>2023-09-30 14:09:00</td><td><span style=white-space:pre-wrap>Wabash Ave &amp; Grand Ave              </span></td><td>TA1307000117</td><td><span style=white-space:pre-wrap>Wabash Ave &amp; Grand Ave         </span></td><td>TA1307000117</td><td>41.89147</td><td>-87.62676</td><td>41.89147</td><td>-87.62676</td><td>member</td><td>00:00:03</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>17</th><td>523ADD8118978D3A</td><td>electric_bike</td><td>2023-09-04 23:36:48</td><td>2023-09-04 23:48:45</td><td><span style=white-space:pre-wrap>Elizabeth St &amp; Randolph St          </span></td><td><span style=white-space:pre-wrap>23001       </span></td><td><span style=white-space:pre-wrap>Blue Island Ave &amp; 18th St      </span></td><td><span style=white-space:pre-wrap>13135       </span></td><td>41.88433</td><td>-87.65897</td><td>41.85756</td><td>-87.66154</td><td>casual</td><td>00:11:57</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>18</th><td>6C5287A284CDD8CB</td><td>classic_bike </td><td>2023-09-26 20:52:21</td><td>2023-09-26 21:00:42</td><td><span style=white-space:pre-wrap>Southport Ave &amp; Wrightwood Ave      </span></td><td>TA1307000113</td><td><span style=white-space:pre-wrap>Clark St &amp; Wrightwood Ave      </span></td><td>TA1305000014</td><td>41.92877</td><td>-87.66391</td><td>41.92955</td><td>-87.64312</td><td>casual</td><td>00:08:21</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>19</th><td>928A1D2220881ADF</td><td>classic_bike </td><td>2023-09-26 18:21:34</td><td>2023-09-26 18:38:07</td><td><span style=white-space:pre-wrap>Lincoln Ave &amp; Roscoe St             </span></td><td>chargingstx5</td><td><span style=white-space:pre-wrap>Clarendon Ave &amp; Junior Ter     </span></td><td><span style=white-space:pre-wrap>13389       </span></td><td>41.94335</td><td>-87.67067</td><td>41.96100</td><td>-87.64960</td><td>member</td><td>00:16:33</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>20</th><td>889F2926F7CE3A9E</td><td>electric_bike</td><td>2023-09-02 13:06:20</td><td>2023-09-02 13:16:08</td><td><span style=white-space:pre-wrap>Desplaines St &amp; Randolph St         </span></td><td><span style=white-space:pre-wrap>15535       </span></td><td><span style=white-space:pre-wrap>Wells St &amp; Elm St              </span></td><td>KA1504000135</td><td>41.88357</td><td>-87.64420</td><td>41.90322</td><td>-87.63432</td><td>member</td><td>00:09:48</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>21</th><td>600227F410DF602A</td><td>classic_bike </td><td>2023-09-18 18:09:04</td><td>2023-09-18 18:14:44</td><td><span style=white-space:pre-wrap>Austin Blvd &amp; Lake St               </span></td><td><span style=white-space:pre-wrap>16906       </span></td><td><span style=white-space:pre-wrap>Austin Blvd &amp; Madison St       </span></td><td><span style=white-space:pre-wrap>16918       </span></td><td>41.88794</td><td>-87.77427</td><td>41.88028</td><td>-87.77445</td><td>member</td><td>00:05:40</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>22</th><td>DE4241E63009F4CB</td><td>classic_bike </td><td>2023-09-07 17:37:02</td><td>2023-09-07 17:46:00</td><td><span style=white-space:pre-wrap>Loomis St &amp; Lexington St            </span></td><td><span style=white-space:pre-wrap>13332       </span></td><td><span style=white-space:pre-wrap>Canal St &amp; Jackson Blvd        </span></td><td><span style=white-space:pre-wrap>13138       </span></td><td>41.87223</td><td>-87.66136</td><td>41.87725</td><td>-87.63937</td><td>member</td><td>00:08:58</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>23</th><td>CC2CE8E59913F41E</td><td>classic_bike </td><td>2023-09-23 16:03:52</td><td>2023-09-23 18:13:09</td><td><span style=white-space:pre-wrap>Broadway &amp; Wilson Ave               </span></td><td><span style=white-space:pre-wrap>13074       </span></td><td><span style=white-space:pre-wrap>Broadway &amp; Wilson Ave          </span></td><td><span style=white-space:pre-wrap>13074       </span></td><td>41.96522</td><td>-87.65814</td><td>41.96522</td><td>-87.65814</td><td>casual</td><td>02:09:17</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>24</th><td>9A044F4F6D84F0F4</td><td>classic_bike </td><td>2023-09-25 17:26:09</td><td>2023-09-25 17:32:11</td><td><span style=white-space:pre-wrap>Halsted St &amp; Maxwell St             </span></td><td>TA1309000001</td><td><span style=white-space:pre-wrap>Halsted St &amp; Maxwell St        </span></td><td>TA1309000001</td><td>41.86488</td><td>-87.64707</td><td>41.86488</td><td>-87.64707</td><td>member</td><td>00:06:02</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>25</th><td>84C955A6010005F9</td><td>electric_bike</td><td>2023-09-04 20:26:38</td><td>2023-09-04 20:43:28</td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave          </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave     </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td>41.92967</td><td>-87.70808</td><td>41.92957</td><td>-87.70786</td><td>casual</td><td>00:16:50</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>26</th><td>9047EE97561B54AA</td><td>electric_bike</td><td>2023-09-10 18:40:10</td><td>2023-09-10 18:40:57</td><td><span style=white-space:pre-wrap>Southport Ave &amp; Wrightwood Ave      </span></td><td>TA1307000113</td><td>Southport Ave &amp; Wrightwood Ave </td><td>TA1307000113</td><td>41.92883</td><td>-87.66388</td><td>41.92877</td><td>-87.66391</td><td>member</td><td>00:00:47</td><td>1</td></tr>\n",
+       "\t<tr><th scope=row>27</th><td>C06D2A5FB2FF26BD</td><td>classic_bike </td><td>2023-09-27 00:11:41</td><td>2023-09-27 00:22:02</td><td><span style=white-space:pre-wrap>Jeffery Blvd &amp; 71st St              </span></td><td>KA1503000018</td><td><span style=white-space:pre-wrap>Jeffery Blvd &amp; 71st St         </span></td><td>KA1503000018</td><td>41.76664</td><td>-87.57645</td><td>41.76664</td><td>-87.57645</td><td>casual</td><td>00:10:21</td><td>4</td></tr>\n",
+       "\t<tr><th scope=row>28</th><td>C1BF8FE049907DA2</td><td>classic_bike </td><td>2023-09-26 18:38:32</td><td>2023-09-26 19:20:49</td><td><span style=white-space:pre-wrap>Lakefront Trail &amp; Bryn Mawr Ave     </span></td><td><span style=white-space:pre-wrap>15576       </span></td><td>Lakefront Trail &amp; Bryn Mawr Ave</td><td><span style=white-space:pre-wrap>15576       </span></td><td>41.98404</td><td>-87.65228</td><td>41.98404</td><td>-87.65228</td><td>member</td><td>00:42:17</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>29</th><td>ACAD5971E43E8924</td><td>classic_bike </td><td>2023-09-26 17:57:20</td><td>2023-09-26 18:19:11</td><td><span style=white-space:pre-wrap>Franklin St &amp; Chicago Ave           </span></td><td><span style=white-space:pre-wrap>13017       </span></td><td><span style=white-space:pre-wrap>Michigan Ave &amp; Washington St   </span></td><td><span style=white-space:pre-wrap>13001       </span></td><td>41.89675</td><td>-87.63567</td><td>41.88398</td><td>-87.62468</td><td>casual</td><td>00:21:51</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>30</th><td>26F6AA8AD3210CB8</td><td>electric_bike</td><td>2023-09-10 12:20:18</td><td>2023-09-10 12:22:02</td><td><span style=white-space:pre-wrap>Canal St &amp; Taylor St                </span></td><td><span style=white-space:pre-wrap>15550       </span></td><td><span style=white-space:pre-wrap>Canal St &amp; Taylor St           </span></td><td><span style=white-space:pre-wrap>15550       </span></td><td>41.87018</td><td>-87.63945</td><td>41.87026</td><td>-87.63947</td><td>member</td><td>00:01:44</td><td>1</td></tr>\n",
+       "\t<tr><th scope=row>31</th><td>89F6E18562FAEDE4</td><td>classic_bike </td><td>2023-09-08 21:53:49</td><td>2023-09-08 21:59:59</td><td><span style=white-space:pre-wrap>Southport Ave &amp; Wrightwood Ave      </span></td><td>TA1307000113</td><td><span style=white-space:pre-wrap>Southport Ave &amp; Belmont Ave    </span></td><td><span style=white-space:pre-wrap>13229       </span></td><td>41.92877</td><td>-87.66391</td><td>41.93948</td><td>-87.66375</td><td>member</td><td>00:06:10</td><td>6</td></tr>\n",
+       "\t<tr><th scope=row>32</th><td>6AA865F1E6DB91DE</td><td>classic_bike </td><td>2023-09-05 17:04:44</td><td>2023-09-05 17:32:37</td><td><span style=white-space:pre-wrap>Franklin St &amp; Monroe St             </span></td><td>TA1309000007</td><td><span style=white-space:pre-wrap>Broadway &amp; Belmont Ave         </span></td><td><span style=white-space:pre-wrap>13277       </span></td><td>41.88032</td><td>-87.63519</td><td>41.94011</td><td>-87.64545</td><td>member</td><td>00:27:53</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>33</th><td>9E7DFC11B33E6F1E</td><td>electric_bike</td><td>2023-09-17 13:01:25</td><td>2023-09-17 13:12:36</td><td><span style=white-space:pre-wrap>Dearborn Pkwy &amp; Delaware Pl         </span></td><td>TA1307000128</td><td><span style=white-space:pre-wrap>Morgan St &amp; Lake St            </span></td><td>chargingstx4</td><td>41.89896</td><td>-87.62993</td><td>41.88549</td><td>-87.65229</td><td>member</td><td>00:11:11</td><td>1</td></tr>\n",
+       "\t<tr><th scope=row>34</th><td>1B83E951387332BA</td><td>electric_bike</td><td>2023-09-05 15:08:45</td><td>2023-09-05 15:11:24</td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave          </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td>Central Park Ave &amp; Elbridge Ave</td><td><span style=white-space:pre-wrap>15644       </span></td><td>41.92960</td><td>-87.70785</td><td>41.93534</td><td>-87.71689</td><td>casual</td><td>00:02:39</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>35</th><td>D109587CE543B32F</td><td>electric_bike</td><td>2023-09-01 15:07:21</td><td>2023-09-01 15:14:12</td><td><span style=white-space:pre-wrap>Elizabeth St &amp; Randolph St          </span></td><td><span style=white-space:pre-wrap>23001       </span></td><td><span style=white-space:pre-wrap>Franklin St &amp; Lake St          </span></td><td>TA1307000111</td><td>41.88437</td><td>-87.65894</td><td>41.88584</td><td>-87.63550</td><td>member</td><td>00:06:51</td><td>6</td></tr>\n",
+       "\t<tr><th scope=row>36</th><td>D6D046590D5ABBDA</td><td>electric_bike</td><td>2023-09-05 19:36:12</td><td>2023-09-05 19:41:13</td><td><span style=white-space:pre-wrap>Desplaines St &amp; Kinzie St           </span></td><td>TA1306000003</td><td><span style=white-space:pre-wrap>Ogden Ave &amp; Race Ave           </span></td><td><span style=white-space:pre-wrap>13194       </span></td><td>41.88859</td><td>-87.64439</td><td>41.89180</td><td>-87.65875</td><td>member</td><td>00:05:01</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>37</th><td>0778370AFC57DAD6</td><td>classic_bike </td><td>2023-09-13 17:07:59</td><td>2023-09-13 17:16:32</td><td><span style=white-space:pre-wrap>Clark St &amp; Schreiber Ave            </span></td><td>KA1504000156</td><td><span style=white-space:pre-wrap>Broadway &amp; Granville Ave       </span></td><td><span style=white-space:pre-wrap>15571       </span></td><td>41.99990</td><td>-87.67007</td><td>41.99478</td><td>-87.66028</td><td>member</td><td>00:08:33</td><td>4</td></tr>\n",
+       "\t<tr><th scope=row>38</th><td>88B4F4D64DAB37F5</td><td>electric_bike</td><td>2023-09-09 17:51:47</td><td>2023-09-09 18:07:13</td><td><span style=white-space:pre-wrap>Desplaines St &amp; Randolph St         </span></td><td><span style=white-space:pre-wrap>15535       </span></td><td><span style=white-space:pre-wrap>Wolcott Ave &amp; Polk St          </span></td><td>TA1309000064</td><td>41.88354</td><td>-87.64415</td><td>41.87126</td><td>-87.67369</td><td>member</td><td>00:15:26</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>39</th><td>197C6C2B703BD082</td><td>classic_bike </td><td>2023-09-28 08:29:01</td><td>2023-09-28 08:33:17</td><td><span style=white-space:pre-wrap>Financial Pl &amp; Ida B Wells Dr       </span></td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Franklin St &amp; Monroe St        </span></td><td>TA1309000007</td><td>41.87502</td><td>-87.63309</td><td>41.88032</td><td>-87.63519</td><td>member</td><td>00:04:16</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>40</th><td>4C3183FD4991315F</td><td>classic_bike </td><td>2023-09-26 17:25:42</td><td>2023-09-26 17:33:55</td><td><span style=white-space:pre-wrap>Canal St &amp; Jackson Blvd             </span></td><td><span style=white-space:pre-wrap>13138       </span></td><td><span style=white-space:pre-wrap>Green St &amp; Madison St          </span></td><td>TA1307000120</td><td>41.87725</td><td>-87.63937</td><td>41.88186</td><td>-87.64926</td><td>member</td><td>00:08:13</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>41</th><td>49D36EE08D618253</td><td>electric_bike</td><td>2023-09-01 17:57:54</td><td>2023-09-01 18:12:18</td><td><span style=white-space:pre-wrap>Canal St &amp; Jackson Blvd             </span></td><td><span style=white-space:pre-wrap>13138       </span></td><td><span style=white-space:pre-wrap>Ashland Ave &amp; Blackhawk St     </span></td><td><span style=white-space:pre-wrap>13224       </span></td><td>41.87748</td><td>-87.63990</td><td>41.90707</td><td>-87.66725</td><td>member</td><td>00:14:24</td><td>6</td></tr>\n",
+       "\t<tr><th scope=row>42</th><td>E303B69F1D32FB7D</td><td>classic_bike </td><td>2023-09-28 16:57:45</td><td>2023-09-28 17:00:12</td><td><span style=white-space:pre-wrap>Canal St &amp; Jackson Blvd             </span></td><td><span style=white-space:pre-wrap>13138       </span></td><td><span style=white-space:pre-wrap>Clinton St &amp; Madison St        </span></td><td>TA1305000032</td><td>41.87725</td><td>-87.63937</td><td>41.88275</td><td>-87.64119</td><td>member</td><td>00:02:27</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>43</th><td>B5DC5C0CDE57182D</td><td>electric_bike</td><td>2023-09-28 18:01:05</td><td>2023-09-28 18:21:02</td><td><span style=white-space:pre-wrap>Halsted St &amp; 37th St                </span></td><td>TA1307000161</td><td><span style=white-space:pre-wrap>Wentworth Ave &amp; 33rd St        </span></td><td><span style=white-space:pre-wrap>15445       </span></td><td>41.82703</td><td>-87.64576</td><td>41.83453</td><td>-87.63182</td><td>member</td><td>00:19:57</td><td>5</td></tr>\n",
+       "\t<tr><th scope=row>44</th><td>ADDFEF61DCC2E2CB</td><td>classic_bike </td><td>2023-09-20 21:20:34</td><td>2023-09-20 21:38:27</td><td><span style=white-space:pre-wrap>Desplaines St &amp; Kinzie St           </span></td><td>TA1306000003</td><td><span style=white-space:pre-wrap>Ashland Ave &amp; Augusta Blvd     </span></td><td><span style=white-space:pre-wrap>13248       </span></td><td>41.88872</td><td>-87.64445</td><td>41.89964</td><td>-87.66770</td><td>member</td><td>00:17:53</td><td>4</td></tr>\n",
+       "\t<tr><th scope=row>45</th><td>32DCFF857AD74ACD</td><td>classic_bike </td><td>2023-09-20 14:24:39</td><td>2023-09-20 14:32:29</td><td><span style=white-space:pre-wrap>Dearborn St &amp; Van Buren St          </span></td><td><span style=white-space:pre-wrap>624         </span></td><td><span style=white-space:pre-wrap>Indiana Ave &amp; Roosevelt Rd     </span></td><td><span style=white-space:pre-wrap>SL-005      </span></td><td>41.87627</td><td>-87.62915</td><td>41.86789</td><td>-87.62304</td><td>member</td><td>00:07:50</td><td>4</td></tr>\n",
+       "\t<tr><th scope=row>46</th><td>848A31BF62FB8D17</td><td>classic_bike </td><td>2023-09-12 17:23:05</td><td>2023-09-12 17:24:07</td><td><span style=white-space:pre-wrap>Dearborn St &amp; Van Buren St          </span></td><td><span style=white-space:pre-wrap>624         </span></td><td><span style=white-space:pre-wrap>Dearborn St &amp; Van Buren St     </span></td><td><span style=white-space:pre-wrap>624         </span></td><td>41.87627</td><td>-87.62915</td><td>41.87627</td><td>-87.62915</td><td>member</td><td>00:01:02</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>47</th><td>10DACF64475D292F</td><td>classic_bike </td><td>2023-09-04 09:46:32</td><td>2023-09-04 10:29:02</td><td><span style=white-space:pre-wrap>Clybourn Ave &amp; Division St          </span></td><td>TA1307000115</td><td><span style=white-space:pre-wrap>Burnham Harbor                 </span></td><td><span style=white-space:pre-wrap>15545       </span></td><td>41.90461</td><td>-87.64055</td><td>41.85741</td><td>-87.61379</td><td>member</td><td>00:42:30</td><td>2</td></tr>\n",
+       "\t<tr><th scope=row>48</th><td>74F0F831741714BF</td><td>electric_bike</td><td>2023-09-26 17:46:53</td><td>2023-09-26 17:51:33</td><td><span style=white-space:pre-wrap>Clybourn Ave &amp; Division St          </span></td><td>TA1307000115</td><td><span style=white-space:pre-wrap>Sheffield Ave &amp; Willow St      </span></td><td>TA1306000032</td><td>41.90455</td><td>-87.64055</td><td>41.91369</td><td>-87.65286</td><td>member</td><td>00:04:40</td><td>3</td></tr>\n",
+       "\t<tr><th scope=row>49</th><td>B5B078D3245F8039</td><td>classic_bike </td><td>2023-09-09 10:16:17</td><td>2023-09-09 10:25:18</td><td><span style=white-space:pre-wrap>Dearborn Pkwy &amp; Delaware Pl         </span></td><td>TA1307000128</td><td><span style=white-space:pre-wrap>Halsted St &amp; Clybourn Ave      </span></td><td><span style=white-space:pre-wrap>331         </span></td><td>41.89897</td><td>-87.62991</td><td>41.90967</td><td>-87.64813</td><td>member</td><td>00:09:01</td><td>7</td></tr>\n",
+       "\t<tr><th scope=row>50</th><td>8383584432ACA198</td><td>classic_bike </td><td>2023-09-15 20:36:31</td><td>2023-09-15 20:44:40</td><td>Orleans St &amp; Chestnut St (NEXT Apts)</td><td><span style=white-space:pre-wrap>620         </span></td><td><span style=white-space:pre-wrap>Desplaines St &amp; Kinzie St      </span></td><td>TA1306000003</td><td>41.89820</td><td>-87.63754</td><td>41.88872</td><td>-87.64445</td><td>member</td><td>00:08:09</td><td>6</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 50 × 15\n",
+       "\\begin{tabular}{r|lllllllllllllll}\n",
+       "  & ride\\_id & rideable\\_type & started\\_at & ended\\_at & start\\_station\\_name & start\\_station\\_id & end\\_station\\_name & end\\_station\\_id & start\\_lat & start\\_lng & end\\_lat & end\\_lng & member\\_casual & ride\\_length & day\\_of\\_week\\\\\n",
+       "  & <chr> & <chr> & <dttm> & <dttm> & <chr> & <chr> & <chr> & <chr> & <dbl> & <dbl> & <dbl> & <dbl> & <chr> & <time> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t1 & 011C1903BF4E2E28 & classic\\_bike  & 2023-09-23 00:27:50 & 2023-09-23 00:33:27 & Halsted St \\& Wrightwood Ave          & TA1309000061 & Sheffield Ave \\& Wellington Ave  & TA1307000052 & 41.92914 & -87.64908 & 41.93625 & -87.65266 & member & 00:05:37 & 7\\\\\n",
+       "\t2 & 87DB80E048A1BF9F & classic\\_bike  & 2023-09-02 09:26:43 & 2023-09-02 09:38:19 & Clark St \\& Drummond Pl               & TA1307000142 & Racine Ave \\& Fullerton Ave      & TA1306000026 & 41.93125 & -87.64434 & 41.92557 & -87.65842 & member & 00:11:36 & 7\\\\\n",
+       "\t3 & 7C2EB7AF669066E3 & electric\\_bike & 2023-09-25 18:30:11 & 2023-09-25 18:41:39 & Financial Pl \\& Ida B Wells Dr        & SL-010       & Racine Ave \\& 15th St            & 13304        & 41.87506 & -87.63314 & 41.86127 & -87.65663 & member & 00:11:28 & 2\\\\\n",
+       "\t4 & 57D197B010269CE3 & classic\\_bike  & 2023-09-13 15:30:49 & 2023-09-13 15:39:18 & Clark St \\& Drummond Pl               & TA1307000142 & Racine Ave \\& Belmont Ave        & TA1308000019 & 41.93125 & -87.64434 & 41.93974 & -87.65887 & member & 00:08:29 & 4\\\\\n",
+       "\t5 & 8A2CEA7C8C8074D8 & classic\\_bike  & 2023-09-18 15:58:58 & 2023-09-18 16:05:04 & Halsted St \\& Wrightwood Ave          & TA1309000061 & Racine Ave \\& Fullerton Ave      & TA1306000026 & 41.92914 & -87.64908 & 41.92557 & -87.65842 & member & 00:06:06 & 2\\\\\n",
+       "\t6 & 40D9EF382CC6C53D & classic\\_bike  & 2023-09-17 11:58:50 & 2023-09-17 12:08:36 & Kedzie Ave \\& Milwaukee Ave           & 13085        & California Ave \\& Milwaukee Ave  & 13084        & 41.92957 & -87.70786 & 41.92269 & -87.69715 & member & 00:09:46 & 1\\\\\n",
+       "\t7 & 3812B98E9406040E & classic\\_bike  & 2023-09-12 16:01:28 & 2023-09-12 16:17:47 & Financial Pl \\& Ida B Wells Dr        & SL-010       & Adler Planetarium               & 13431        & 41.87502 & -87.63309 & 41.86610 & -87.60727 & member & 00:16:19 & 3\\\\\n",
+       "\t8 & EBA56298CB3C803F & classic\\_bike  & 2023-09-24 13:17:23 & 2023-09-24 13:50:43 & Clark St \\& Schreiber Ave             & KA1504000156 & Oakley Ave \\& Touhy Ave          & RP-004       & 41.99990 & -87.67007 & 42.01234 & -87.68824 & member & 00:33:20 & 1\\\\\n",
+       "\t9 & C6BD5AF648F11D11 & electric\\_bike & 2023-09-28 18:09:40 & 2023-09-28 18:15:04 & Halsted St \\& Wrightwood Ave          & TA1309000061 & Halsted St \\& Roscoe St          & TA1309000025 & 41.92919 & -87.64914 & 41.94367 & -87.64895 & member & 00:05:24 & 5\\\\\n",
+       "\t10 & 585C82FA2E006DE9 & classic\\_bike  & 2023-09-22 12:30:41 & 2023-09-22 12:42:21 & Halsted St \\& Wrightwood Ave          & TA1309000061 & Halsted St \\& Roscoe St          & TA1309000025 & 41.92914 & -87.64908 & 41.94367 & -87.64895 & member & 00:11:40 & 6\\\\\n",
+       "\t11 & 95E72C49D692F822 & classic\\_bike  & 2023-09-07 16:28:17 & 2023-09-07 16:31:25 & Clark St \\& Drummond Pl               & TA1307000142 & Clark St \\& Wellington Ave       & TA1307000136 & 41.93125 & -87.64434 & 41.93650 & -87.64754 & member & 00:03:08 & 5\\\\\n",
+       "\t12 & 26094B920577B434 & classic\\_bike  & 2023-09-04 16:53:28 & 2023-09-04 16:56:33 & Clark St \\& Drummond Pl               & TA1307000142 & Clark St \\& Wellington Ave       & TA1307000136 & 41.93125 & -87.64434 & 41.93650 & -87.64754 & member & 00:03:05 & 2\\\\\n",
+       "\t13 & A13DECC07C318A6F & classic\\_bike  & 2023-09-14 10:37:54 & 2023-09-14 10:40:16 & Clark St \\& Drummond Pl               & TA1307000142 & Clark St \\& Wellington Ave       & TA1307000136 & 41.93125 & -87.64434 & 41.93650 & -87.64754 & member & 00:02:22 & 5\\\\\n",
+       "\t14 & BE665598CC823457 & electric\\_bike & 2023-09-09 22:42:44 & 2023-09-09 22:49:49 & Halsted St \\& Wrightwood Ave          & TA1309000061 & Lincoln Ave \\& Addison St        & TA1309000050 & 41.92917 & -87.64915 & 41.94618 & -87.67331 & member & 00:07:05 & 7\\\\\n",
+       "\t15 & 34AB2700E7062615 & classic\\_bike  & 2023-09-30 14:04:04 & 2023-09-30 14:04:33 & Wabash Ave \\& Grand Ave               & TA1307000117 & Wabash Ave \\& Grand Ave          & TA1307000117 & 41.89147 & -87.62676 & 41.89147 & -87.62676 & member & 00:00:29 & 7\\\\\n",
+       "\t16 & CAE833F56B978BB5 & classic\\_bike  & 2023-09-30 14:08:57 & 2023-09-30 14:09:00 & Wabash Ave \\& Grand Ave               & TA1307000117 & Wabash Ave \\& Grand Ave          & TA1307000117 & 41.89147 & -87.62676 & 41.89147 & -87.62676 & member & 00:00:03 & 7\\\\\n",
+       "\t17 & 523ADD8118978D3A & electric\\_bike & 2023-09-04 23:36:48 & 2023-09-04 23:48:45 & Elizabeth St \\& Randolph St           & 23001        & Blue Island Ave \\& 18th St       & 13135        & 41.88433 & -87.65897 & 41.85756 & -87.66154 & casual & 00:11:57 & 2\\\\\n",
+       "\t18 & 6C5287A284CDD8CB & classic\\_bike  & 2023-09-26 20:52:21 & 2023-09-26 21:00:42 & Southport Ave \\& Wrightwood Ave       & TA1307000113 & Clark St \\& Wrightwood Ave       & TA1305000014 & 41.92877 & -87.66391 & 41.92955 & -87.64312 & casual & 00:08:21 & 3\\\\\n",
+       "\t19 & 928A1D2220881ADF & classic\\_bike  & 2023-09-26 18:21:34 & 2023-09-26 18:38:07 & Lincoln Ave \\& Roscoe St              & chargingstx5 & Clarendon Ave \\& Junior Ter      & 13389        & 41.94335 & -87.67067 & 41.96100 & -87.64960 & member & 00:16:33 & 3\\\\\n",
+       "\t20 & 889F2926F7CE3A9E & electric\\_bike & 2023-09-02 13:06:20 & 2023-09-02 13:16:08 & Desplaines St \\& Randolph St          & 15535        & Wells St \\& Elm St               & KA1504000135 & 41.88357 & -87.64420 & 41.90322 & -87.63432 & member & 00:09:48 & 7\\\\\n",
+       "\t21 & 600227F410DF602A & classic\\_bike  & 2023-09-18 18:09:04 & 2023-09-18 18:14:44 & Austin Blvd \\& Lake St                & 16906        & Austin Blvd \\& Madison St        & 16918        & 41.88794 & -87.77427 & 41.88028 & -87.77445 & member & 00:05:40 & 2\\\\\n",
+       "\t22 & DE4241E63009F4CB & classic\\_bike  & 2023-09-07 17:37:02 & 2023-09-07 17:46:00 & Loomis St \\& Lexington St             & 13332        & Canal St \\& Jackson Blvd         & 13138        & 41.87223 & -87.66136 & 41.87725 & -87.63937 & member & 00:08:58 & 5\\\\\n",
+       "\t23 & CC2CE8E59913F41E & classic\\_bike  & 2023-09-23 16:03:52 & 2023-09-23 18:13:09 & Broadway \\& Wilson Ave                & 13074        & Broadway \\& Wilson Ave           & 13074        & 41.96522 & -87.65814 & 41.96522 & -87.65814 & casual & 02:09:17 & 7\\\\\n",
+       "\t24 & 9A044F4F6D84F0F4 & classic\\_bike  & 2023-09-25 17:26:09 & 2023-09-25 17:32:11 & Halsted St \\& Maxwell St              & TA1309000001 & Halsted St \\& Maxwell St         & TA1309000001 & 41.86488 & -87.64707 & 41.86488 & -87.64707 & member & 00:06:02 & 2\\\\\n",
+       "\t25 & 84C955A6010005F9 & electric\\_bike & 2023-09-04 20:26:38 & 2023-09-04 20:43:28 & Kedzie Ave \\& Milwaukee Ave           & 13085        & Kedzie Ave \\& Milwaukee Ave      & 13085        & 41.92967 & -87.70808 & 41.92957 & -87.70786 & casual & 00:16:50 & 2\\\\\n",
+       "\t26 & 9047EE97561B54AA & electric\\_bike & 2023-09-10 18:40:10 & 2023-09-10 18:40:57 & Southport Ave \\& Wrightwood Ave       & TA1307000113 & Southport Ave \\& Wrightwood Ave  & TA1307000113 & 41.92883 & -87.66388 & 41.92877 & -87.66391 & member & 00:00:47 & 1\\\\\n",
+       "\t27 & C06D2A5FB2FF26BD & classic\\_bike  & 2023-09-27 00:11:41 & 2023-09-27 00:22:02 & Jeffery Blvd \\& 71st St               & KA1503000018 & Jeffery Blvd \\& 71st St          & KA1503000018 & 41.76664 & -87.57645 & 41.76664 & -87.57645 & casual & 00:10:21 & 4\\\\\n",
+       "\t28 & C1BF8FE049907DA2 & classic\\_bike  & 2023-09-26 18:38:32 & 2023-09-26 19:20:49 & Lakefront Trail \\& Bryn Mawr Ave      & 15576        & Lakefront Trail \\& Bryn Mawr Ave & 15576        & 41.98404 & -87.65228 & 41.98404 & -87.65228 & member & 00:42:17 & 3\\\\\n",
+       "\t29 & ACAD5971E43E8924 & classic\\_bike  & 2023-09-26 17:57:20 & 2023-09-26 18:19:11 & Franklin St \\& Chicago Ave            & 13017        & Michigan Ave \\& Washington St    & 13001        & 41.89675 & -87.63567 & 41.88398 & -87.62468 & casual & 00:21:51 & 3\\\\\n",
+       "\t30 & 26F6AA8AD3210CB8 & electric\\_bike & 2023-09-10 12:20:18 & 2023-09-10 12:22:02 & Canal St \\& Taylor St                 & 15550        & Canal St \\& Taylor St            & 15550        & 41.87018 & -87.63945 & 41.87026 & -87.63947 & member & 00:01:44 & 1\\\\\n",
+       "\t31 & 89F6E18562FAEDE4 & classic\\_bike  & 2023-09-08 21:53:49 & 2023-09-08 21:59:59 & Southport Ave \\& Wrightwood Ave       & TA1307000113 & Southport Ave \\& Belmont Ave     & 13229        & 41.92877 & -87.66391 & 41.93948 & -87.66375 & member & 00:06:10 & 6\\\\\n",
+       "\t32 & 6AA865F1E6DB91DE & classic\\_bike  & 2023-09-05 17:04:44 & 2023-09-05 17:32:37 & Franklin St \\& Monroe St              & TA1309000007 & Broadway \\& Belmont Ave          & 13277        & 41.88032 & -87.63519 & 41.94011 & -87.64545 & member & 00:27:53 & 3\\\\\n",
+       "\t33 & 9E7DFC11B33E6F1E & electric\\_bike & 2023-09-17 13:01:25 & 2023-09-17 13:12:36 & Dearborn Pkwy \\& Delaware Pl          & TA1307000128 & Morgan St \\& Lake St             & chargingstx4 & 41.89896 & -87.62993 & 41.88549 & -87.65229 & member & 00:11:11 & 1\\\\\n",
+       "\t34 & 1B83E951387332BA & electric\\_bike & 2023-09-05 15:08:45 & 2023-09-05 15:11:24 & Kedzie Ave \\& Milwaukee Ave           & 13085        & Central Park Ave \\& Elbridge Ave & 15644        & 41.92960 & -87.70785 & 41.93534 & -87.71689 & casual & 00:02:39 & 3\\\\\n",
+       "\t35 & D109587CE543B32F & electric\\_bike & 2023-09-01 15:07:21 & 2023-09-01 15:14:12 & Elizabeth St \\& Randolph St           & 23001        & Franklin St \\& Lake St           & TA1307000111 & 41.88437 & -87.65894 & 41.88584 & -87.63550 & member & 00:06:51 & 6\\\\\n",
+       "\t36 & D6D046590D5ABBDA & electric\\_bike & 2023-09-05 19:36:12 & 2023-09-05 19:41:13 & Desplaines St \\& Kinzie St            & TA1306000003 & Ogden Ave \\& Race Ave            & 13194        & 41.88859 & -87.64439 & 41.89180 & -87.65875 & member & 00:05:01 & 3\\\\\n",
+       "\t37 & 0778370AFC57DAD6 & classic\\_bike  & 2023-09-13 17:07:59 & 2023-09-13 17:16:32 & Clark St \\& Schreiber Ave             & KA1504000156 & Broadway \\& Granville Ave        & 15571        & 41.99990 & -87.67007 & 41.99478 & -87.66028 & member & 00:08:33 & 4\\\\\n",
+       "\t38 & 88B4F4D64DAB37F5 & electric\\_bike & 2023-09-09 17:51:47 & 2023-09-09 18:07:13 & Desplaines St \\& Randolph St          & 15535        & Wolcott Ave \\& Polk St           & TA1309000064 & 41.88354 & -87.64415 & 41.87126 & -87.67369 & member & 00:15:26 & 7\\\\\n",
+       "\t39 & 197C6C2B703BD082 & classic\\_bike  & 2023-09-28 08:29:01 & 2023-09-28 08:33:17 & Financial Pl \\& Ida B Wells Dr        & SL-010       & Franklin St \\& Monroe St         & TA1309000007 & 41.87502 & -87.63309 & 41.88032 & -87.63519 & member & 00:04:16 & 5\\\\\n",
+       "\t40 & 4C3183FD4991315F & classic\\_bike  & 2023-09-26 17:25:42 & 2023-09-26 17:33:55 & Canal St \\& Jackson Blvd              & 13138        & Green St \\& Madison St           & TA1307000120 & 41.87725 & -87.63937 & 41.88186 & -87.64926 & member & 00:08:13 & 3\\\\\n",
+       "\t41 & 49D36EE08D618253 & electric\\_bike & 2023-09-01 17:57:54 & 2023-09-01 18:12:18 & Canal St \\& Jackson Blvd              & 13138        & Ashland Ave \\& Blackhawk St      & 13224        & 41.87748 & -87.63990 & 41.90707 & -87.66725 & member & 00:14:24 & 6\\\\\n",
+       "\t42 & E303B69F1D32FB7D & classic\\_bike  & 2023-09-28 16:57:45 & 2023-09-28 17:00:12 & Canal St \\& Jackson Blvd              & 13138        & Clinton St \\& Madison St         & TA1305000032 & 41.87725 & -87.63937 & 41.88275 & -87.64119 & member & 00:02:27 & 5\\\\\n",
+       "\t43 & B5DC5C0CDE57182D & electric\\_bike & 2023-09-28 18:01:05 & 2023-09-28 18:21:02 & Halsted St \\& 37th St                 & TA1307000161 & Wentworth Ave \\& 33rd St         & 15445        & 41.82703 & -87.64576 & 41.83453 & -87.63182 & member & 00:19:57 & 5\\\\\n",
+       "\t44 & ADDFEF61DCC2E2CB & classic\\_bike  & 2023-09-20 21:20:34 & 2023-09-20 21:38:27 & Desplaines St \\& Kinzie St            & TA1306000003 & Ashland Ave \\& Augusta Blvd      & 13248        & 41.88872 & -87.64445 & 41.89964 & -87.66770 & member & 00:17:53 & 4\\\\\n",
+       "\t45 & 32DCFF857AD74ACD & classic\\_bike  & 2023-09-20 14:24:39 & 2023-09-20 14:32:29 & Dearborn St \\& Van Buren St           & 624          & Indiana Ave \\& Roosevelt Rd      & SL-005       & 41.87627 & -87.62915 & 41.86789 & -87.62304 & member & 00:07:50 & 4\\\\\n",
+       "\t46 & 848A31BF62FB8D17 & classic\\_bike  & 2023-09-12 17:23:05 & 2023-09-12 17:24:07 & Dearborn St \\& Van Buren St           & 624          & Dearborn St \\& Van Buren St      & 624          & 41.87627 & -87.62915 & 41.87627 & -87.62915 & member & 00:01:02 & 3\\\\\n",
+       "\t47 & 10DACF64475D292F & classic\\_bike  & 2023-09-04 09:46:32 & 2023-09-04 10:29:02 & Clybourn Ave \\& Division St           & TA1307000115 & Burnham Harbor                  & 15545        & 41.90461 & -87.64055 & 41.85741 & -87.61379 & member & 00:42:30 & 2\\\\\n",
+       "\t48 & 74F0F831741714BF & electric\\_bike & 2023-09-26 17:46:53 & 2023-09-26 17:51:33 & Clybourn Ave \\& Division St           & TA1307000115 & Sheffield Ave \\& Willow St       & TA1306000032 & 41.90455 & -87.64055 & 41.91369 & -87.65286 & member & 00:04:40 & 3\\\\\n",
+       "\t49 & B5B078D3245F8039 & classic\\_bike  & 2023-09-09 10:16:17 & 2023-09-09 10:25:18 & Dearborn Pkwy \\& Delaware Pl          & TA1307000128 & Halsted St \\& Clybourn Ave       & 331          & 41.89897 & -87.62991 & 41.90967 & -87.64813 & member & 00:09:01 & 7\\\\\n",
+       "\t50 & 8383584432ACA198 & classic\\_bike  & 2023-09-15 20:36:31 & 2023-09-15 20:44:40 & Orleans St \\& Chestnut St (NEXT Apts) & 620          & Desplaines St \\& Kinzie St       & TA1306000003 & 41.89820 & -87.63754 & 41.88872 & -87.64445 & member & 00:08:09 & 6\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 50 × 15\n",
+       "\n",
+       "| <!--/--> | ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | start_station_name &lt;chr&gt; | start_station_id &lt;chr&gt; | end_station_name &lt;chr&gt; | end_station_id &lt;chr&gt; | start_lat &lt;dbl&gt; | start_lng &lt;dbl&gt; | end_lat &lt;dbl&gt; | end_lng &lt;dbl&gt; | member_casual &lt;chr&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; |\n",
+       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
+       "| 1 | 011C1903BF4E2E28 | classic_bike  | 2023-09-23 00:27:50 | 2023-09-23 00:33:27 | Halsted St &amp; Wrightwood Ave          | TA1309000061 | Sheffield Ave &amp; Wellington Ave  | TA1307000052 | 41.92914 | -87.64908 | 41.93625 | -87.65266 | member | 00:05:37 | 7 |\n",
+       "| 2 | 87DB80E048A1BF9F | classic_bike  | 2023-09-02 09:26:43 | 2023-09-02 09:38:19 | Clark St &amp; Drummond Pl               | TA1307000142 | Racine Ave &amp; Fullerton Ave      | TA1306000026 | 41.93125 | -87.64434 | 41.92557 | -87.65842 | member | 00:11:36 | 7 |\n",
+       "| 3 | 7C2EB7AF669066E3 | electric_bike | 2023-09-25 18:30:11 | 2023-09-25 18:41:39 | Financial Pl &amp; Ida B Wells Dr        | SL-010       | Racine Ave &amp; 15th St            | 13304        | 41.87506 | -87.63314 | 41.86127 | -87.65663 | member | 00:11:28 | 2 |\n",
+       "| 4 | 57D197B010269CE3 | classic_bike  | 2023-09-13 15:30:49 | 2023-09-13 15:39:18 | Clark St &amp; Drummond Pl               | TA1307000142 | Racine Ave &amp; Belmont Ave        | TA1308000019 | 41.93125 | -87.64434 | 41.93974 | -87.65887 | member | 00:08:29 | 4 |\n",
+       "| 5 | 8A2CEA7C8C8074D8 | classic_bike  | 2023-09-18 15:58:58 | 2023-09-18 16:05:04 | Halsted St &amp; Wrightwood Ave          | TA1309000061 | Racine Ave &amp; Fullerton Ave      | TA1306000026 | 41.92914 | -87.64908 | 41.92557 | -87.65842 | member | 00:06:06 | 2 |\n",
+       "| 6 | 40D9EF382CC6C53D | classic_bike  | 2023-09-17 11:58:50 | 2023-09-17 12:08:36 | Kedzie Ave &amp; Milwaukee Ave           | 13085        | California Ave &amp; Milwaukee Ave  | 13084        | 41.92957 | -87.70786 | 41.92269 | -87.69715 | member | 00:09:46 | 1 |\n",
+       "| 7 | 3812B98E9406040E | classic_bike  | 2023-09-12 16:01:28 | 2023-09-12 16:17:47 | Financial Pl &amp; Ida B Wells Dr        | SL-010       | Adler Planetarium               | 13431        | 41.87502 | -87.63309 | 41.86610 | -87.60727 | member | 00:16:19 | 3 |\n",
+       "| 8 | EBA56298CB3C803F | classic_bike  | 2023-09-24 13:17:23 | 2023-09-24 13:50:43 | Clark St &amp; Schreiber Ave             | KA1504000156 | Oakley Ave &amp; Touhy Ave          | RP-004       | 41.99990 | -87.67007 | 42.01234 | -87.68824 | member | 00:33:20 | 1 |\n",
+       "| 9 | C6BD5AF648F11D11 | electric_bike | 2023-09-28 18:09:40 | 2023-09-28 18:15:04 | Halsted St &amp; Wrightwood Ave          | TA1309000061 | Halsted St &amp; Roscoe St          | TA1309000025 | 41.92919 | -87.64914 | 41.94367 | -87.64895 | member | 00:05:24 | 5 |\n",
+       "| 10 | 585C82FA2E006DE9 | classic_bike  | 2023-09-22 12:30:41 | 2023-09-22 12:42:21 | Halsted St &amp; Wrightwood Ave          | TA1309000061 | Halsted St &amp; Roscoe St          | TA1309000025 | 41.92914 | -87.64908 | 41.94367 | -87.64895 | member | 00:11:40 | 6 |\n",
+       "| 11 | 95E72C49D692F822 | classic_bike  | 2023-09-07 16:28:17 | 2023-09-07 16:31:25 | Clark St &amp; Drummond Pl               | TA1307000142 | Clark St &amp; Wellington Ave       | TA1307000136 | 41.93125 | -87.64434 | 41.93650 | -87.64754 | member | 00:03:08 | 5 |\n",
+       "| 12 | 26094B920577B434 | classic_bike  | 2023-09-04 16:53:28 | 2023-09-04 16:56:33 | Clark St &amp; Drummond Pl               | TA1307000142 | Clark St &amp; Wellington Ave       | TA1307000136 | 41.93125 | -87.64434 | 41.93650 | -87.64754 | member | 00:03:05 | 2 |\n",
+       "| 13 | A13DECC07C318A6F | classic_bike  | 2023-09-14 10:37:54 | 2023-09-14 10:40:16 | Clark St &amp; Drummond Pl               | TA1307000142 | Clark St &amp; Wellington Ave       | TA1307000136 | 41.93125 | -87.64434 | 41.93650 | -87.64754 | member | 00:02:22 | 5 |\n",
+       "| 14 | BE665598CC823457 | electric_bike | 2023-09-09 22:42:44 | 2023-09-09 22:49:49 | Halsted St &amp; Wrightwood Ave          | TA1309000061 | Lincoln Ave &amp; Addison St        | TA1309000050 | 41.92917 | -87.64915 | 41.94618 | -87.67331 | member | 00:07:05 | 7 |\n",
+       "| 15 | 34AB2700E7062615 | classic_bike  | 2023-09-30 14:04:04 | 2023-09-30 14:04:33 | Wabash Ave &amp; Grand Ave               | TA1307000117 | Wabash Ave &amp; Grand Ave          | TA1307000117 | 41.89147 | -87.62676 | 41.89147 | -87.62676 | member | 00:00:29 | 7 |\n",
+       "| 16 | CAE833F56B978BB5 | classic_bike  | 2023-09-30 14:08:57 | 2023-09-30 14:09:00 | Wabash Ave &amp; Grand Ave               | TA1307000117 | Wabash Ave &amp; Grand Ave          | TA1307000117 | 41.89147 | -87.62676 | 41.89147 | -87.62676 | member | 00:00:03 | 7 |\n",
+       "| 17 | 523ADD8118978D3A | electric_bike | 2023-09-04 23:36:48 | 2023-09-04 23:48:45 | Elizabeth St &amp; Randolph St           | 23001        | Blue Island Ave &amp; 18th St       | 13135        | 41.88433 | -87.65897 | 41.85756 | -87.66154 | casual | 00:11:57 | 2 |\n",
+       "| 18 | 6C5287A284CDD8CB | classic_bike  | 2023-09-26 20:52:21 | 2023-09-26 21:00:42 | Southport Ave &amp; Wrightwood Ave       | TA1307000113 | Clark St &amp; Wrightwood Ave       | TA1305000014 | 41.92877 | -87.66391 | 41.92955 | -87.64312 | casual | 00:08:21 | 3 |\n",
+       "| 19 | 928A1D2220881ADF | classic_bike  | 2023-09-26 18:21:34 | 2023-09-26 18:38:07 | Lincoln Ave &amp; Roscoe St              | chargingstx5 | Clarendon Ave &amp; Junior Ter      | 13389        | 41.94335 | -87.67067 | 41.96100 | -87.64960 | member | 00:16:33 | 3 |\n",
+       "| 20 | 889F2926F7CE3A9E | electric_bike | 2023-09-02 13:06:20 | 2023-09-02 13:16:08 | Desplaines St &amp; Randolph St          | 15535        | Wells St &amp; Elm St               | KA1504000135 | 41.88357 | -87.64420 | 41.90322 | -87.63432 | member | 00:09:48 | 7 |\n",
+       "| 21 | 600227F410DF602A | classic_bike  | 2023-09-18 18:09:04 | 2023-09-18 18:14:44 | Austin Blvd &amp; Lake St                | 16906        | Austin Blvd &amp; Madison St        | 16918        | 41.88794 | -87.77427 | 41.88028 | -87.77445 | member | 00:05:40 | 2 |\n",
+       "| 22 | DE4241E63009F4CB | classic_bike  | 2023-09-07 17:37:02 | 2023-09-07 17:46:00 | Loomis St &amp; Lexington St             | 13332        | Canal St &amp; Jackson Blvd         | 13138        | 41.87223 | -87.66136 | 41.87725 | -87.63937 | member | 00:08:58 | 5 |\n",
+       "| 23 | CC2CE8E59913F41E | classic_bike  | 2023-09-23 16:03:52 | 2023-09-23 18:13:09 | Broadway &amp; Wilson Ave                | 13074        | Broadway &amp; Wilson Ave           | 13074        | 41.96522 | -87.65814 | 41.96522 | -87.65814 | casual | 02:09:17 | 7 |\n",
+       "| 24 | 9A044F4F6D84F0F4 | classic_bike  | 2023-09-25 17:26:09 | 2023-09-25 17:32:11 | Halsted St &amp; Maxwell St              | TA1309000001 | Halsted St &amp; Maxwell St         | TA1309000001 | 41.86488 | -87.64707 | 41.86488 | -87.64707 | member | 00:06:02 | 2 |\n",
+       "| 25 | 84C955A6010005F9 | electric_bike | 2023-09-04 20:26:38 | 2023-09-04 20:43:28 | Kedzie Ave &amp; Milwaukee Ave           | 13085        | Kedzie Ave &amp; Milwaukee Ave      | 13085        | 41.92967 | -87.70808 | 41.92957 | -87.70786 | casual | 00:16:50 | 2 |\n",
+       "| 26 | 9047EE97561B54AA | electric_bike | 2023-09-10 18:40:10 | 2023-09-10 18:40:57 | Southport Ave &amp; Wrightwood Ave       | TA1307000113 | Southport Ave &amp; Wrightwood Ave  | TA1307000113 | 41.92883 | -87.66388 | 41.92877 | -87.66391 | member | 00:00:47 | 1 |\n",
+       "| 27 | C06D2A5FB2FF26BD | classic_bike  | 2023-09-27 00:11:41 | 2023-09-27 00:22:02 | Jeffery Blvd &amp; 71st St               | KA1503000018 | Jeffery Blvd &amp; 71st St          | KA1503000018 | 41.76664 | -87.57645 | 41.76664 | -87.57645 | casual | 00:10:21 | 4 |\n",
+       "| 28 | C1BF8FE049907DA2 | classic_bike  | 2023-09-26 18:38:32 | 2023-09-26 19:20:49 | Lakefront Trail &amp; Bryn Mawr Ave      | 15576        | Lakefront Trail &amp; Bryn Mawr Ave | 15576        | 41.98404 | -87.65228 | 41.98404 | -87.65228 | member | 00:42:17 | 3 |\n",
+       "| 29 | ACAD5971E43E8924 | classic_bike  | 2023-09-26 17:57:20 | 2023-09-26 18:19:11 | Franklin St &amp; Chicago Ave            | 13017        | Michigan Ave &amp; Washington St    | 13001        | 41.89675 | -87.63567 | 41.88398 | -87.62468 | casual | 00:21:51 | 3 |\n",
+       "| 30 | 26F6AA8AD3210CB8 | electric_bike | 2023-09-10 12:20:18 | 2023-09-10 12:22:02 | Canal St &amp; Taylor St                 | 15550        | Canal St &amp; Taylor St            | 15550        | 41.87018 | -87.63945 | 41.87026 | -87.63947 | member | 00:01:44 | 1 |\n",
+       "| 31 | 89F6E18562FAEDE4 | classic_bike  | 2023-09-08 21:53:49 | 2023-09-08 21:59:59 | Southport Ave &amp; Wrightwood Ave       | TA1307000113 | Southport Ave &amp; Belmont Ave     | 13229        | 41.92877 | -87.66391 | 41.93948 | -87.66375 | member | 00:06:10 | 6 |\n",
+       "| 32 | 6AA865F1E6DB91DE | classic_bike  | 2023-09-05 17:04:44 | 2023-09-05 17:32:37 | Franklin St &amp; Monroe St              | TA1309000007 | Broadway &amp; Belmont Ave          | 13277        | 41.88032 | -87.63519 | 41.94011 | -87.64545 | member | 00:27:53 | 3 |\n",
+       "| 33 | 9E7DFC11B33E6F1E | electric_bike | 2023-09-17 13:01:25 | 2023-09-17 13:12:36 | Dearborn Pkwy &amp; Delaware Pl          | TA1307000128 | Morgan St &amp; Lake St             | chargingstx4 | 41.89896 | -87.62993 | 41.88549 | -87.65229 | member | 00:11:11 | 1 |\n",
+       "| 34 | 1B83E951387332BA | electric_bike | 2023-09-05 15:08:45 | 2023-09-05 15:11:24 | Kedzie Ave &amp; Milwaukee Ave           | 13085        | Central Park Ave &amp; Elbridge Ave | 15644        | 41.92960 | -87.70785 | 41.93534 | -87.71689 | casual | 00:02:39 | 3 |\n",
+       "| 35 | D109587CE543B32F | electric_bike | 2023-09-01 15:07:21 | 2023-09-01 15:14:12 | Elizabeth St &amp; Randolph St           | 23001        | Franklin St &amp; Lake St           | TA1307000111 | 41.88437 | -87.65894 | 41.88584 | -87.63550 | member | 00:06:51 | 6 |\n",
+       "| 36 | D6D046590D5ABBDA | electric_bike | 2023-09-05 19:36:12 | 2023-09-05 19:41:13 | Desplaines St &amp; Kinzie St            | TA1306000003 | Ogden Ave &amp; Race Ave            | 13194        | 41.88859 | -87.64439 | 41.89180 | -87.65875 | member | 00:05:01 | 3 |\n",
+       "| 37 | 0778370AFC57DAD6 | classic_bike  | 2023-09-13 17:07:59 | 2023-09-13 17:16:32 | Clark St &amp; Schreiber Ave             | KA1504000156 | Broadway &amp; Granville Ave        | 15571        | 41.99990 | -87.67007 | 41.99478 | -87.66028 | member | 00:08:33 | 4 |\n",
+       "| 38 | 88B4F4D64DAB37F5 | electric_bike | 2023-09-09 17:51:47 | 2023-09-09 18:07:13 | Desplaines St &amp; Randolph St          | 15535        | Wolcott Ave &amp; Polk St           | TA1309000064 | 41.88354 | -87.64415 | 41.87126 | -87.67369 | member | 00:15:26 | 7 |\n",
+       "| 39 | 197C6C2B703BD082 | classic_bike  | 2023-09-28 08:29:01 | 2023-09-28 08:33:17 | Financial Pl &amp; Ida B Wells Dr        | SL-010       | Franklin St &amp; Monroe St         | TA1309000007 | 41.87502 | -87.63309 | 41.88032 | -87.63519 | member | 00:04:16 | 5 |\n",
+       "| 40 | 4C3183FD4991315F | classic_bike  | 2023-09-26 17:25:42 | 2023-09-26 17:33:55 | Canal St &amp; Jackson Blvd              | 13138        | Green St &amp; Madison St           | TA1307000120 | 41.87725 | -87.63937 | 41.88186 | -87.64926 | member | 00:08:13 | 3 |\n",
+       "| 41 | 49D36EE08D618253 | electric_bike | 2023-09-01 17:57:54 | 2023-09-01 18:12:18 | Canal St &amp; Jackson Blvd              | 13138        | Ashland Ave &amp; Blackhawk St      | 13224        | 41.87748 | -87.63990 | 41.90707 | -87.66725 | member | 00:14:24 | 6 |\n",
+       "| 42 | E303B69F1D32FB7D | classic_bike  | 2023-09-28 16:57:45 | 2023-09-28 17:00:12 | Canal St &amp; Jackson Blvd              | 13138        | Clinton St &amp; Madison St         | TA1305000032 | 41.87725 | -87.63937 | 41.88275 | -87.64119 | member | 00:02:27 | 5 |\n",
+       "| 43 | B5DC5C0CDE57182D | electric_bike | 2023-09-28 18:01:05 | 2023-09-28 18:21:02 | Halsted St &amp; 37th St                 | TA1307000161 | Wentworth Ave &amp; 33rd St         | 15445        | 41.82703 | -87.64576 | 41.83453 | -87.63182 | member | 00:19:57 | 5 |\n",
+       "| 44 | ADDFEF61DCC2E2CB | classic_bike  | 2023-09-20 21:20:34 | 2023-09-20 21:38:27 | Desplaines St &amp; Kinzie St            | TA1306000003 | Ashland Ave &amp; Augusta Blvd      | 13248        | 41.88872 | -87.64445 | 41.89964 | -87.66770 | member | 00:17:53 | 4 |\n",
+       "| 45 | 32DCFF857AD74ACD | classic_bike  | 2023-09-20 14:24:39 | 2023-09-20 14:32:29 | Dearborn St &amp; Van Buren St           | 624          | Indiana Ave &amp; Roosevelt Rd      | SL-005       | 41.87627 | -87.62915 | 41.86789 | -87.62304 | member | 00:07:50 | 4 |\n",
+       "| 46 | 848A31BF62FB8D17 | classic_bike  | 2023-09-12 17:23:05 | 2023-09-12 17:24:07 | Dearborn St &amp; Van Buren St           | 624          | Dearborn St &amp; Van Buren St      | 624          | 41.87627 | -87.62915 | 41.87627 | -87.62915 | member | 00:01:02 | 3 |\n",
+       "| 47 | 10DACF64475D292F | classic_bike  | 2023-09-04 09:46:32 | 2023-09-04 10:29:02 | Clybourn Ave &amp; Division St           | TA1307000115 | Burnham Harbor                  | 15545        | 41.90461 | -87.64055 | 41.85741 | -87.61379 | member | 00:42:30 | 2 |\n",
+       "| 48 | 74F0F831741714BF | electric_bike | 2023-09-26 17:46:53 | 2023-09-26 17:51:33 | Clybourn Ave &amp; Division St           | TA1307000115 | Sheffield Ave &amp; Willow St       | TA1306000032 | 41.90455 | -87.64055 | 41.91369 | -87.65286 | member | 00:04:40 | 3 |\n",
+       "| 49 | B5B078D3245F8039 | classic_bike  | 2023-09-09 10:16:17 | 2023-09-09 10:25:18 | Dearborn Pkwy &amp; Delaware Pl          | TA1307000128 | Halsted St &amp; Clybourn Ave       | 331          | 41.89897 | -87.62991 | 41.90967 | -87.64813 | member | 00:09:01 | 7 |\n",
+       "| 50 | 8383584432ACA198 | classic_bike  | 2023-09-15 20:36:31 | 2023-09-15 20:44:40 | Orleans St &amp; Chestnut St (NEXT Apts) | 620          | Desplaines St &amp; Kinzie St       | TA1306000003 | 41.89820 | -87.63754 | 41.88872 | -87.64445 | member | 00:08:09 | 6 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "   ride_id          rideable_type started_at          ended_at           \n",
+       "1  011C1903BF4E2E28 classic_bike  2023-09-23 00:27:50 2023-09-23 00:33:27\n",
+       "2  87DB80E048A1BF9F classic_bike  2023-09-02 09:26:43 2023-09-02 09:38:19\n",
+       "3  7C2EB7AF669066E3 electric_bike 2023-09-25 18:30:11 2023-09-25 18:41:39\n",
+       "4  57D197B010269CE3 classic_bike  2023-09-13 15:30:49 2023-09-13 15:39:18\n",
+       "5  8A2CEA7C8C8074D8 classic_bike  2023-09-18 15:58:58 2023-09-18 16:05:04\n",
+       "6  40D9EF382CC6C53D classic_bike  2023-09-17 11:58:50 2023-09-17 12:08:36\n",
+       "7  3812B98E9406040E classic_bike  2023-09-12 16:01:28 2023-09-12 16:17:47\n",
+       "8  EBA56298CB3C803F classic_bike  2023-09-24 13:17:23 2023-09-24 13:50:43\n",
+       "9  C6BD5AF648F11D11 electric_bike 2023-09-28 18:09:40 2023-09-28 18:15:04\n",
+       "10 585C82FA2E006DE9 classic_bike  2023-09-22 12:30:41 2023-09-22 12:42:21\n",
+       "11 95E72C49D692F822 classic_bike  2023-09-07 16:28:17 2023-09-07 16:31:25\n",
+       "12 26094B920577B434 classic_bike  2023-09-04 16:53:28 2023-09-04 16:56:33\n",
+       "13 A13DECC07C318A6F classic_bike  2023-09-14 10:37:54 2023-09-14 10:40:16\n",
+       "14 BE665598CC823457 electric_bike 2023-09-09 22:42:44 2023-09-09 22:49:49\n",
+       "15 34AB2700E7062615 classic_bike  2023-09-30 14:04:04 2023-09-30 14:04:33\n",
+       "16 CAE833F56B978BB5 classic_bike  2023-09-30 14:08:57 2023-09-30 14:09:00\n",
+       "17 523ADD8118978D3A electric_bike 2023-09-04 23:36:48 2023-09-04 23:48:45\n",
+       "18 6C5287A284CDD8CB classic_bike  2023-09-26 20:52:21 2023-09-26 21:00:42\n",
+       "19 928A1D2220881ADF classic_bike  2023-09-26 18:21:34 2023-09-26 18:38:07\n",
+       "20 889F2926F7CE3A9E electric_bike 2023-09-02 13:06:20 2023-09-02 13:16:08\n",
+       "21 600227F410DF602A classic_bike  2023-09-18 18:09:04 2023-09-18 18:14:44\n",
+       "22 DE4241E63009F4CB classic_bike  2023-09-07 17:37:02 2023-09-07 17:46:00\n",
+       "23 CC2CE8E59913F41E classic_bike  2023-09-23 16:03:52 2023-09-23 18:13:09\n",
+       "24 9A044F4F6D84F0F4 classic_bike  2023-09-25 17:26:09 2023-09-25 17:32:11\n",
+       "25 84C955A6010005F9 electric_bike 2023-09-04 20:26:38 2023-09-04 20:43:28\n",
+       "26 9047EE97561B54AA electric_bike 2023-09-10 18:40:10 2023-09-10 18:40:57\n",
+       "27 C06D2A5FB2FF26BD classic_bike  2023-09-27 00:11:41 2023-09-27 00:22:02\n",
+       "28 C1BF8FE049907DA2 classic_bike  2023-09-26 18:38:32 2023-09-26 19:20:49\n",
+       "29 ACAD5971E43E8924 classic_bike  2023-09-26 17:57:20 2023-09-26 18:19:11\n",
+       "30 26F6AA8AD3210CB8 electric_bike 2023-09-10 12:20:18 2023-09-10 12:22:02\n",
+       "31 89F6E18562FAEDE4 classic_bike  2023-09-08 21:53:49 2023-09-08 21:59:59\n",
+       "32 6AA865F1E6DB91DE classic_bike  2023-09-05 17:04:44 2023-09-05 17:32:37\n",
+       "33 9E7DFC11B33E6F1E electric_bike 2023-09-17 13:01:25 2023-09-17 13:12:36\n",
+       "34 1B83E951387332BA electric_bike 2023-09-05 15:08:45 2023-09-05 15:11:24\n",
+       "35 D109587CE543B32F electric_bike 2023-09-01 15:07:21 2023-09-01 15:14:12\n",
+       "36 D6D046590D5ABBDA electric_bike 2023-09-05 19:36:12 2023-09-05 19:41:13\n",
+       "37 0778370AFC57DAD6 classic_bike  2023-09-13 17:07:59 2023-09-13 17:16:32\n",
+       "38 88B4F4D64DAB37F5 electric_bike 2023-09-09 17:51:47 2023-09-09 18:07:13\n",
+       "39 197C6C2B703BD082 classic_bike  2023-09-28 08:29:01 2023-09-28 08:33:17\n",
+       "40 4C3183FD4991315F classic_bike  2023-09-26 17:25:42 2023-09-26 17:33:55\n",
+       "41 49D36EE08D618253 electric_bike 2023-09-01 17:57:54 2023-09-01 18:12:18\n",
+       "42 E303B69F1D32FB7D classic_bike  2023-09-28 16:57:45 2023-09-28 17:00:12\n",
+       "43 B5DC5C0CDE57182D electric_bike 2023-09-28 18:01:05 2023-09-28 18:21:02\n",
+       "44 ADDFEF61DCC2E2CB classic_bike  2023-09-20 21:20:34 2023-09-20 21:38:27\n",
+       "45 32DCFF857AD74ACD classic_bike  2023-09-20 14:24:39 2023-09-20 14:32:29\n",
+       "46 848A31BF62FB8D17 classic_bike  2023-09-12 17:23:05 2023-09-12 17:24:07\n",
+       "47 10DACF64475D292F classic_bike  2023-09-04 09:46:32 2023-09-04 10:29:02\n",
+       "48 74F0F831741714BF electric_bike 2023-09-26 17:46:53 2023-09-26 17:51:33\n",
+       "49 B5B078D3245F8039 classic_bike  2023-09-09 10:16:17 2023-09-09 10:25:18\n",
+       "50 8383584432ACA198 classic_bike  2023-09-15 20:36:31 2023-09-15 20:44:40\n",
+       "   start_station_name                   start_station_id\n",
+       "1  Halsted St & Wrightwood Ave          TA1309000061    \n",
+       "2  Clark St & Drummond Pl               TA1307000142    \n",
+       "3  Financial Pl & Ida B Wells Dr        SL-010          \n",
+       "4  Clark St & Drummond Pl               TA1307000142    \n",
+       "5  Halsted St & Wrightwood Ave          TA1309000061    \n",
+       "6  Kedzie Ave & Milwaukee Ave           13085           \n",
+       "7  Financial Pl & Ida B Wells Dr        SL-010          \n",
+       "8  Clark St & Schreiber Ave             KA1504000156    \n",
+       "9  Halsted St & Wrightwood Ave          TA1309000061    \n",
+       "10 Halsted St & Wrightwood Ave          TA1309000061    \n",
+       "11 Clark St & Drummond Pl               TA1307000142    \n",
+       "12 Clark St & Drummond Pl               TA1307000142    \n",
+       "13 Clark St & Drummond Pl               TA1307000142    \n",
+       "14 Halsted St & Wrightwood Ave          TA1309000061    \n",
+       "15 Wabash Ave & Grand Ave               TA1307000117    \n",
+       "16 Wabash Ave & Grand Ave               TA1307000117    \n",
+       "17 Elizabeth St & Randolph St           23001           \n",
+       "18 Southport Ave & Wrightwood Ave       TA1307000113    \n",
+       "19 Lincoln Ave & Roscoe St              chargingstx5    \n",
+       "20 Desplaines St & Randolph St          15535           \n",
+       "21 Austin Blvd & Lake St                16906           \n",
+       "22 Loomis St & Lexington St             13332           \n",
+       "23 Broadway & Wilson Ave                13074           \n",
+       "24 Halsted St & Maxwell St              TA1309000001    \n",
+       "25 Kedzie Ave & Milwaukee Ave           13085           \n",
+       "26 Southport Ave & Wrightwood Ave       TA1307000113    \n",
+       "27 Jeffery Blvd & 71st St               KA1503000018    \n",
+       "28 Lakefront Trail & Bryn Mawr Ave      15576           \n",
+       "29 Franklin St & Chicago Ave            13017           \n",
+       "30 Canal St & Taylor St                 15550           \n",
+       "31 Southport Ave & Wrightwood Ave       TA1307000113    \n",
+       "32 Franklin St & Monroe St              TA1309000007    \n",
+       "33 Dearborn Pkwy & Delaware Pl          TA1307000128    \n",
+       "34 Kedzie Ave & Milwaukee Ave           13085           \n",
+       "35 Elizabeth St & Randolph St           23001           \n",
+       "36 Desplaines St & Kinzie St            TA1306000003    \n",
+       "37 Clark St & Schreiber Ave             KA1504000156    \n",
+       "38 Desplaines St & Randolph St          15535           \n",
+       "39 Financial Pl & Ida B Wells Dr        SL-010          \n",
+       "40 Canal St & Jackson Blvd              13138           \n",
+       "41 Canal St & Jackson Blvd              13138           \n",
+       "42 Canal St & Jackson Blvd              13138           \n",
+       "43 Halsted St & 37th St                 TA1307000161    \n",
+       "44 Desplaines St & Kinzie St            TA1306000003    \n",
+       "45 Dearborn St & Van Buren St           624             \n",
+       "46 Dearborn St & Van Buren St           624             \n",
+       "47 Clybourn Ave & Division St           TA1307000115    \n",
+       "48 Clybourn Ave & Division St           TA1307000115    \n",
+       "49 Dearborn Pkwy & Delaware Pl          TA1307000128    \n",
+       "50 Orleans St & Chestnut St (NEXT Apts) 620             \n",
+       "   end_station_name                end_station_id start_lat start_lng end_lat \n",
+       "1  Sheffield Ave & Wellington Ave  TA1307000052   41.92914  -87.64908 41.93625\n",
+       "2  Racine Ave & Fullerton Ave      TA1306000026   41.93125  -87.64434 41.92557\n",
+       "3  Racine Ave & 15th St            13304          41.87506  -87.63314 41.86127\n",
+       "4  Racine Ave & Belmont Ave        TA1308000019   41.93125  -87.64434 41.93974\n",
+       "5  Racine Ave & Fullerton Ave      TA1306000026   41.92914  -87.64908 41.92557\n",
+       "6  California Ave & Milwaukee Ave  13084          41.92957  -87.70786 41.92269\n",
+       "7  Adler Planetarium               13431          41.87502  -87.63309 41.86610\n",
+       "8  Oakley Ave & Touhy Ave          RP-004         41.99990  -87.67007 42.01234\n",
+       "9  Halsted St & Roscoe St          TA1309000025   41.92919  -87.64914 41.94367\n",
+       "10 Halsted St & Roscoe St          TA1309000025   41.92914  -87.64908 41.94367\n",
+       "11 Clark St & Wellington Ave       TA1307000136   41.93125  -87.64434 41.93650\n",
+       "12 Clark St & Wellington Ave       TA1307000136   41.93125  -87.64434 41.93650\n",
+       "13 Clark St & Wellington Ave       TA1307000136   41.93125  -87.64434 41.93650\n",
+       "14 Lincoln Ave & Addison St        TA1309000050   41.92917  -87.64915 41.94618\n",
+       "15 Wabash Ave & Grand Ave          TA1307000117   41.89147  -87.62676 41.89147\n",
+       "16 Wabash Ave & Grand Ave          TA1307000117   41.89147  -87.62676 41.89147\n",
+       "17 Blue Island Ave & 18th St       13135          41.88433  -87.65897 41.85756\n",
+       "18 Clark St & Wrightwood Ave       TA1305000014   41.92877  -87.66391 41.92955\n",
+       "19 Clarendon Ave & Junior Ter      13389          41.94335  -87.67067 41.96100\n",
+       "20 Wells St & Elm St               KA1504000135   41.88357  -87.64420 41.90322\n",
+       "21 Austin Blvd & Madison St        16918          41.88794  -87.77427 41.88028\n",
+       "22 Canal St & Jackson Blvd         13138          41.87223  -87.66136 41.87725\n",
+       "23 Broadway & Wilson Ave           13074          41.96522  -87.65814 41.96522\n",
+       "24 Halsted St & Maxwell St         TA1309000001   41.86488  -87.64707 41.86488\n",
+       "25 Kedzie Ave & Milwaukee Ave      13085          41.92967  -87.70808 41.92957\n",
+       "26 Southport Ave & Wrightwood Ave  TA1307000113   41.92883  -87.66388 41.92877\n",
+       "27 Jeffery Blvd & 71st St          KA1503000018   41.76664  -87.57645 41.76664\n",
+       "28 Lakefront Trail & Bryn Mawr Ave 15576          41.98404  -87.65228 41.98404\n",
+       "29 Michigan Ave & Washington St    13001          41.89675  -87.63567 41.88398\n",
+       "30 Canal St & Taylor St            15550          41.87018  -87.63945 41.87026\n",
+       "31 Southport Ave & Belmont Ave     13229          41.92877  -87.66391 41.93948\n",
+       "32 Broadway & Belmont Ave          13277          41.88032  -87.63519 41.94011\n",
+       "33 Morgan St & Lake St             chargingstx4   41.89896  -87.62993 41.88549\n",
+       "34 Central Park Ave & Elbridge Ave 15644          41.92960  -87.70785 41.93534\n",
+       "35 Franklin St & Lake St           TA1307000111   41.88437  -87.65894 41.88584\n",
+       "36 Ogden Ave & Race Ave            13194          41.88859  -87.64439 41.89180\n",
+       "37 Broadway & Granville Ave        15571          41.99990  -87.67007 41.99478\n",
+       "38 Wolcott Ave & Polk St           TA1309000064   41.88354  -87.64415 41.87126\n",
+       "39 Franklin St & Monroe St         TA1309000007   41.87502  -87.63309 41.88032\n",
+       "40 Green St & Madison St           TA1307000120   41.87725  -87.63937 41.88186\n",
+       "41 Ashland Ave & Blackhawk St      13224          41.87748  -87.63990 41.90707\n",
+       "42 Clinton St & Madison St         TA1305000032   41.87725  -87.63937 41.88275\n",
+       "43 Wentworth Ave & 33rd St         15445          41.82703  -87.64576 41.83453\n",
+       "44 Ashland Ave & Augusta Blvd      13248          41.88872  -87.64445 41.89964\n",
+       "45 Indiana Ave & Roosevelt Rd      SL-005         41.87627  -87.62915 41.86789\n",
+       "46 Dearborn St & Van Buren St      624            41.87627  -87.62915 41.87627\n",
+       "47 Burnham Harbor                  15545          41.90461  -87.64055 41.85741\n",
+       "48 Sheffield Ave & Willow St       TA1306000032   41.90455  -87.64055 41.91369\n",
+       "49 Halsted St & Clybourn Ave       331            41.89897  -87.62991 41.90967\n",
+       "50 Desplaines St & Kinzie St       TA1306000003   41.89820  -87.63754 41.88872\n",
+       "   end_lng   member_casual ride_length day_of_week\n",
+       "1  -87.65266 member        00:05:37    7          \n",
+       "2  -87.65842 member        00:11:36    7          \n",
+       "3  -87.65663 member        00:11:28    2          \n",
+       "4  -87.65887 member        00:08:29    4          \n",
+       "5  -87.65842 member        00:06:06    2          \n",
+       "6  -87.69715 member        00:09:46    1          \n",
+       "7  -87.60727 member        00:16:19    3          \n",
+       "8  -87.68824 member        00:33:20    1          \n",
+       "9  -87.64895 member        00:05:24    5          \n",
+       "10 -87.64895 member        00:11:40    6          \n",
+       "11 -87.64754 member        00:03:08    5          \n",
+       "12 -87.64754 member        00:03:05    2          \n",
+       "13 -87.64754 member        00:02:22    5          \n",
+       "14 -87.67331 member        00:07:05    7          \n",
+       "15 -87.62676 member        00:00:29    7          \n",
+       "16 -87.62676 member        00:00:03    7          \n",
+       "17 -87.66154 casual        00:11:57    2          \n",
+       "18 -87.64312 casual        00:08:21    3          \n",
+       "19 -87.64960 member        00:16:33    3          \n",
+       "20 -87.63432 member        00:09:48    7          \n",
+       "21 -87.77445 member        00:05:40    2          \n",
+       "22 -87.63937 member        00:08:58    5          \n",
+       "23 -87.65814 casual        02:09:17    7          \n",
+       "24 -87.64707 member        00:06:02    2          \n",
+       "25 -87.70786 casual        00:16:50    2          \n",
+       "26 -87.66391 member        00:00:47    1          \n",
+       "27 -87.57645 casual        00:10:21    4          \n",
+       "28 -87.65228 member        00:42:17    3          \n",
+       "29 -87.62468 casual        00:21:51    3          \n",
+       "30 -87.63947 member        00:01:44    1          \n",
+       "31 -87.66375 member        00:06:10    6          \n",
+       "32 -87.64545 member        00:27:53    3          \n",
+       "33 -87.65229 member        00:11:11    1          \n",
+       "34 -87.71689 casual        00:02:39    3          \n",
+       "35 -87.63550 member        00:06:51    6          \n",
+       "36 -87.65875 member        00:05:01    3          \n",
+       "37 -87.66028 member        00:08:33    4          \n",
+       "38 -87.67369 member        00:15:26    7          \n",
+       "39 -87.63519 member        00:04:16    5          \n",
+       "40 -87.64926 member        00:08:13    3          \n",
+       "41 -87.66725 member        00:14:24    6          \n",
+       "42 -87.64119 member        00:02:27    5          \n",
+       "43 -87.63182 member        00:19:57    5          \n",
+       "44 -87.66770 member        00:17:53    4          \n",
+       "45 -87.62304 member        00:07:50    4          \n",
+       "46 -87.62915 member        00:01:02    3          \n",
+       "47 -87.61379 member        00:42:30    2          \n",
+       "48 -87.65286 member        00:04:40    3          \n",
+       "49 -87.64813 member        00:09:01    7          \n",
+       "50 -87.64445 member        00:08:09    6          "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# A sample preview of the cleaned data\n",
+    "head(df_cleaned, 50)"
    ]
   }
  ],
@@ -758,14 +1304,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 85.006105,
-   "end_time": "2023-11-02T01:19:24.023640",
+   "duration": 111.171214,
+   "end_time": "2023-11-02T12:43:21.534399",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-11-02T01:17:59.017535",
+   "start_time": "2023-11-02T12:41:30.363185",
    "version": "2.4.0"
   }
  },
