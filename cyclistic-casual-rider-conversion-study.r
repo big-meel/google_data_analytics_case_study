@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "937f4c2c",
+   "id": "4ff9164b",
    "metadata": {
     "papermill": {
-     "duration": 0.007541,
-     "end_time": "2023-11-04T06:36:57.357652",
+     "duration": 0.006781,
+     "end_time": "2023-11-04T22:11:30.111159",
      "exception": false,
-     "start_time": "2023-11-04T06:36:57.350111",
+     "start_time": "2023-11-04T22:11:30.104378",
      "status": "completed"
     },
     "tags": []
@@ -53,13 +53,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c814c637",
+   "id": "4103d216",
    "metadata": {
     "papermill": {
-     "duration": 0.005688,
-     "end_time": "2023-11-04T06:36:57.369350",
+     "duration": 0.005646,
+     "end_time": "2023-11-04T22:11:30.123008",
      "exception": false,
-     "start_time": "2023-11-04T06:36:57.363662",
+     "start_time": "2023-11-04T22:11:30.117362",
      "status": "completed"
     },
     "tags": []
@@ -80,21 +80,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "5447ec41",
+   "id": "3218a2a6",
    "metadata": {
     "_kg_hide-input": true,
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:36:57.384894Z",
-     "iopub.status.busy": "2023-11-04T06:36:57.382892Z",
-     "iopub.status.idle": "2023-11-04T06:37:32.126170Z",
-     "shell.execute_reply": "2023-11-04T06:37:32.124314Z"
+     "iopub.execute_input": "2023-11-04T22:11:30.139871Z",
+     "iopub.status.busy": "2023-11-04T22:11:30.137650Z",
+     "iopub.status.idle": "2023-11-04T22:11:57.089366Z",
+     "shell.execute_reply": "2023-11-04T22:11:57.087907Z"
     },
     "papermill": {
-     "duration": 34.754431,
-     "end_time": "2023-11-04T06:37:32.129558",
+     "duration": 26.963839,
+     "end_time": "2023-11-04T22:11:57.092535",
      "exception": false,
-     "start_time": "2023-11-04T06:36:57.375127",
+     "start_time": "2023-11-04T22:11:30.128696",
      "status": "completed"
     },
     "tags": []
@@ -147,20 +147,20 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "05f8f7e0",
+   "id": "04f182a5",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:37:32.192298Z",
-     "iopub.status.busy": "2023-11-04T06:37:32.145117Z",
-     "iopub.status.idle": "2023-11-04T06:38:05.137552Z",
-     "shell.execute_reply": "2023-11-04T06:38:05.135549Z"
+     "iopub.execute_input": "2023-11-04T22:11:57.146392Z",
+     "iopub.status.busy": "2023-11-04T22:11:57.108175Z",
+     "iopub.status.idle": "2023-11-04T22:12:23.395432Z",
+     "shell.execute_reply": "2023-11-04T22:12:23.393692Z"
     },
     "papermill": {
-     "duration": 33.00441,
-     "end_time": "2023-11-04T06:38:05.140800",
+     "duration": 26.297741,
+     "end_time": "2023-11-04T22:12:23.398108",
      "exception": false,
-     "start_time": "2023-11-04T06:37:32.136390",
+     "start_time": "2023-11-04T22:11:57.100367",
      "status": "completed"
     },
     "tags": []
@@ -299,13 +299,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3c6e820f",
+   "id": "6d9b8546",
    "metadata": {
     "papermill": {
-     "duration": 0.008966,
-     "end_time": "2023-11-04T06:38:05.159330",
+     "duration": 0.007978,
+     "end_time": "2023-11-04T22:12:23.415366",
      "exception": false,
-     "start_time": "2023-11-04T06:38:05.150364",
+     "start_time": "2023-11-04T22:12:23.407388",
      "status": "completed"
     },
     "tags": []
@@ -322,13 +322,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "89c88df9",
+   "id": "96a41fc3",
    "metadata": {
     "papermill": {
-     "duration": 0.008934,
-     "end_time": "2023-11-04T06:38:05.177260",
+     "duration": 0.008069,
+     "end_time": "2023-11-04T22:12:23.431507",
      "exception": false,
-     "start_time": "2023-11-04T06:38:05.168326",
+     "start_time": "2023-11-04T22:12:23.423438",
      "status": "completed"
     },
     "tags": []
@@ -340,19 +340,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "38668b94",
+   "id": "067ff841",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:05.199531Z",
-     "iopub.status.busy": "2023-11-04T06:38:05.197881Z",
-     "iopub.status.idle": "2023-11-04T06:38:12.512175Z",
-     "shell.execute_reply": "2023-11-04T06:38:12.510347Z"
+     "iopub.execute_input": "2023-11-04T22:12:23.450874Z",
+     "iopub.status.busy": "2023-11-04T22:12:23.449576Z",
+     "iopub.status.idle": "2023-11-04T22:12:29.052660Z",
+     "shell.execute_reply": "2023-11-04T22:12:29.051177Z"
     },
     "papermill": {
-     "duration": 7.327941,
-     "end_time": "2023-11-04T06:38:12.514652",
+     "duration": 5.616014,
+     "end_time": "2023-11-04T22:12:29.055524",
      "exception": false,
-     "start_time": "2023-11-04T06:38:05.186711",
+     "start_time": "2023-11-04T22:12:23.439510",
      "status": "completed"
     },
     "tags": []
@@ -372,13 +372,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c4a55a3e",
+   "id": "cee00106",
    "metadata": {
     "papermill": {
-     "duration": 0.008551,
-     "end_time": "2023-11-04T06:38:12.531940",
+     "duration": 0.008434,
+     "end_time": "2023-11-04T22:12:29.072489",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.523389",
+     "start_time": "2023-11-04T22:12:29.064055",
      "status": "completed"
     },
     "tags": []
@@ -390,19 +390,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "ecce5027",
+   "id": "f6b55ec5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:12.552925Z",
-     "iopub.status.busy": "2023-11-04T06:38:12.551345Z",
-     "iopub.status.idle": "2023-11-04T06:38:12.590312Z",
-     "shell.execute_reply": "2023-11-04T06:38:12.587631Z"
+     "iopub.execute_input": "2023-11-04T22:12:29.094138Z",
+     "iopub.status.busy": "2023-11-04T22:12:29.092515Z",
+     "iopub.status.idle": "2023-11-04T22:12:29.124731Z",
+     "shell.execute_reply": "2023-11-04T22:12:29.123408Z"
     },
     "papermill": {
-     "duration": 0.052747,
-     "end_time": "2023-11-04T06:38:12.593474",
+     "duration": 0.046018,
+     "end_time": "2023-11-04T22:12:29.127095",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.540727",
+     "start_time": "2023-11-04T22:12:29.081077",
      "status": "completed"
     },
     "tags": []
@@ -438,13 +438,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "db820750",
+   "id": "66716234",
    "metadata": {
     "papermill": {
-     "duration": 0.008778,
-     "end_time": "2023-11-04T06:38:12.611104",
+     "duration": 0.007961,
+     "end_time": "2023-11-04T22:12:29.143186",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.602326",
+     "start_time": "2023-11-04T22:12:29.135225",
      "status": "completed"
     },
     "tags": []
@@ -458,19 +458,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "fe731b37",
+   "id": "d54cd5aa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:12.632298Z",
-     "iopub.status.busy": "2023-11-04T06:38:12.630537Z",
-     "iopub.status.idle": "2023-11-04T06:38:12.892912Z",
-     "shell.execute_reply": "2023-11-04T06:38:12.890263Z"
+     "iopub.execute_input": "2023-11-04T22:12:29.162997Z",
+     "iopub.status.busy": "2023-11-04T22:12:29.161684Z",
+     "iopub.status.idle": "2023-11-04T22:12:29.344805Z",
+     "shell.execute_reply": "2023-11-04T22:12:29.342787Z"
     },
     "papermill": {
-     "duration": 0.275748,
-     "end_time": "2023-11-04T06:38:12.895496",
+     "duration": 0.195969,
+     "end_time": "2023-11-04T22:12:29.347179",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.619748",
+     "start_time": "2023-11-04T22:12:29.151210",
      "status": "completed"
     },
     "tags": []
@@ -540,13 +540,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "584fe947",
+   "id": "e3f56a6f",
    "metadata": {
     "papermill": {
-     "duration": 0.009162,
-     "end_time": "2023-11-04T06:38:12.913630",
+     "duration": 0.008266,
+     "end_time": "2023-11-04T22:12:29.364008",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.904468",
+     "start_time": "2023-11-04T22:12:29.355742",
      "status": "completed"
     },
     "tags": []
@@ -558,19 +558,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "bf4aea8d",
+   "id": "7042e244",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:12.935204Z",
-     "iopub.status.busy": "2023-11-04T06:38:12.933572Z",
-     "iopub.status.idle": "2023-11-04T06:38:13.620573Z",
-     "shell.execute_reply": "2023-11-04T06:38:13.618741Z"
+     "iopub.execute_input": "2023-11-04T22:12:29.383762Z",
+     "iopub.status.busy": "2023-11-04T22:12:29.382460Z",
+     "iopub.status.idle": "2023-11-04T22:12:29.896723Z",
+     "shell.execute_reply": "2023-11-04T22:12:29.894837Z"
     },
     "papermill": {
-     "duration": 0.700658,
-     "end_time": "2023-11-04T06:38:13.623225",
+     "duration": 0.527194,
+     "end_time": "2023-11-04T22:12:29.899510",
      "exception": false,
-     "start_time": "2023-11-04T06:38:12.922567",
+     "start_time": "2023-11-04T22:12:29.372316",
      "status": "completed"
     },
     "tags": []
@@ -640,13 +640,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fda8414e",
+   "id": "6111d8f9",
    "metadata": {
     "papermill": {
-     "duration": 0.009034,
-     "end_time": "2023-11-04T06:38:13.641380",
+     "duration": 0.008447,
+     "end_time": "2023-11-04T22:12:29.916470",
      "exception": false,
-     "start_time": "2023-11-04T06:38:13.632346",
+     "start_time": "2023-11-04T22:12:29.908023",
      "status": "completed"
     },
     "tags": []
@@ -660,19 +660,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "456a51a3",
+   "id": "a1a72324",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:13.663133Z",
-     "iopub.status.busy": "2023-11-04T06:38:13.661568Z",
-     "iopub.status.idle": "2023-11-04T06:38:15.656210Z",
-     "shell.execute_reply": "2023-11-04T06:38:15.654404Z"
+     "iopub.execute_input": "2023-11-04T22:12:29.936293Z",
+     "iopub.status.busy": "2023-11-04T22:12:29.934933Z",
+     "iopub.status.idle": "2023-11-04T22:12:31.408702Z",
+     "shell.execute_reply": "2023-11-04T22:12:31.407266Z"
     },
     "papermill": {
-     "duration": 2.009353,
-     "end_time": "2023-11-04T06:38:15.659781",
+     "duration": 1.485974,
+     "end_time": "2023-11-04T22:12:31.410719",
      "exception": false,
-     "start_time": "2023-11-04T06:38:13.650428",
+     "start_time": "2023-11-04T22:12:29.924745",
      "status": "completed"
     },
     "tags": []
@@ -686,13 +686,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "82acf698",
+   "id": "a7606b03",
    "metadata": {
     "papermill": {
-     "duration": 0.009065,
-     "end_time": "2023-11-04T06:38:15.677978",
+     "duration": 0.009514,
+     "end_time": "2023-11-04T22:12:31.428624",
      "exception": false,
-     "start_time": "2023-11-04T06:38:15.668913",
+     "start_time": "2023-11-04T22:12:31.419110",
      "status": "completed"
     },
     "tags": []
@@ -704,19 +704,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "0a9dda3b",
+   "id": "e9ed18b0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:15.699605Z",
-     "iopub.status.busy": "2023-11-04T06:38:15.697981Z",
-     "iopub.status.idle": "2023-11-04T06:38:25.412334Z",
-     "shell.execute_reply": "2023-11-04T06:38:25.410584Z"
+     "iopub.execute_input": "2023-11-04T22:12:31.448459Z",
+     "iopub.status.busy": "2023-11-04T22:12:31.447036Z",
+     "iopub.status.idle": "2023-11-04T22:12:38.240978Z",
+     "shell.execute_reply": "2023-11-04T22:12:38.239700Z"
     },
     "papermill": {
-     "duration": 9.727847,
-     "end_time": "2023-11-04T06:38:25.414842",
+     "duration": 6.806721,
+     "end_time": "2023-11-04T22:12:38.243622",
      "exception": false,
-     "start_time": "2023-11-04T06:38:15.686995",
+     "start_time": "2023-11-04T22:12:31.436901",
      "status": "completed"
     },
     "tags": []
@@ -793,13 +793,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5a7c75fd",
+   "id": "125ea7cc",
    "metadata": {
     "papermill": {
-     "duration": 0.009164,
-     "end_time": "2023-11-04T06:38:25.433375",
+     "duration": 0.009496,
+     "end_time": "2023-11-04T22:12:38.262433",
      "exception": false,
-     "start_time": "2023-11-04T06:38:25.424211",
+     "start_time": "2023-11-04T22:12:38.252937",
      "status": "completed"
     },
     "tags": []
@@ -811,19 +811,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "fe30e75c",
+   "id": "d5bb2b8f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:25.455441Z",
-     "iopub.status.busy": "2023-11-04T06:38:25.453824Z",
-     "iopub.status.idle": "2023-11-04T06:38:25.496803Z",
-     "shell.execute_reply": "2023-11-04T06:38:25.495024Z"
+     "iopub.execute_input": "2023-11-04T22:12:38.283942Z",
+     "iopub.status.busy": "2023-11-04T22:12:38.282614Z",
+     "iopub.status.idle": "2023-11-04T22:12:38.314963Z",
+     "shell.execute_reply": "2023-11-04T22:12:38.313695Z"
     },
     "papermill": {
-     "duration": 0.056889,
-     "end_time": "2023-11-04T06:38:25.499339",
+     "duration": 0.04483,
+     "end_time": "2023-11-04T22:12:38.316849",
      "exception": false,
-     "start_time": "2023-11-04T06:38:25.442450",
+     "start_time": "2023-11-04T22:12:38.272019",
      "status": "completed"
     },
     "tags": []
@@ -946,13 +946,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0a460f3e",
+   "id": "3ee41d67",
    "metadata": {
     "papermill": {
-     "duration": 0.010336,
-     "end_time": "2023-11-04T06:38:25.519342",
+     "duration": 0.009239,
+     "end_time": "2023-11-04T22:12:38.335356",
      "exception": false,
-     "start_time": "2023-11-04T06:38:25.509006",
+     "start_time": "2023-11-04T22:12:38.326117",
      "status": "completed"
     },
     "tags": []
@@ -964,19 +964,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "9ea4e68e",
+   "id": "947acd7b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:38:25.542794Z",
-     "iopub.status.busy": "2023-11-04T06:38:25.541160Z",
-     "iopub.status.idle": "2023-11-04T06:39:16.001010Z",
-     "shell.execute_reply": "2023-11-04T06:39:15.999091Z"
+     "iopub.execute_input": "2023-11-04T22:12:38.356831Z",
+     "iopub.status.busy": "2023-11-04T22:12:38.355440Z",
+     "iopub.status.idle": "2023-11-04T22:13:14.774879Z",
+     "shell.execute_reply": "2023-11-04T22:13:14.773246Z"
     },
     "papermill": {
-     "duration": 50.474042,
-     "end_time": "2023-11-04T06:39:16.003518",
+     "duration": 36.432449,
+     "end_time": "2023-11-04T22:13:14.776676",
      "exception": false,
-     "start_time": "2023-11-04T06:38:25.529476",
+     "start_time": "2023-11-04T22:12:38.344227",
      "status": "completed"
     },
     "tags": []
@@ -989,13 +989,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fc57ce52",
+   "id": "3ac770ec",
    "metadata": {
     "papermill": {
-     "duration": 0.009783,
-     "end_time": "2023-11-04T06:39:16.023411",
+     "duration": 0.009906,
+     "end_time": "2023-11-04T22:13:14.795541",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.013628",
+     "start_time": "2023-11-04T22:13:14.785635",
      "status": "completed"
     },
     "tags": []
@@ -1011,19 +1011,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "0c148dd9",
+   "id": "eee47deb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:39:16.046354Z",
-     "iopub.status.busy": "2023-11-04T06:39:16.044832Z",
-     "iopub.status.idle": "2023-11-04T06:39:16.172914Z",
-     "shell.execute_reply": "2023-11-04T06:39:16.171112Z"
+     "iopub.execute_input": "2023-11-04T22:13:14.816675Z",
+     "iopub.status.busy": "2023-11-04T22:13:14.815278Z",
+     "iopub.status.idle": "2023-11-04T22:13:14.895340Z",
+     "shell.execute_reply": "2023-11-04T22:13:14.893867Z"
     },
     "papermill": {
-     "duration": 0.142518,
-     "end_time": "2023-11-04T06:39:16.175611",
+     "duration": 0.093079,
+     "end_time": "2023-11-04T22:13:14.897618",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.033093",
+     "start_time": "2023-11-04T22:13:14.804539",
      "status": "completed"
     },
     "tags": []
@@ -1069,13 +1069,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fee4d494",
+   "id": "d6ee74a0",
    "metadata": {
     "papermill": {
-     "duration": 0.010083,
-     "end_time": "2023-11-04T06:39:16.196584",
+     "duration": 0.009419,
+     "end_time": "2023-11-04T22:13:14.916513",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.186501",
+     "start_time": "2023-11-04T22:13:14.907094",
      "status": "completed"
     },
     "tags": []
@@ -1089,19 +1089,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "46d06fb2",
+   "id": "07d8c036",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:39:16.221000Z",
-     "iopub.status.busy": "2023-11-04T06:39:16.219273Z",
-     "iopub.status.idle": "2023-11-04T06:39:16.521738Z",
-     "shell.execute_reply": "2023-11-04T06:39:16.519923Z"
+     "iopub.execute_input": "2023-11-04T22:13:14.938166Z",
+     "iopub.status.busy": "2023-11-04T22:13:14.936777Z",
+     "iopub.status.idle": "2023-11-04T22:13:15.129964Z",
+     "shell.execute_reply": "2023-11-04T22:13:15.128592Z"
     },
     "papermill": {
-     "duration": 0.317355,
-     "end_time": "2023-11-04T06:39:16.524165",
+     "duration": 0.206819,
+     "end_time": "2023-11-04T22:13:15.132461",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.206810",
+     "start_time": "2023-11-04T22:13:14.925642",
      "status": "completed"
     },
     "tags": []
@@ -1208,13 +1208,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "713f5ed9",
+   "id": "4ec8e25b",
    "metadata": {
     "papermill": {
-     "duration": 0.010529,
-     "end_time": "2023-11-04T06:39:16.545307",
+     "duration": 0.009665,
+     "end_time": "2023-11-04T22:13:15.151732",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.534778",
+     "start_time": "2023-11-04T22:13:15.142067",
      "status": "completed"
     },
     "tags": []
@@ -1228,19 +1228,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "66856da7",
+   "id": "e6cca95c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:39:16.570253Z",
-     "iopub.status.busy": "2023-11-04T06:39:16.568625Z",
-     "iopub.status.idle": "2023-11-04T06:39:18.929793Z",
-     "shell.execute_reply": "2023-11-04T06:39:18.927192Z"
+     "iopub.execute_input": "2023-11-04T22:13:15.174487Z",
+     "iopub.status.busy": "2023-11-04T22:13:15.173031Z",
+     "iopub.status.idle": "2023-11-04T22:13:17.048169Z",
+     "shell.execute_reply": "2023-11-04T22:13:17.046942Z"
     },
     "papermill": {
-     "duration": 2.377179,
-     "end_time": "2023-11-04T06:39:18.933090",
+     "duration": 1.888733,
+     "end_time": "2023-11-04T22:13:17.049938",
      "exception": false,
-     "start_time": "2023-11-04T06:39:16.555911",
+     "start_time": "2023-11-04T22:13:15.161205",
      "status": "completed"
     },
     "tags": []
@@ -1444,13 +1444,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "60d5a247",
+   "id": "6fcfa77d",
    "metadata": {
     "papermill": {
-     "duration": 0.010897,
-     "end_time": "2023-11-04T06:39:18.955478",
+     "duration": 0.010134,
+     "end_time": "2023-11-04T22:13:17.070578",
      "exception": false,
-     "start_time": "2023-11-04T06:39:18.944581",
+     "start_time": "2023-11-04T22:13:17.060444",
      "status": "completed"
     },
     "tags": []
@@ -1462,19 +1462,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "adc173e8",
+   "id": "f0475f99",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T06:39:18.981436Z",
-     "iopub.status.busy": "2023-11-04T06:39:18.979891Z",
-     "iopub.status.idle": "2023-11-04T06:39:19.751442Z",
-     "shell.execute_reply": "2023-11-04T06:39:19.749469Z"
+     "iopub.execute_input": "2023-11-04T22:13:17.093950Z",
+     "iopub.status.busy": "2023-11-04T22:13:17.092695Z",
+     "iopub.status.idle": "2023-11-04T22:13:17.732997Z",
+     "shell.execute_reply": "2023-11-04T22:13:17.731566Z"
     },
     "papermill": {
-     "duration": 0.786905,
-     "end_time": "2023-11-04T06:39:19.753891",
+     "duration": 0.654355,
+     "end_time": "2023-11-04T22:13:17.735051",
      "exception": false,
-     "start_time": "2023-11-04T06:39:18.966986",
+     "start_time": "2023-11-04T22:13:17.080696",
      "status": "completed"
     },
     "tags": []
@@ -1548,7 +1548,7 @@
     "View(trips_by_rider)\n",
     "\n",
     "\n",
-    "# Display column chart to visualize the average rider length by rider type\n",
+    "# Display column chart to \n",
     "ggplot(data=trips_by_rider) +\n",
     "    geom_col(mapping=aes(x=member_casual, y=mean_ride_length, color=member_casual, fill=member_casual)) +\n",
     "    labs(title=\"Average ride length by rider type\", x=\"Rider Type\", y=\"Average rider length (HH:MM:SS)\") +\n",
@@ -1557,13 +1557,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0ebe9312",
+   "id": "a8828ab3",
    "metadata": {
     "papermill": {
-     "duration": 0.011871,
-     "end_time": "2023-11-04T06:39:19.778111",
+     "duration": 0.011049,
+     "end_time": "2023-11-04T22:13:17.756873",
      "exception": false,
-     "start_time": "2023-11-04T06:39:19.766240",
+     "start_time": "2023-11-04T22:13:17.745824",
      "status": "completed"
     },
     "tags": []
@@ -1573,19 +1573,447 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "id": "990e12d8",
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "2ef9ac90",
    "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-04T22:13:17.782082Z",
+     "iopub.status.busy": "2023-11-04T22:13:17.780725Z",
+     "iopub.status.idle": "2023-11-04T22:13:18.342247Z",
+     "shell.execute_reply": "2023-11-04T22:13:18.340854Z"
+    },
     "papermill": {
-     "duration": 0.011607,
-     "end_time": "2023-11-04T06:39:19.801941",
+     "duration": 0.57592,
+     "end_time": "2023-11-04T22:13:18.344161",
      "exception": false,
-     "start_time": "2023-11-04T06:39:19.790334",
+     "start_time": "2023-11-04T22:13:17.768241",
      "status": "completed"
     },
     "tags": []
    },
-   "source": []
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"Trips from 22 mins to an hour\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 2 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>332864</td><td>00:34:24.258165</td></tr>\n",
+       "\t<tr><td>member</td><td>315179</td><td>00:31:19.222401</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 2 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
+       " <chr> & <int> & <time>\\\\\n",
+       "\\hline\n",
+       "\t casual & 332864 & 00:34:24.258165\\\\\n",
+       "\t member & 315179 & 00:31:19.222401\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 2 × 3\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | 332864 | 00:34:24.258165 |\n",
+       "| member | 315179 | 00:31:19.222401 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  member_casual rider_type_count mean_ride_length\n",
+       "1 casual        332864           00:34:24.258165 \n",
+       "2 member        315179           00:31:19.222401 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "trips_from_22_mins_1_hr <- trips_cleaned %>%\n",
+    "    filter(ride_length >= 1320, ride_length <= 3600)\n",
+    "\n",
+    "trips_from_1_hr_6_hrs <- trips_cleaned %>%\n",
+    "    filter(ride_length > 3600, ride_length <= 21600)\n",
+    "\n",
+    "trips_from_6_hrs_12_hrs <- trips_cleaned %>%\n",
+    "    filter(ride_length > 21600, ride_length <= 43200)\n",
+    "\n",
+    "trips_from_12_hrs_24_hrs <- trips_cleaned %>%\n",
+    "    filter(ride_length > 43200, ride_length <= 86400)\n",
+    "\n",
+    "trips_above_24_hrs <- trips_cleaned %>%\n",
+    "    filter(ride_length > 86400)\n",
+    "\n",
+    "# Here are all the trips within those iuntervals grouped by the rider subscription type\n",
+    "    \n",
+    "# Here are trips from 22 mins to an hour\n",
+    "print(\"Trips from 22 mins to an hour\")\n",
+    "trips_from_22_mins_1_hr %>%\n",
+    "    group_by(member_casual) %>%\n",
+    "    summarise(\n",
+    "        rider_type_count=n(),\n",
+    "        mean_ride_length=as_hms(mean(ride_length))\n",
+    "    ) %>%\n",
+    "    head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "01430578",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-04T22:13:18.369116Z",
+     "iopub.status.busy": "2023-11-04T22:13:18.367715Z",
+     "iopub.status.idle": "2023-11-04T22:13:18.409972Z",
+     "shell.execute_reply": "2023-11-04T22:13:18.408368Z"
+    },
+    "papermill": {
+     "duration": 0.057079,
+     "end_time": "2023-11-04T22:13:18.412086",
+     "exception": false,
+     "start_time": "2023-11-04T22:13:18.355007",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"Trips from 1 hour to 6 hours\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 2 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>96722</td><td>01:39:48.864374</td></tr>\n",
+       "\t<tr><td>member</td><td>15492</td><td>01:40:26.600891</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 2 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
+       " <chr> & <int> & <time>\\\\\n",
+       "\\hline\n",
+       "\t casual & 96722 & 01:39:48.864374\\\\\n",
+       "\t member & 15492 & 01:40:26.600891\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 2 × 3\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | 96722 | 01:39:48.864374 |\n",
+       "| member | 15492 | 01:40:26.600891 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  member_casual rider_type_count mean_ride_length\n",
+       "1 casual        96722            01:39:48.864374 \n",
+       "2 member        15492            01:40:26.600891 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Here are trips above 1 hour to 6 hours\n",
+    "print(\"Trips from 1 hour to 6 hours\")\n",
+    "trips_from_1_hr_6_hrs %>%\n",
+    "    group_by(member_casual) %>%\n",
+    "    summarise(\n",
+    "        rider_type_count=n(),\n",
+    "        mean_ride_length=as_hms(mean(ride_length))\n",
+    "    ) %>%\n",
+    "    head()\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "233d1e26",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-04T22:13:18.438005Z",
+     "iopub.status.busy": "2023-11-04T22:13:18.436488Z",
+     "iopub.status.idle": "2023-11-04T22:13:18.473258Z",
+     "shell.execute_reply": "2023-11-04T22:13:18.471723Z"
+    },
+    "papermill": {
+     "duration": 0.05272,
+     "end_time": "2023-11-04T22:13:18.475918",
+     "exception": false,
+     "start_time": "2023-11-04T22:13:18.423198",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"Trips from 6 hours to 12 hours\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 2 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>1679</td><td>08:30:52.109589</td></tr>\n",
+       "\t<tr><td>member</td><td> 570</td><td>08:22:12.680702</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 2 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
+       " <chr> & <int> & <time>\\\\\n",
+       "\\hline\n",
+       "\t casual & 1679 & 08:30:52.109589\\\\\n",
+       "\t member &  570 & 08:22:12.680702\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 2 × 3\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | 1679 | 08:30:52.109589 |\n",
+       "| member |  570 | 08:22:12.680702 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  member_casual rider_type_count mean_ride_length\n",
+       "1 casual        1679             08:30:52.109589 \n",
+       "2 member         570             08:22:12.680702 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Here are trips above 6 hours to 12 hours\n",
+    "print(\"Trips from 6 hours to 12 hours\")\n",
+    "trips_from_6_hrs_12_hrs %>%\n",
+    "    group_by(member_casual) %>%\n",
+    "    summarise(\n",
+    "        rider_type_count=n(),\n",
+    "        mean_ride_length=as_hms(mean(ride_length))\n",
+    "    ) %>%\n",
+    "    head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "1ba55cda",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-04T22:13:18.501734Z",
+     "iopub.status.busy": "2023-11-04T22:13:18.500222Z",
+     "iopub.status.idle": "2023-11-04T22:13:18.536806Z",
+     "shell.execute_reply": "2023-11-04T22:13:18.535284Z"
+    },
+    "papermill": {
+     "duration": 0.051708,
+     "end_time": "2023-11-04T22:13:18.538915",
+     "exception": false,
+     "start_time": "2023-11-04T22:13:18.487207",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"Trips from 12 hours to 24 hours\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 2 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>1838</td><td>17:05:01.603917</td></tr>\n",
+       "\t<tr><td>member</td><td> 626</td><td>16:47:46.321086</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 2 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
+       " <chr> & <int> & <time>\\\\\n",
+       "\\hline\n",
+       "\t casual & 1838 & 17:05:01.603917\\\\\n",
+       "\t member &  626 & 16:47:46.321086\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 2 × 3\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | 1838 | 17:05:01.603917 |\n",
+       "| member |  626 | 16:47:46.321086 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  member_casual rider_type_count mean_ride_length\n",
+       "1 casual        1838             17:05:01.603917 \n",
+       "2 member         626             16:47:46.321086 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Here are trips above 12 hours to 24 hours\n",
+    "print(\"Trips from 12 hours to 24 hours\")\n",
+    "trips_from_12_hrs_24_hrs %>%\n",
+    "    group_by(member_casual) %>%\n",
+    "    summarise(\n",
+    "        rider_type_count=n(),\n",
+    "        mean_ride_length=as_hms(mean(ride_length))\n",
+    "    ) %>%\n",
+    "    head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "e7f459ec",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2023-11-04T22:13:18.566212Z",
+     "iopub.status.busy": "2023-11-04T22:13:18.564755Z",
+     "iopub.status.idle": "2023-11-04T22:13:18.599906Z",
+     "shell.execute_reply": "2023-11-04T22:13:18.598435Z"
+    },
+    "papermill": {
+     "duration": 0.051935,
+     "end_time": "2023-11-04T22:13:18.602717",
+     "exception": false,
+     "start_time": "2023-11-04T22:13:18.550782",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"Trips above 24 hours\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A tibble: 2 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>102</td><td>32:18:53.480392</td></tr>\n",
+       "\t<tr><td>member</td><td> 25</td><td>24:29:56.880000</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A tibble: 2 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
+       " <chr> & <int> & <time>\\\\\n",
+       "\\hline\n",
+       "\t casual & 102 & 32:18:53.480392\\\\\n",
+       "\t member &  25 & 24:29:56.880000\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A tibble: 2 × 3\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | 102 | 32:18:53.480392 |\n",
+       "| member |  25 | 24:29:56.880000 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  member_casual rider_type_count mean_ride_length\n",
+       "1 casual        102              32:18:53.480392 \n",
+       "2 member         25              24:29:56.880000 "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "# Here are trips above 24 hours\n",
+    "print(\"Trips above 24 hours\")\n",
+    "trips_above_24_hrs %>%\n",
+    "    group_by(member_casual) %>%\n",
+    "    summarise(\n",
+    "        rider_type_count=n(),\n",
+    "        mean_ride_length=as_hms(mean(ride_length))\n",
+    "    ) %>%\n",
+    "    head()"
+   ]
   }
  ],
  "metadata": {
@@ -1604,14 +2032,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 146.365993,
-   "end_time": "2023-11-04T06:39:20.136246",
+   "duration": 111.892428,
+   "end_time": "2023-11-04T22:13:18.936642",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-11-04T06:36:53.770253",
+   "start_time": "2023-11-04T22:11:27.044214",
    "version": "2.4.0"
   }
  },
