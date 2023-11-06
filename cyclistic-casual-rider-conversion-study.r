@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "4ff9164b",
+   "id": "ff63164c",
    "metadata": {
     "papermill": {
-     "duration": 0.006781,
-     "end_time": "2023-11-04T22:11:30.111159",
+     "duration": 0.005401,
+     "end_time": "2023-11-06T07:27:17.663062",
      "exception": false,
-     "start_time": "2023-11-04T22:11:30.104378",
+     "start_time": "2023-11-06T07:27:17.657661",
      "status": "completed"
     },
     "tags": []
@@ -53,13 +53,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4103d216",
+   "id": "883a273f",
    "metadata": {
     "papermill": {
-     "duration": 0.005646,
-     "end_time": "2023-11-04T22:11:30.123008",
+     "duration": 0.004223,
+     "end_time": "2023-11-06T07:27:17.671762",
      "exception": false,
-     "start_time": "2023-11-04T22:11:30.117362",
+     "start_time": "2023-11-06T07:27:17.667539",
      "status": "completed"
     },
     "tags": []
@@ -80,21 +80,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "3218a2a6",
+   "id": "d16bf948",
    "metadata": {
     "_kg_hide-input": true,
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:11:30.139871Z",
-     "iopub.status.busy": "2023-11-04T22:11:30.137650Z",
-     "iopub.status.idle": "2023-11-04T22:11:57.089366Z",
-     "shell.execute_reply": "2023-11-04T22:11:57.087907Z"
+     "iopub.execute_input": "2023-11-06T07:27:17.684060Z",
+     "iopub.status.busy": "2023-11-06T07:27:17.682262Z",
+     "iopub.status.idle": "2023-11-06T07:27:47.220702Z",
+     "shell.execute_reply": "2023-11-06T07:27:47.219102Z"
     },
     "papermill": {
-     "duration": 26.963839,
-     "end_time": "2023-11-04T22:11:57.092535",
+     "duration": 29.546976,
+     "end_time": "2023-11-06T07:27:47.223010",
      "exception": false,
-     "start_time": "2023-11-04T22:11:30.128696",
+     "start_time": "2023-11-06T07:27:17.676034",
      "status": "completed"
     },
     "tags": []
@@ -141,26 +141,26 @@
     "library('dplyr')\n",
     "library('hms')\n",
     "library('stringr')\n",
-    "library('ggplot2')"
+    "library('ggplot2')\n"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "04f182a5",
+   "id": "6d1f2d36",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:11:57.146392Z",
-     "iopub.status.busy": "2023-11-04T22:11:57.108175Z",
-     "iopub.status.idle": "2023-11-04T22:12:23.395432Z",
-     "shell.execute_reply": "2023-11-04T22:12:23.393692Z"
+     "iopub.execute_input": "2023-11-06T07:27:47.279288Z",
+     "iopub.status.busy": "2023-11-06T07:27:47.236276Z",
+     "iopub.status.idle": "2023-11-06T07:28:16.471455Z",
+     "shell.execute_reply": "2023-11-06T07:28:16.469591Z"
     },
     "papermill": {
-     "duration": 26.297741,
-     "end_time": "2023-11-04T22:12:23.398108",
+     "duration": 29.245759,
+     "end_time": "2023-11-06T07:28:16.473899",
      "exception": false,
-     "start_time": "2023-11-04T22:11:57.100367",
+     "start_time": "2023-11-06T07:27:47.228140",
      "status": "completed"
     },
     "tags": []
@@ -299,13 +299,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6d9b8546",
+   "id": "03c42b62",
    "metadata": {
     "papermill": {
-     "duration": 0.007978,
-     "end_time": "2023-11-04T22:12:23.415366",
+     "duration": 0.007038,
+     "end_time": "2023-11-06T07:28:16.488467",
      "exception": false,
-     "start_time": "2023-11-04T22:12:23.407388",
+     "start_time": "2023-11-06T07:28:16.481429",
      "status": "completed"
     },
     "tags": []
@@ -322,13 +322,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "96a41fc3",
+   "id": "6a2fea2f",
    "metadata": {
     "papermill": {
-     "duration": 0.008069,
-     "end_time": "2023-11-04T22:12:23.431507",
+     "duration": 0.006808,
+     "end_time": "2023-11-06T07:28:16.501985",
      "exception": false,
-     "start_time": "2023-11-04T22:12:23.423438",
+     "start_time": "2023-11-06T07:28:16.495177",
      "status": "completed"
     },
     "tags": []
@@ -340,19 +340,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "067ff841",
+   "id": "a454bd5d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:23.450874Z",
-     "iopub.status.busy": "2023-11-04T22:12:23.449576Z",
-     "iopub.status.idle": "2023-11-04T22:12:29.052660Z",
-     "shell.execute_reply": "2023-11-04T22:12:29.051177Z"
+     "iopub.execute_input": "2023-11-06T07:28:16.519482Z",
+     "iopub.status.busy": "2023-11-06T07:28:16.517816Z",
+     "iopub.status.idle": "2023-11-06T07:28:25.295965Z",
+     "shell.execute_reply": "2023-11-06T07:28:25.294475Z"
     },
     "papermill": {
-     "duration": 5.616014,
-     "end_time": "2023-11-04T22:12:29.055524",
+     "duration": 8.790182,
+     "end_time": "2023-11-06T07:28:25.298888",
      "exception": false,
-     "start_time": "2023-11-04T22:12:23.439510",
+     "start_time": "2023-11-06T07:28:16.508706",
      "status": "completed"
     },
     "tags": []
@@ -363,7 +363,8 @@
     "complete_trip_data_raw <- bind_rows(trip_sep_2023, trip_aug_2023, trip_jul_2023, trip_jun_2023, trip_may_2023, trip_apr_2023, trip_mar_2023, trip_feb_2023, trip_jan_2023, trip_dec_2022, trip_nov_2022, trip_oct_2022) %>%\n",
     "    mutate(\n",
     "        ride_length=(as_hms(difftime(ended_at, started_at))),\n",
-    "        day_of_week=wday(started_at, week_start=7)\n",
+    "        day_of_week=wday(started_at, week_start=7),\n",
+    "        day_of_week_name=format(as.Date(started_at), \"%A\")\n",
     "    )\n",
     "\n",
     "# Assign dataset to a dataframe\n",
@@ -372,13 +373,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cee00106",
+   "id": "abb346bb",
    "metadata": {
     "papermill": {
-     "duration": 0.008434,
-     "end_time": "2023-11-04T22:12:29.072489",
+     "duration": 0.007318,
+     "end_time": "2023-11-06T07:28:25.313030",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.064055",
+     "start_time": "2023-11-06T07:28:25.305712",
      "status": "completed"
     },
     "tags": []
@@ -390,19 +391,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "f6b55ec5",
+   "id": "5c36fabf",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:29.094138Z",
-     "iopub.status.busy": "2023-11-04T22:12:29.092515Z",
-     "iopub.status.idle": "2023-11-04T22:12:29.124731Z",
-     "shell.execute_reply": "2023-11-04T22:12:29.123408Z"
+     "iopub.execute_input": "2023-11-06T07:28:25.329685Z",
+     "iopub.status.busy": "2023-11-06T07:28:25.328397Z",
+     "iopub.status.idle": "2023-11-06T07:28:25.356348Z",
+     "shell.execute_reply": "2023-11-06T07:28:25.354971Z"
     },
     "papermill": {
-     "duration": 0.046018,
-     "end_time": "2023-11-04T22:12:29.127095",
+     "duration": 0.038131,
+     "end_time": "2023-11-06T07:28:25.358101",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.081077",
+     "start_time": "2023-11-06T07:28:25.319970",
      "status": "completed"
     },
     "tags": []
@@ -413,7 +414,7 @@
      "output_type": "stream",
      "text": [
       "Rows: 5,674,399\n",
-      "Columns: 15\n",
+      "Columns: 16\n",
       "$ ride_id            \u001b[3m\u001b[90m<chr>\u001b[39m\u001b[23m \"011C1903BF4E2E28\", \"87DB80E048A1BF9F\", \"7C2EB7AF66…\n",
       "$ rideable_type      \u001b[3m\u001b[90m<chr>\u001b[39m\u001b[23m \"classic_bike\", \"classic_bike\", \"electric_bike\", \"c…\n",
       "$ started_at         \u001b[3m\u001b[90m<dttm>\u001b[39m\u001b[23m 2023-09-23 00:27:50, 2023-09-02 09:26:43, 2023-09-…\n",
@@ -428,7 +429,8 @@
       "$ end_lng            \u001b[3m\u001b[90m<dbl>\u001b[39m\u001b[23m -87.65266, -87.65842, -87.65663, -87.65887, -87.658…\n",
       "$ member_casual      \u001b[3m\u001b[90m<chr>\u001b[39m\u001b[23m \"member\", \"member\", \"member\", \"member\", \"member\", \"…\n",
       "$ ride_length        \u001b[3m\u001b[90m<time>\u001b[39m\u001b[23m 00:05:37, 00:11:36, 00:11:28, 00:08:29, 00:06:06, …\n",
-      "$ day_of_week        \u001b[3m\u001b[90m<dbl>\u001b[39m\u001b[23m 7, 7, 2, 4, 2, 6, 4, 1, 1, 5, 3, 1, 5, 6, 5, 2, 5, …\n"
+      "$ day_of_week        \u001b[3m\u001b[90m<dbl>\u001b[39m\u001b[23m 7, 7, 2, 4, 2, 6, 4, 1, 1, 5, 3, 1, 5, 6, 5, 2, 5, …\n",
+      "$ day_of_week_name   \u001b[3m\u001b[90m<chr>\u001b[39m\u001b[23m \"Saturday\", \"Saturday\", \"Monday\", \"Wednesday\", \"Mon…\n"
      ]
     }
    ],
@@ -438,13 +440,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "66716234",
+   "id": "02acf4c5",
    "metadata": {
     "papermill": {
-     "duration": 0.007961,
-     "end_time": "2023-11-04T22:12:29.143186",
+     "duration": 0.006901,
+     "end_time": "2023-11-06T07:28:25.372072",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.135225",
+     "start_time": "2023-11-06T07:28:25.365171",
      "status": "completed"
     },
     "tags": []
@@ -458,19 +460,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "d54cd5aa",
+   "id": "a64dfbf7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:29.162997Z",
-     "iopub.status.busy": "2023-11-04T22:12:29.161684Z",
-     "iopub.status.idle": "2023-11-04T22:12:29.344805Z",
-     "shell.execute_reply": "2023-11-04T22:12:29.342787Z"
+     "iopub.execute_input": "2023-11-06T07:28:25.389336Z",
+     "iopub.status.busy": "2023-11-06T07:28:25.387874Z",
+     "iopub.status.idle": "2023-11-06T07:28:25.951729Z",
+     "shell.execute_reply": "2023-11-06T07:28:25.949553Z"
     },
     "papermill": {
-     "duration": 0.195969,
-     "end_time": "2023-11-04T22:12:29.347179",
+     "duration": 0.574784,
+     "end_time": "2023-11-06T07:28:25.954022",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.151210",
+     "start_time": "2023-11-06T07:28:25.379238",
      "status": "completed"
     },
     "tags": []
@@ -540,13 +542,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e3f56a6f",
+   "id": "1d338784",
    "metadata": {
     "papermill": {
-     "duration": 0.008266,
-     "end_time": "2023-11-04T22:12:29.364008",
+     "duration": 0.009413,
+     "end_time": "2023-11-06T07:28:25.973110",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.355742",
+     "start_time": "2023-11-06T07:28:25.963697",
      "status": "completed"
     },
     "tags": []
@@ -558,19 +560,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "7042e244",
+   "id": "82313d73",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:29.383762Z",
-     "iopub.status.busy": "2023-11-04T22:12:29.382460Z",
-     "iopub.status.idle": "2023-11-04T22:12:29.896723Z",
-     "shell.execute_reply": "2023-11-04T22:12:29.894837Z"
+     "iopub.execute_input": "2023-11-06T07:28:25.994978Z",
+     "iopub.status.busy": "2023-11-06T07:28:25.992998Z",
+     "iopub.status.idle": "2023-11-06T07:28:26.559201Z",
+     "shell.execute_reply": "2023-11-06T07:28:26.557896Z"
     },
     "papermill": {
-     "duration": 0.527194,
-     "end_time": "2023-11-04T22:12:29.899510",
+     "duration": 0.579063,
+     "end_time": "2023-11-06T07:28:26.560978",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.372316",
+     "start_time": "2023-11-06T07:28:25.981915",
      "status": "completed"
     },
     "tags": []
@@ -640,13 +642,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6111d8f9",
+   "id": "1326715b",
    "metadata": {
     "papermill": {
-     "duration": 0.008447,
-     "end_time": "2023-11-04T22:12:29.916470",
+     "duration": 0.007901,
+     "end_time": "2023-11-06T07:28:26.577550",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.908023",
+     "start_time": "2023-11-06T07:28:26.569649",
      "status": "completed"
     },
     "tags": []
@@ -660,19 +662,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "a1a72324",
+   "id": "a3ac9c2d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:29.936293Z",
-     "iopub.status.busy": "2023-11-04T22:12:29.934933Z",
-     "iopub.status.idle": "2023-11-04T22:12:31.408702Z",
-     "shell.execute_reply": "2023-11-04T22:12:31.407266Z"
+     "iopub.execute_input": "2023-11-06T07:28:26.596416Z",
+     "iopub.status.busy": "2023-11-06T07:28:26.594784Z",
+     "iopub.status.idle": "2023-11-06T07:28:28.196388Z",
+     "shell.execute_reply": "2023-11-06T07:28:28.194790Z"
     },
     "papermill": {
-     "duration": 1.485974,
-     "end_time": "2023-11-04T22:12:31.410719",
+     "duration": 1.614864,
+     "end_time": "2023-11-06T07:28:28.199462",
      "exception": false,
-     "start_time": "2023-11-04T22:12:29.924745",
+     "start_time": "2023-11-06T07:28:26.584598",
      "status": "completed"
     },
     "tags": []
@@ -686,13 +688,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a7606b03",
+   "id": "8237e220",
    "metadata": {
     "papermill": {
-     "duration": 0.009514,
-     "end_time": "2023-11-04T22:12:31.428624",
+     "duration": 0.00711,
+     "end_time": "2023-11-06T07:28:28.213994",
      "exception": false,
-     "start_time": "2023-11-04T22:12:31.419110",
+     "start_time": "2023-11-06T07:28:28.206884",
      "status": "completed"
     },
     "tags": []
@@ -704,19 +706,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "e9ed18b0",
+   "id": "4b8fd3b1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:31.448459Z",
-     "iopub.status.busy": "2023-11-04T22:12:31.447036Z",
-     "iopub.status.idle": "2023-11-04T22:12:38.240978Z",
-     "shell.execute_reply": "2023-11-04T22:12:38.239700Z"
+     "iopub.execute_input": "2023-11-06T07:28:28.231900Z",
+     "iopub.status.busy": "2023-11-06T07:28:28.230445Z",
+     "iopub.status.idle": "2023-11-06T07:28:33.219894Z",
+     "shell.execute_reply": "2023-11-06T07:28:33.218516Z"
     },
     "papermill": {
-     "duration": 6.806721,
-     "end_time": "2023-11-04T22:12:38.243622",
+     "duration": 5.000532,
+     "end_time": "2023-11-06T07:28:33.221684",
      "exception": false,
-     "start_time": "2023-11-04T22:12:31.436901",
+     "start_time": "2023-11-06T07:28:28.221152",
      "status": "completed"
     },
     "tags": []
@@ -793,13 +795,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "125ea7cc",
+   "id": "151d08e0",
    "metadata": {
     "papermill": {
-     "duration": 0.009496,
-     "end_time": "2023-11-04T22:12:38.262433",
+     "duration": 0.007088,
+     "end_time": "2023-11-06T07:28:33.236152",
      "exception": false,
-     "start_time": "2023-11-04T22:12:38.252937",
+     "start_time": "2023-11-06T07:28:33.229064",
      "status": "completed"
     },
     "tags": []
@@ -811,19 +813,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "d5bb2b8f",
+   "id": "7334ee9f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:38.283942Z",
-     "iopub.status.busy": "2023-11-04T22:12:38.282614Z",
-     "iopub.status.idle": "2023-11-04T22:12:38.314963Z",
-     "shell.execute_reply": "2023-11-04T22:12:38.313695Z"
+     "iopub.execute_input": "2023-11-06T07:28:33.253733Z",
+     "iopub.status.busy": "2023-11-06T07:28:33.252332Z",
+     "iopub.status.idle": "2023-11-06T07:28:33.288576Z",
+     "shell.execute_reply": "2023-11-06T07:28:33.287179Z"
     },
     "papermill": {
-     "duration": 0.04483,
-     "end_time": "2023-11-04T22:12:38.316849",
+     "duration": 0.047587,
+     "end_time": "2023-11-06T07:28:33.290975",
      "exception": false,
-     "start_time": "2023-11-04T22:12:38.272019",
+     "start_time": "2023-11-06T07:28:33.243388",
      "status": "completed"
     },
     "tags": []
@@ -833,59 +835,59 @@
      "data": {
       "text/html": [
        "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 10 × 15</caption>\n",
+       "<caption>A data.frame: 10 × 16</caption>\n",
        "<thead>\n",
-       "\t<tr><th></th><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>start_station_name</th><th scope=col>start_station_id</th><th scope=col>end_station_name</th><th scope=col>end_station_id</th><th scope=col>start_lat</th><th scope=col>start_lng</th><th scope=col>end_lat</th><th scope=col>end_lng</th><th scope=col>member_casual</th><th scope=col>ride_length</th><th scope=col>day_of_week</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "\t<tr><th></th><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>start_station_name</th><th scope=col>start_station_id</th><th scope=col>end_station_name</th><th scope=col>end_station_id</th><th scope=col>start_lat</th><th scope=col>start_lng</th><th scope=col>end_lat</th><th scope=col>end_lng</th><th scope=col>member_casual</th><th scope=col>ride_length</th><th scope=col>day_of_week</th><th scope=col>day_of_week_name</th></tr>\n",
+       "\t<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
        "</thead>\n",
        "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>011C1903BF4E2E28</td><td>classic_bike </td><td>2023-09-23 00:27:50</td><td>2023-09-23 00:33:27</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td>Sheffield Ave &amp; Wellington Ave</td><td>TA1307000052</td><td>41.92914</td><td>-87.64908</td><td>41.93625</td><td>-87.65266</td><td>member</td><td>00:05:37</td><td>7</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>87DB80E048A1BF9F</td><td>classic_bike </td><td>2023-09-02 09:26:43</td><td>2023-09-02 09:38:19</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl       </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave    </span></td><td>TA1306000026</td><td>41.93125</td><td>-87.64434</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:11:36</td><td>7</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>7C2EB7AF669066E3</td><td>electric_bike</td><td>2023-09-25 18:30:11</td><td>2023-09-25 18:41:39</td><td>Financial Pl &amp; Ida B Wells Dr</td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Racine Ave &amp; 15th St          </span></td><td><span style=white-space:pre-wrap>13304       </span></td><td>41.87506</td><td>-87.63314</td><td>41.86127</td><td>-87.65663</td><td>member</td><td>00:11:28</td><td>2</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>57D197B010269CE3</td><td>classic_bike </td><td>2023-09-13 15:30:49</td><td>2023-09-13 15:39:18</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl       </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Belmont Ave      </span></td><td>TA1308000019</td><td>41.93125</td><td>-87.64434</td><td>41.93974</td><td>-87.65887</td><td>member</td><td>00:08:29</td><td>4</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>8A2CEA7C8C8074D8</td><td>classic_bike </td><td>2023-09-18 15:58:58</td><td>2023-09-18 16:05:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave    </span></td><td>TA1306000026</td><td>41.92914</td><td>-87.64908</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:06:06</td><td>2</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>40D9EF382CC6C53D</td><td>classic_bike </td><td>2023-09-17 11:58:50</td><td>2023-09-17 12:08:36</td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave   </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td>California Ave &amp; Milwaukee Ave</td><td><span style=white-space:pre-wrap>13084       </span></td><td>41.92957</td><td>-87.70786</td><td>41.92269</td><td>-87.69715</td><td>member</td><td>00:09:46</td><td>1</td></tr>\n",
-       "\t<tr><th scope=row>7</th><td>3812B98E9406040E</td><td>classic_bike </td><td>2023-09-12 16:01:28</td><td>2023-09-12 16:17:47</td><td>Financial Pl &amp; Ida B Wells Dr</td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Adler Planetarium             </span></td><td><span style=white-space:pre-wrap>13431       </span></td><td>41.87502</td><td>-87.63309</td><td>41.86610</td><td>-87.60727</td><td>member</td><td>00:16:19</td><td>3</td></tr>\n",
-       "\t<tr><th scope=row>8</th><td>EBA56298CB3C803F</td><td>classic_bike </td><td>2023-09-24 13:17:23</td><td>2023-09-24 13:50:43</td><td><span style=white-space:pre-wrap>Clark St &amp; Schreiber Ave     </span></td><td>KA1504000156</td><td><span style=white-space:pre-wrap>Oakley Ave &amp; Touhy Ave        </span></td><td><span style=white-space:pre-wrap>RP-004      </span></td><td>41.99990</td><td>-87.67007</td><td>42.01234</td><td>-87.68824</td><td>member</td><td>00:33:20</td><td>1</td></tr>\n",
-       "\t<tr><th scope=row>9</th><td>C6BD5AF648F11D11</td><td>electric_bike</td><td>2023-09-28 18:09:40</td><td>2023-09-28 18:15:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St        </span></td><td>TA1309000025</td><td>41.92919</td><td>-87.64914</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:05:24</td><td>5</td></tr>\n",
-       "\t<tr><th scope=row>10</th><td>585C82FA2E006DE9</td><td>classic_bike </td><td>2023-09-22 12:30:41</td><td>2023-09-22 12:42:21</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St        </span></td><td>TA1309000025</td><td>41.92914</td><td>-87.64908</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:11:40</td><td>6</td></tr>\n",
+       "\t<tr><th scope=row>1</th><td>011C1903BF4E2E28</td><td>classic_bike </td><td>2023-09-23 00:27:50</td><td>2023-09-23 00:33:27</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td>Sheffield Ave &amp; Wellington Ave</td><td>TA1307000052</td><td>41.92914</td><td>-87.64908</td><td>41.93625</td><td>-87.65266</td><td>member</td><td>00:05:37</td><td>7</td><td>Saturday </td></tr>\n",
+       "\t<tr><th scope=row>2</th><td>87DB80E048A1BF9F</td><td>classic_bike </td><td>2023-09-02 09:26:43</td><td>2023-09-02 09:38:19</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl       </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave    </span></td><td>TA1306000026</td><td>41.93125</td><td>-87.64434</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:11:36</td><td>7</td><td>Saturday </td></tr>\n",
+       "\t<tr><th scope=row>3</th><td>7C2EB7AF669066E3</td><td>electric_bike</td><td>2023-09-25 18:30:11</td><td>2023-09-25 18:41:39</td><td>Financial Pl &amp; Ida B Wells Dr</td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Racine Ave &amp; 15th St          </span></td><td><span style=white-space:pre-wrap>13304       </span></td><td>41.87506</td><td>-87.63314</td><td>41.86127</td><td>-87.65663</td><td>member</td><td>00:11:28</td><td>2</td><td><span style=white-space:pre-wrap>Monday   </span></td></tr>\n",
+       "\t<tr><th scope=row>4</th><td>57D197B010269CE3</td><td>classic_bike </td><td>2023-09-13 15:30:49</td><td>2023-09-13 15:39:18</td><td><span style=white-space:pre-wrap>Clark St &amp; Drummond Pl       </span></td><td>TA1307000142</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Belmont Ave      </span></td><td>TA1308000019</td><td>41.93125</td><td>-87.64434</td><td>41.93974</td><td>-87.65887</td><td>member</td><td>00:08:29</td><td>4</td><td>Wednesday</td></tr>\n",
+       "\t<tr><th scope=row>5</th><td>8A2CEA7C8C8074D8</td><td>classic_bike </td><td>2023-09-18 15:58:58</td><td>2023-09-18 16:05:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Racine Ave &amp; Fullerton Ave    </span></td><td>TA1306000026</td><td>41.92914</td><td>-87.64908</td><td>41.92557</td><td>-87.65842</td><td>member</td><td>00:06:06</td><td>2</td><td><span style=white-space:pre-wrap>Monday   </span></td></tr>\n",
+       "\t<tr><th scope=row>6</th><td>40D9EF382CC6C53D</td><td>classic_bike </td><td>2023-09-17 11:58:50</td><td>2023-09-17 12:08:36</td><td><span style=white-space:pre-wrap>Kedzie Ave &amp; Milwaukee Ave   </span></td><td><span style=white-space:pre-wrap>13085       </span></td><td>California Ave &amp; Milwaukee Ave</td><td><span style=white-space:pre-wrap>13084       </span></td><td>41.92957</td><td>-87.70786</td><td>41.92269</td><td>-87.69715</td><td>member</td><td>00:09:46</td><td>1</td><td><span style=white-space:pre-wrap>Sunday   </span></td></tr>\n",
+       "\t<tr><th scope=row>7</th><td>3812B98E9406040E</td><td>classic_bike </td><td>2023-09-12 16:01:28</td><td>2023-09-12 16:17:47</td><td>Financial Pl &amp; Ida B Wells Dr</td><td><span style=white-space:pre-wrap>SL-010      </span></td><td><span style=white-space:pre-wrap>Adler Planetarium             </span></td><td><span style=white-space:pre-wrap>13431       </span></td><td>41.87502</td><td>-87.63309</td><td>41.86610</td><td>-87.60727</td><td>member</td><td>00:16:19</td><td>3</td><td><span style=white-space:pre-wrap>Tuesday  </span></td></tr>\n",
+       "\t<tr><th scope=row>8</th><td>EBA56298CB3C803F</td><td>classic_bike </td><td>2023-09-24 13:17:23</td><td>2023-09-24 13:50:43</td><td><span style=white-space:pre-wrap>Clark St &amp; Schreiber Ave     </span></td><td>KA1504000156</td><td><span style=white-space:pre-wrap>Oakley Ave &amp; Touhy Ave        </span></td><td><span style=white-space:pre-wrap>RP-004      </span></td><td>41.99990</td><td>-87.67007</td><td>42.01234</td><td>-87.68824</td><td>member</td><td>00:33:20</td><td>1</td><td><span style=white-space:pre-wrap>Sunday   </span></td></tr>\n",
+       "\t<tr><th scope=row>9</th><td>C6BD5AF648F11D11</td><td>electric_bike</td><td>2023-09-28 18:09:40</td><td>2023-09-28 18:15:04</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St        </span></td><td>TA1309000025</td><td>41.92919</td><td>-87.64914</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:05:24</td><td>5</td><td>Thursday </td></tr>\n",
+       "\t<tr><th scope=row>10</th><td>585C82FA2E006DE9</td><td>classic_bike </td><td>2023-09-22 12:30:41</td><td>2023-09-22 12:42:21</td><td><span style=white-space:pre-wrap>Halsted St &amp; Wrightwood Ave  </span></td><td>TA1309000061</td><td><span style=white-space:pre-wrap>Halsted St &amp; Roscoe St        </span></td><td>TA1309000025</td><td>41.92914</td><td>-87.64908</td><td>41.94367</td><td>-87.64895</td><td>member</td><td>00:11:40</td><td>6</td><td><span style=white-space:pre-wrap>Friday   </span></td></tr>\n",
        "</tbody>\n",
        "</table>\n"
       ],
       "text/latex": [
-       "A data.frame: 10 × 15\n",
-       "\\begin{tabular}{r|lllllllllllllll}\n",
-       "  & ride\\_id & rideable\\_type & started\\_at & ended\\_at & start\\_station\\_name & start\\_station\\_id & end\\_station\\_name & end\\_station\\_id & start\\_lat & start\\_lng & end\\_lat & end\\_lng & member\\_casual & ride\\_length & day\\_of\\_week\\\\\n",
-       "  & <chr> & <chr> & <dttm> & <dttm> & <chr> & <chr> & <chr> & <chr> & <dbl> & <dbl> & <dbl> & <dbl> & <chr> & <time> & <dbl>\\\\\n",
+       "A data.frame: 10 × 16\n",
+       "\\begin{tabular}{r|llllllllllllllll}\n",
+       "  & ride\\_id & rideable\\_type & started\\_at & ended\\_at & start\\_station\\_name & start\\_station\\_id & end\\_station\\_name & end\\_station\\_id & start\\_lat & start\\_lng & end\\_lat & end\\_lng & member\\_casual & ride\\_length & day\\_of\\_week & day\\_of\\_week\\_name\\\\\n",
+       "  & <chr> & <chr> & <dttm> & <dttm> & <chr> & <chr> & <chr> & <chr> & <dbl> & <dbl> & <dbl> & <dbl> & <chr> & <time> & <dbl> & <chr>\\\\\n",
        "\\hline\n",
-       "\t1 & 011C1903BF4E2E28 & classic\\_bike  & 2023-09-23 00:27:50 & 2023-09-23 00:33:27 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Sheffield Ave \\& Wellington Ave & TA1307000052 & 41.92914 & -87.64908 & 41.93625 & -87.65266 & member & 00:05:37 & 7\\\\\n",
-       "\t2 & 87DB80E048A1BF9F & classic\\_bike  & 2023-09-02 09:26:43 & 2023-09-02 09:38:19 & Clark St \\& Drummond Pl        & TA1307000142 & Racine Ave \\& Fullerton Ave     & TA1306000026 & 41.93125 & -87.64434 & 41.92557 & -87.65842 & member & 00:11:36 & 7\\\\\n",
-       "\t3 & 7C2EB7AF669066E3 & electric\\_bike & 2023-09-25 18:30:11 & 2023-09-25 18:41:39 & Financial Pl \\& Ida B Wells Dr & SL-010       & Racine Ave \\& 15th St           & 13304        & 41.87506 & -87.63314 & 41.86127 & -87.65663 & member & 00:11:28 & 2\\\\\n",
-       "\t4 & 57D197B010269CE3 & classic\\_bike  & 2023-09-13 15:30:49 & 2023-09-13 15:39:18 & Clark St \\& Drummond Pl        & TA1307000142 & Racine Ave \\& Belmont Ave       & TA1308000019 & 41.93125 & -87.64434 & 41.93974 & -87.65887 & member & 00:08:29 & 4\\\\\n",
-       "\t5 & 8A2CEA7C8C8074D8 & classic\\_bike  & 2023-09-18 15:58:58 & 2023-09-18 16:05:04 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Racine Ave \\& Fullerton Ave     & TA1306000026 & 41.92914 & -87.64908 & 41.92557 & -87.65842 & member & 00:06:06 & 2\\\\\n",
-       "\t6 & 40D9EF382CC6C53D & classic\\_bike  & 2023-09-17 11:58:50 & 2023-09-17 12:08:36 & Kedzie Ave \\& Milwaukee Ave    & 13085        & California Ave \\& Milwaukee Ave & 13084        & 41.92957 & -87.70786 & 41.92269 & -87.69715 & member & 00:09:46 & 1\\\\\n",
-       "\t7 & 3812B98E9406040E & classic\\_bike  & 2023-09-12 16:01:28 & 2023-09-12 16:17:47 & Financial Pl \\& Ida B Wells Dr & SL-010       & Adler Planetarium              & 13431        & 41.87502 & -87.63309 & 41.86610 & -87.60727 & member & 00:16:19 & 3\\\\\n",
-       "\t8 & EBA56298CB3C803F & classic\\_bike  & 2023-09-24 13:17:23 & 2023-09-24 13:50:43 & Clark St \\& Schreiber Ave      & KA1504000156 & Oakley Ave \\& Touhy Ave         & RP-004       & 41.99990 & -87.67007 & 42.01234 & -87.68824 & member & 00:33:20 & 1\\\\\n",
-       "\t9 & C6BD5AF648F11D11 & electric\\_bike & 2023-09-28 18:09:40 & 2023-09-28 18:15:04 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Halsted St \\& Roscoe St         & TA1309000025 & 41.92919 & -87.64914 & 41.94367 & -87.64895 & member & 00:05:24 & 5\\\\\n",
-       "\t10 & 585C82FA2E006DE9 & classic\\_bike  & 2023-09-22 12:30:41 & 2023-09-22 12:42:21 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Halsted St \\& Roscoe St         & TA1309000025 & 41.92914 & -87.64908 & 41.94367 & -87.64895 & member & 00:11:40 & 6\\\\\n",
+       "\t1 & 011C1903BF4E2E28 & classic\\_bike  & 2023-09-23 00:27:50 & 2023-09-23 00:33:27 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Sheffield Ave \\& Wellington Ave & TA1307000052 & 41.92914 & -87.64908 & 41.93625 & -87.65266 & member & 00:05:37 & 7 & Saturday \\\\\n",
+       "\t2 & 87DB80E048A1BF9F & classic\\_bike  & 2023-09-02 09:26:43 & 2023-09-02 09:38:19 & Clark St \\& Drummond Pl        & TA1307000142 & Racine Ave \\& Fullerton Ave     & TA1306000026 & 41.93125 & -87.64434 & 41.92557 & -87.65842 & member & 00:11:36 & 7 & Saturday \\\\\n",
+       "\t3 & 7C2EB7AF669066E3 & electric\\_bike & 2023-09-25 18:30:11 & 2023-09-25 18:41:39 & Financial Pl \\& Ida B Wells Dr & SL-010       & Racine Ave \\& 15th St           & 13304        & 41.87506 & -87.63314 & 41.86127 & -87.65663 & member & 00:11:28 & 2 & Monday   \\\\\n",
+       "\t4 & 57D197B010269CE3 & classic\\_bike  & 2023-09-13 15:30:49 & 2023-09-13 15:39:18 & Clark St \\& Drummond Pl        & TA1307000142 & Racine Ave \\& Belmont Ave       & TA1308000019 & 41.93125 & -87.64434 & 41.93974 & -87.65887 & member & 00:08:29 & 4 & Wednesday\\\\\n",
+       "\t5 & 8A2CEA7C8C8074D8 & classic\\_bike  & 2023-09-18 15:58:58 & 2023-09-18 16:05:04 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Racine Ave \\& Fullerton Ave     & TA1306000026 & 41.92914 & -87.64908 & 41.92557 & -87.65842 & member & 00:06:06 & 2 & Monday   \\\\\n",
+       "\t6 & 40D9EF382CC6C53D & classic\\_bike  & 2023-09-17 11:58:50 & 2023-09-17 12:08:36 & Kedzie Ave \\& Milwaukee Ave    & 13085        & California Ave \\& Milwaukee Ave & 13084        & 41.92957 & -87.70786 & 41.92269 & -87.69715 & member & 00:09:46 & 1 & Sunday   \\\\\n",
+       "\t7 & 3812B98E9406040E & classic\\_bike  & 2023-09-12 16:01:28 & 2023-09-12 16:17:47 & Financial Pl \\& Ida B Wells Dr & SL-010       & Adler Planetarium              & 13431        & 41.87502 & -87.63309 & 41.86610 & -87.60727 & member & 00:16:19 & 3 & Tuesday  \\\\\n",
+       "\t8 & EBA56298CB3C803F & classic\\_bike  & 2023-09-24 13:17:23 & 2023-09-24 13:50:43 & Clark St \\& Schreiber Ave      & KA1504000156 & Oakley Ave \\& Touhy Ave         & RP-004       & 41.99990 & -87.67007 & 42.01234 & -87.68824 & member & 00:33:20 & 1 & Sunday   \\\\\n",
+       "\t9 & C6BD5AF648F11D11 & electric\\_bike & 2023-09-28 18:09:40 & 2023-09-28 18:15:04 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Halsted St \\& Roscoe St         & TA1309000025 & 41.92919 & -87.64914 & 41.94367 & -87.64895 & member & 00:05:24 & 5 & Thursday \\\\\n",
+       "\t10 & 585C82FA2E006DE9 & classic\\_bike  & 2023-09-22 12:30:41 & 2023-09-22 12:42:21 & Halsted St \\& Wrightwood Ave   & TA1309000061 & Halsted St \\& Roscoe St         & TA1309000025 & 41.92914 & -87.64908 & 41.94367 & -87.64895 & member & 00:11:40 & 6 & Friday   \\\\\n",
        "\\end{tabular}\n"
       ],
       "text/markdown": [
        "\n",
-       "A data.frame: 10 × 15\n",
+       "A data.frame: 10 × 16\n",
        "\n",
-       "| <!--/--> | ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | start_station_name &lt;chr&gt; | start_station_id &lt;chr&gt; | end_station_name &lt;chr&gt; | end_station_id &lt;chr&gt; | start_lat &lt;dbl&gt; | start_lng &lt;dbl&gt; | end_lat &lt;dbl&gt; | end_lng &lt;dbl&gt; | member_casual &lt;chr&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
-       "| 1 | 011C1903BF4E2E28 | classic_bike  | 2023-09-23 00:27:50 | 2023-09-23 00:33:27 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Sheffield Ave &amp; Wellington Ave | TA1307000052 | 41.92914 | -87.64908 | 41.93625 | -87.65266 | member | 00:05:37 | 7 |\n",
-       "| 2 | 87DB80E048A1BF9F | classic_bike  | 2023-09-02 09:26:43 | 2023-09-02 09:38:19 | Clark St &amp; Drummond Pl        | TA1307000142 | Racine Ave &amp; Fullerton Ave     | TA1306000026 | 41.93125 | -87.64434 | 41.92557 | -87.65842 | member | 00:11:36 | 7 |\n",
-       "| 3 | 7C2EB7AF669066E3 | electric_bike | 2023-09-25 18:30:11 | 2023-09-25 18:41:39 | Financial Pl &amp; Ida B Wells Dr | SL-010       | Racine Ave &amp; 15th St           | 13304        | 41.87506 | -87.63314 | 41.86127 | -87.65663 | member | 00:11:28 | 2 |\n",
-       "| 4 | 57D197B010269CE3 | classic_bike  | 2023-09-13 15:30:49 | 2023-09-13 15:39:18 | Clark St &amp; Drummond Pl        | TA1307000142 | Racine Ave &amp; Belmont Ave       | TA1308000019 | 41.93125 | -87.64434 | 41.93974 | -87.65887 | member | 00:08:29 | 4 |\n",
-       "| 5 | 8A2CEA7C8C8074D8 | classic_bike  | 2023-09-18 15:58:58 | 2023-09-18 16:05:04 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Racine Ave &amp; Fullerton Ave     | TA1306000026 | 41.92914 | -87.64908 | 41.92557 | -87.65842 | member | 00:06:06 | 2 |\n",
-       "| 6 | 40D9EF382CC6C53D | classic_bike  | 2023-09-17 11:58:50 | 2023-09-17 12:08:36 | Kedzie Ave &amp; Milwaukee Ave    | 13085        | California Ave &amp; Milwaukee Ave | 13084        | 41.92957 | -87.70786 | 41.92269 | -87.69715 | member | 00:09:46 | 1 |\n",
-       "| 7 | 3812B98E9406040E | classic_bike  | 2023-09-12 16:01:28 | 2023-09-12 16:17:47 | Financial Pl &amp; Ida B Wells Dr | SL-010       | Adler Planetarium              | 13431        | 41.87502 | -87.63309 | 41.86610 | -87.60727 | member | 00:16:19 | 3 |\n",
-       "| 8 | EBA56298CB3C803F | classic_bike  | 2023-09-24 13:17:23 | 2023-09-24 13:50:43 | Clark St &amp; Schreiber Ave      | KA1504000156 | Oakley Ave &amp; Touhy Ave         | RP-004       | 41.99990 | -87.67007 | 42.01234 | -87.68824 | member | 00:33:20 | 1 |\n",
-       "| 9 | C6BD5AF648F11D11 | electric_bike | 2023-09-28 18:09:40 | 2023-09-28 18:15:04 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Halsted St &amp; Roscoe St         | TA1309000025 | 41.92919 | -87.64914 | 41.94367 | -87.64895 | member | 00:05:24 | 5 |\n",
-       "| 10 | 585C82FA2E006DE9 | classic_bike  | 2023-09-22 12:30:41 | 2023-09-22 12:42:21 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Halsted St &amp; Roscoe St         | TA1309000025 | 41.92914 | -87.64908 | 41.94367 | -87.64895 | member | 00:11:40 | 6 |\n",
+       "| <!--/--> | ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | start_station_name &lt;chr&gt; | start_station_id &lt;chr&gt; | end_station_name &lt;chr&gt; | end_station_id &lt;chr&gt; | start_lat &lt;dbl&gt; | start_lng &lt;dbl&gt; | end_lat &lt;dbl&gt; | end_lng &lt;dbl&gt; | member_casual &lt;chr&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; | day_of_week_name &lt;chr&gt; |\n",
+       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
+       "| 1 | 011C1903BF4E2E28 | classic_bike  | 2023-09-23 00:27:50 | 2023-09-23 00:33:27 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Sheffield Ave &amp; Wellington Ave | TA1307000052 | 41.92914 | -87.64908 | 41.93625 | -87.65266 | member | 00:05:37 | 7 | Saturday  |\n",
+       "| 2 | 87DB80E048A1BF9F | classic_bike  | 2023-09-02 09:26:43 | 2023-09-02 09:38:19 | Clark St &amp; Drummond Pl        | TA1307000142 | Racine Ave &amp; Fullerton Ave     | TA1306000026 | 41.93125 | -87.64434 | 41.92557 | -87.65842 | member | 00:11:36 | 7 | Saturday  |\n",
+       "| 3 | 7C2EB7AF669066E3 | electric_bike | 2023-09-25 18:30:11 | 2023-09-25 18:41:39 | Financial Pl &amp; Ida B Wells Dr | SL-010       | Racine Ave &amp; 15th St           | 13304        | 41.87506 | -87.63314 | 41.86127 | -87.65663 | member | 00:11:28 | 2 | Monday    |\n",
+       "| 4 | 57D197B010269CE3 | classic_bike  | 2023-09-13 15:30:49 | 2023-09-13 15:39:18 | Clark St &amp; Drummond Pl        | TA1307000142 | Racine Ave &amp; Belmont Ave       | TA1308000019 | 41.93125 | -87.64434 | 41.93974 | -87.65887 | member | 00:08:29 | 4 | Wednesday |\n",
+       "| 5 | 8A2CEA7C8C8074D8 | classic_bike  | 2023-09-18 15:58:58 | 2023-09-18 16:05:04 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Racine Ave &amp; Fullerton Ave     | TA1306000026 | 41.92914 | -87.64908 | 41.92557 | -87.65842 | member | 00:06:06 | 2 | Monday    |\n",
+       "| 6 | 40D9EF382CC6C53D | classic_bike  | 2023-09-17 11:58:50 | 2023-09-17 12:08:36 | Kedzie Ave &amp; Milwaukee Ave    | 13085        | California Ave &amp; Milwaukee Ave | 13084        | 41.92957 | -87.70786 | 41.92269 | -87.69715 | member | 00:09:46 | 1 | Sunday    |\n",
+       "| 7 | 3812B98E9406040E | classic_bike  | 2023-09-12 16:01:28 | 2023-09-12 16:17:47 | Financial Pl &amp; Ida B Wells Dr | SL-010       | Adler Planetarium              | 13431        | 41.87502 | -87.63309 | 41.86610 | -87.60727 | member | 00:16:19 | 3 | Tuesday   |\n",
+       "| 8 | EBA56298CB3C803F | classic_bike  | 2023-09-24 13:17:23 | 2023-09-24 13:50:43 | Clark St &amp; Schreiber Ave      | KA1504000156 | Oakley Ave &amp; Touhy Ave         | RP-004       | 41.99990 | -87.67007 | 42.01234 | -87.68824 | member | 00:33:20 | 1 | Sunday    |\n",
+       "| 9 | C6BD5AF648F11D11 | electric_bike | 2023-09-28 18:09:40 | 2023-09-28 18:15:04 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Halsted St &amp; Roscoe St         | TA1309000025 | 41.92919 | -87.64914 | 41.94367 | -87.64895 | member | 00:05:24 | 5 | Thursday  |\n",
+       "| 10 | 585C82FA2E006DE9 | classic_bike  | 2023-09-22 12:30:41 | 2023-09-22 12:42:21 | Halsted St &amp; Wrightwood Ave   | TA1309000061 | Halsted St &amp; Roscoe St         | TA1309000025 | 41.92914 | -87.64908 | 41.94367 | -87.64895 | member | 00:11:40 | 6 | Friday    |\n",
        "\n"
       ],
       "text/plain": [
@@ -922,17 +924,17 @@
        "8  Oakley Ave & Touhy Ave         RP-004         41.99990  -87.67007 42.01234\n",
        "9  Halsted St & Roscoe St         TA1309000025   41.92919  -87.64914 41.94367\n",
        "10 Halsted St & Roscoe St         TA1309000025   41.92914  -87.64908 41.94367\n",
-       "   end_lng   member_casual ride_length day_of_week\n",
-       "1  -87.65266 member        00:05:37    7          \n",
-       "2  -87.65842 member        00:11:36    7          \n",
-       "3  -87.65663 member        00:11:28    2          \n",
-       "4  -87.65887 member        00:08:29    4          \n",
-       "5  -87.65842 member        00:06:06    2          \n",
-       "6  -87.69715 member        00:09:46    1          \n",
-       "7  -87.60727 member        00:16:19    3          \n",
-       "8  -87.68824 member        00:33:20    1          \n",
-       "9  -87.64895 member        00:05:24    5          \n",
-       "10 -87.64895 member        00:11:40    6          "
+       "   end_lng   member_casual ride_length day_of_week day_of_week_name\n",
+       "1  -87.65266 member        00:05:37    7           Saturday        \n",
+       "2  -87.65842 member        00:11:36    7           Saturday        \n",
+       "3  -87.65663 member        00:11:28    2           Monday          \n",
+       "4  -87.65887 member        00:08:29    4           Wednesday       \n",
+       "5  -87.65842 member        00:06:06    2           Monday          \n",
+       "6  -87.69715 member        00:09:46    1           Sunday          \n",
+       "7  -87.60727 member        00:16:19    3           Tuesday         \n",
+       "8  -87.68824 member        00:33:20    1           Sunday          \n",
+       "9  -87.64895 member        00:05:24    5           Thursday        \n",
+       "10 -87.64895 member        00:11:40    6           Friday          "
       ]
      },
      "metadata": {},
@@ -946,13 +948,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3ee41d67",
+   "id": "09831d03",
    "metadata": {
     "papermill": {
-     "duration": 0.009239,
-     "end_time": "2023-11-04T22:12:38.335356",
+     "duration": 0.007432,
+     "end_time": "2023-11-06T07:28:33.306292",
      "exception": false,
-     "start_time": "2023-11-04T22:12:38.326117",
+     "start_time": "2023-11-06T07:28:33.298860",
      "status": "completed"
     },
     "tags": []
@@ -964,19 +966,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "947acd7b",
+   "id": "d9b6ecfc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:12:38.356831Z",
-     "iopub.status.busy": "2023-11-04T22:12:38.355440Z",
-     "iopub.status.idle": "2023-11-04T22:13:14.774879Z",
-     "shell.execute_reply": "2023-11-04T22:13:14.773246Z"
+     "iopub.execute_input": "2023-11-06T07:28:33.324741Z",
+     "iopub.status.busy": "2023-11-06T07:28:33.323298Z",
+     "iopub.status.idle": "2023-11-06T07:29:16.216480Z",
+     "shell.execute_reply": "2023-11-06T07:29:16.213386Z"
     },
     "papermill": {
-     "duration": 36.432449,
-     "end_time": "2023-11-04T22:13:14.776676",
+     "duration": 42.904796,
+     "end_time": "2023-11-06T07:29:16.218824",
      "exception": false,
-     "start_time": "2023-11-04T22:12:38.344227",
+     "start_time": "2023-11-06T07:28:33.314028",
      "status": "completed"
     },
     "tags": []
@@ -989,13 +991,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "3ac770ec",
+   "id": "4a714fc4",
    "metadata": {
     "papermill": {
-     "duration": 0.009906,
-     "end_time": "2023-11-04T22:13:14.795541",
+     "duration": 0.007878,
+     "end_time": "2023-11-06T07:29:16.234792",
      "exception": false,
-     "start_time": "2023-11-04T22:13:14.785635",
+     "start_time": "2023-11-06T07:29:16.226914",
      "status": "completed"
     },
     "tags": []
@@ -1011,19 +1013,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "eee47deb",
+   "id": "2c971305",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:14.816675Z",
-     "iopub.status.busy": "2023-11-04T22:13:14.815278Z",
-     "iopub.status.idle": "2023-11-04T22:13:14.895340Z",
-     "shell.execute_reply": "2023-11-04T22:13:14.893867Z"
+     "iopub.execute_input": "2023-11-06T07:29:16.254381Z",
+     "iopub.status.busy": "2023-11-06T07:29:16.252938Z",
+     "iopub.status.idle": "2023-11-06T07:29:46.602107Z",
+     "shell.execute_reply": "2023-11-06T07:29:46.600510Z"
     },
     "papermill": {
-     "duration": 0.093079,
-     "end_time": "2023-11-04T22:13:14.897618",
+     "duration": 30.361528,
+     "end_time": "2023-11-06T07:29:46.604376",
      "exception": false,
-     "start_time": "2023-11-04T22:13:14.804539",
+     "start_time": "2023-11-06T07:29:16.242848",
      "status": "completed"
     },
     "tags": []
@@ -1055,97 +1057,206 @@
      },
      "metadata": {},
      "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Add a more descriptive name to the dataset variable\n",
-    "trips_cleaned <- df_cleaned\n",
-    "\n",
-    "# Descriptive analysis on the ride length (figures in the format of HH:MM:SS)\n",
-    "as_hms(mean(trips_cleaned$ride_length))\n",
-    "as_hms(max(trips_cleaned$ride_length))\n",
-    "as_hms(min(trips_cleaned$ride_length))"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "d6ee74a0",
-   "metadata": {
-    "papermill": {
-     "duration": 0.009419,
-     "end_time": "2023-11-04T22:13:14.916513",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:14.907094",
-     "status": "completed"
     },
-    "tags": []
-   },
-   "source": [
-    "Initial analysis shows that average ride time is around 15-16 minutes. We can also immediately observe 2 outliers in the data set being the maximum and minimum ride times.\n",
-    "\n",
-    "We can analyze both."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 12,
-   "id": "07d8c036",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:14.938166Z",
-     "iopub.status.busy": "2023-11-04T22:13:14.936777Z",
-     "iopub.status.idle": "2023-11-04T22:13:15.129964Z",
-     "shell.execute_reply": "2023-11-04T22:13:15.128592Z"
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"By Average Ride Length\"\n"
+     ]
     },
-    "papermill": {
-     "duration": 0.206819,
-     "end_time": "2023-11-04T22:13:15.132461",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:14.925642",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
     {
      "data": {
       "text/html": [
        "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 1 × 15</caption>\n",
+       "<caption>A data.frame: 2 × 2</caption>\n",
        "<thead>\n",
-       "\t<tr><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>start_station_name</th><th scope=col>start_station_id</th><th scope=col>end_station_name</th><th scope=col>end_station_id</th><th scope=col>start_lat</th><th scope=col>start_lng</th><th scope=col>end_lat</th><th scope=col>end_lng</th><th scope=col>member_casual</th><th scope=col>ride_length</th><th scope=col>day_of_week</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
        "</thead>\n",
        "<tbody>\n",
-       "\t<tr><td>59AD7EE868FC6588</td><td>docked_bike</td><td>2023-05-30 12:48:08</td><td>2023-06-07 23:04:26</td><td>Wells St &amp; Polk St</td><td>SL-011</td><td>Lincoln Ave &amp; Roscoe St</td><td>chargingstx5</td><td>41.87273</td><td>-87.63352</td><td>41.94335</td><td>-87.67067</td><td>casual</td><td>202:16:18</td><td>3</td></tr>\n",
+       "\t<tr><td>casual</td><td>1366.7659 secs</td></tr>\n",
+       "\t<tr><td>member</td><td> 727.0977 secs</td></tr>\n",
        "</tbody>\n",
        "</table>\n"
       ],
       "text/latex": [
-       "A data.frame: 1 × 15\n",
-       "\\begin{tabular}{lllllllllllllll}\n",
-       " ride\\_id & rideable\\_type & started\\_at & ended\\_at & start\\_station\\_name & start\\_station\\_id & end\\_station\\_name & end\\_station\\_id & start\\_lat & start\\_lng & end\\_lat & end\\_lng & member\\_casual & ride\\_length & day\\_of\\_week\\\\\n",
-       " <chr> & <chr> & <dttm> & <dttm> & <chr> & <chr> & <chr> & <chr> & <dbl> & <dbl> & <dbl> & <dbl> & <chr> & <time> & <dbl>\\\\\n",
+       "A data.frame: 2 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$ride\\_length\\\\\n",
+       " <chr> & <drtn>\\\\\n",
        "\\hline\n",
-       "\t 59AD7EE868FC6588 & docked\\_bike & 2023-05-30 12:48:08 & 2023-06-07 23:04:26 & Wells St \\& Polk St & SL-011 & Lincoln Ave \\& Roscoe St & chargingstx5 & 41.87273 & -87.63352 & 41.94335 & -87.67067 & casual & 202:16:18 & 3\\\\\n",
+       "\t casual & 1366.7659 secs\\\\\n",
+       "\t member &  727.0977 secs\\\\\n",
        "\\end{tabular}\n"
       ],
       "text/markdown": [
        "\n",
-       "A data.frame: 1 × 15\n",
+       "A data.frame: 2 × 2\n",
        "\n",
-       "| ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | start_station_name &lt;chr&gt; | start_station_id &lt;chr&gt; | end_station_name &lt;chr&gt; | end_station_id &lt;chr&gt; | start_lat &lt;dbl&gt; | start_lng &lt;dbl&gt; | end_lat &lt;dbl&gt; | end_lng &lt;dbl&gt; | member_casual &lt;chr&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
-       "| 59AD7EE868FC6588 | docked_bike | 2023-05-30 12:48:08 | 2023-06-07 23:04:26 | Wells St &amp; Polk St | SL-011 | Lincoln Ave &amp; Roscoe St | chargingstx5 | 41.87273 | -87.63352 | 41.94335 | -87.67067 | casual | 202:16:18 | 3 |\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$ride_length &lt;drtn&gt; |\n",
+       "|---|---|\n",
+       "| casual | 1366.7659 secs |\n",
+       "| member |  727.0977 secs |\n",
        "\n"
       ],
       "text/plain": [
-       "  ride_id          rideable_type started_at          ended_at           \n",
-       "1 59AD7EE868FC6588 docked_bike   2023-05-30 12:48:08 2023-06-07 23:04:26\n",
-       "  start_station_name start_station_id end_station_name        end_station_id\n",
-       "1 Wells St & Polk St SL-011           Lincoln Ave & Roscoe St chargingstx5  \n",
-       "  start_lat start_lng end_lat  end_lng   member_casual ride_length day_of_week\n",
-       "1 41.87273  -87.63352 41.94335 -87.67067 casual        202:16:18   3          "
+       "  trips_cleaned$member_casual trips_cleaned$ride_length\n",
+       "1 casual                      1366.7659 secs           \n",
+       "2 member                       727.0977 secs           "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"By Median Ride Length\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 2 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>765</td></tr>\n",
+       "\t<tr><td>member</td><td>517</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 2 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$ride\\_length\\\\\n",
+       " <chr> & <dbl>\\\\\n",
+       "\\hline\n",
+       "\t casual & 765\\\\\n",
+       "\t member & 517\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 2 × 2\n",
+       "\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$ride_length &lt;dbl&gt; |\n",
+       "|---|---|\n",
+       "| casual | 765 |\n",
+       "| member | 517 |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  trips_cleaned$member_casual trips_cleaned$ride_length\n",
+       "1 casual                      765                      \n",
+       "2 member                      517                      "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"By Maximum Ride Length\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 2 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>728178 secs</td></tr>\n",
+       "\t<tr><td>member</td><td> 89872 secs</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 2 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$ride\\_length\\\\\n",
+       " <chr> & <drtn>\\\\\n",
+       "\\hline\n",
+       "\t casual & 728178 secs\\\\\n",
+       "\t member &  89872 secs\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 2 × 2\n",
+       "\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$ride_length &lt;drtn&gt; |\n",
+       "|---|---|\n",
+       "| casual | 728178 secs |\n",
+       "| member |  89872 secs |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  trips_cleaned$member_casual trips_cleaned$ride_length\n",
+       "1 casual                      728178 secs              \n",
+       "2 member                       89872 secs              "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1] \"By Minimum Ride Length\"\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 2 × 2</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td> -3479 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>-10122 secs</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 2 × 2\n",
+       "\\begin{tabular}{ll}\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$ride\\_length\\\\\n",
+       " <chr> & <drtn>\\\\\n",
+       "\\hline\n",
+       "\t casual &  -3479 secs\\\\\n",
+       "\t member & -10122 secs\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 2 × 2\n",
+       "\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$ride_length &lt;drtn&gt; |\n",
+       "|---|---|\n",
+       "| casual |  -3479 secs |\n",
+       "| member | -10122 secs |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "  trips_cleaned$member_casual trips_cleaned$ride_length\n",
+       "1 casual                       -3479 secs              \n",
+       "2 member                      -10122 secs              "
       ]
      },
      "metadata": {},
@@ -1155,370 +1266,104 @@
      "data": {
       "text/html": [
        "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 1 × 15</caption>\n",
+       "<caption>A data.frame: 14 × 3</caption>\n",
        "<thead>\n",
-       "\t<tr><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>start_station_name</th><th scope=col>start_station_id</th><th scope=col>end_station_name</th><th scope=col>end_station_id</th><th scope=col>start_lat</th><th scope=col>start_lng</th><th scope=col>end_lat</th><th scope=col>end_lng</th><th scope=col>member_casual</th><th scope=col>ride_length</th><th scope=col>day_of_week</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$day_of_week_name</th><th scope=col>as_hms(trips_cleaned$ride_length)</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
        "</thead>\n",
        "<tbody>\n",
-       "\t<tr><td>918F745F62CAC29E</td><td>classic_bike</td><td>2022-10-13 14:42:10</td><td>2022-10-13 11:53:28</td><td>Wilton Ave &amp; Diversey Pkwy</td><td>chargingstx0</td><td>Wilton Ave &amp; Diversey Pkwy</td><td>chargingstx0</td><td>41.93242</td><td>-87.6527</td><td>41.93242</td><td>-87.6527</td><td>member</td><td>-02:48:42</td><td>5</td></tr>\n",
+       "\t<tr><td>casual</td><td>Friday   </td><td>1334.3852 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Friday   </td><td> 724.0071 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Monday   </td><td>1345.2952 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Monday   </td><td> 691.9274 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Saturday </td><td>1546.5415 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Saturday </td><td> 816.7629 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Sunday   </td><td>1572.2558 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Sunday   </td><td> 815.1951 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Thursday </td><td>1197.0999 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Thursday </td><td> 693.6336 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Tuesday  </td><td>1213.4091 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Tuesday  </td><td> 694.6126 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Wednesday</td><td>1157.1306 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Wednesday</td><td> 692.9693 secs</td></tr>\n",
        "</tbody>\n",
        "</table>\n"
       ],
       "text/latex": [
-       "A data.frame: 1 × 15\n",
-       "\\begin{tabular}{lllllllllllllll}\n",
-       " ride\\_id & rideable\\_type & started\\_at & ended\\_at & start\\_station\\_name & start\\_station\\_id & end\\_station\\_name & end\\_station\\_id & start\\_lat & start\\_lng & end\\_lat & end\\_lng & member\\_casual & ride\\_length & day\\_of\\_week\\\\\n",
-       " <chr> & <chr> & <dttm> & <dttm> & <chr> & <chr> & <chr> & <chr> & <dbl> & <dbl> & <dbl> & <dbl> & <chr> & <time> & <dbl>\\\\\n",
-       "\\hline\n",
-       "\t 918F745F62CAC29E & classic\\_bike & 2022-10-13 14:42:10 & 2022-10-13 11:53:28 & Wilton Ave \\& Diversey Pkwy & chargingstx0 & Wilton Ave \\& Diversey Pkwy & chargingstx0 & 41.93242 & -87.6527 & 41.93242 & -87.6527 & member & -02:48:42 & 5\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 1 × 15\n",
-       "\n",
-       "| ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | start_station_name &lt;chr&gt; | start_station_id &lt;chr&gt; | end_station_name &lt;chr&gt; | end_station_id &lt;chr&gt; | start_lat &lt;dbl&gt; | start_lng &lt;dbl&gt; | end_lat &lt;dbl&gt; | end_lng &lt;dbl&gt; | member_casual &lt;chr&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; |\n",
-       "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n",
-       "| 918F745F62CAC29E | classic_bike | 2022-10-13 14:42:10 | 2022-10-13 11:53:28 | Wilton Ave &amp; Diversey Pkwy | chargingstx0 | Wilton Ave &amp; Diversey Pkwy | chargingstx0 | 41.93242 | -87.6527 | 41.93242 | -87.6527 | member | -02:48:42 | 5 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  ride_id          rideable_type started_at          ended_at           \n",
-       "1 918F745F62CAC29E classic_bike  2022-10-13 14:42:10 2022-10-13 11:53:28\n",
-       "  start_station_name         start_station_id end_station_name          \n",
-       "1 Wilton Ave & Diversey Pkwy chargingstx0     Wilton Ave & Diversey Pkwy\n",
-       "  end_station_id start_lat start_lng end_lat  end_lng  member_casual\n",
-       "1 chargingstx0   41.93242  -87.6527  41.93242 -87.6527 member       \n",
-       "  ride_length day_of_week\n",
-       "1 -02:48:42   5          "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Find the outlier max entry\n",
-    "trips_cleaned %>% filter(ride_length == max(ride_length)) \n",
-    "\n",
-    "# Find the outlier min entry\n",
-    "trips_cleaned %>% filter(ride_length == min(ride_length))\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "4ec8e25b",
-   "metadata": {
-    "papermill": {
-     "duration": 0.009665,
-     "end_time": "2023-11-04T22:13:15.151732",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:15.142067",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "We can dismiss the min value as an error in recording either the start or end time.\n",
-    "\n",
-    "The Max value however, shows an 8 day trip from May 30th to June 7th in 2023. A sorting of the dataset in descending order will show a few other trips of this length."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "id": "e6cca95c",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:15.174487Z",
-     "iopub.status.busy": "2023-11-04T22:13:15.173031Z",
-     "iopub.status.idle": "2023-11-04T22:13:17.048169Z",
-     "shell.execute_reply": "2023-11-04T22:13:17.046942Z"
-    },
-    "papermill": {
-     "duration": 1.888733,
-     "end_time": "2023-11-04T22:13:17.049938",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:15.161205",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A data.frame: 30 × 7</caption>\n",
-       "<thead>\n",
-       "\t<tr><th></th><th scope=col>ride_id</th><th scope=col>rideable_type</th><th scope=col>started_at</th><th scope=col>ended_at</th><th scope=col>ride_length</th><th scope=col>day_of_week</th><th scope=col>member_casual</th></tr>\n",
-       "\t<tr><th></th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;dttm&gt;</th><th scope=col>&lt;time&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><th scope=row>1</th><td>59AD7EE868FC6588</td><td>docked_bike </td><td>2023-05-30 12:48:08</td><td>2023-06-07 23:04:26</td><td>202:16:18</td><td>3</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>2</th><td>FA287922CA358CE0</td><td>docked_bike </td><td>2023-06-03 17:52:15</td><td>2023-06-11 11:44:31</td><td>185:52:16</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>3</th><td>B139FE7DF42819B0</td><td>docked_bike </td><td>2022-10-24 14:37:54</td><td>2022-10-30 08:01:42</td><td>137:23:48</td><td>2</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>4</th><td>47158A16C754A9F4</td><td>docked_bike </td><td>2023-08-10 22:17:49</td><td>2023-08-15 17:09:02</td><td>114:51:13</td><td>5</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>5</th><td>4031082BC503CC84</td><td>docked_bike </td><td>2023-08-02 17:28:57</td><td>2023-08-06 11:07:57</td><td> 89:39:00</td><td>4</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>6</th><td>3BC5FFFDF7503DAA</td><td>docked_bike </td><td>2023-06-15 13:28:59</td><td>2023-06-18 23:12:06</td><td> 81:43:07</td><td>5</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>7</th><td>6786F74C5A6183FB</td><td>docked_bike </td><td>2023-06-18 19:21:22</td><td>2023-06-21 10:59:46</td><td> 63:38:24</td><td>1</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>8</th><td>D2273A0F45CDD4CC</td><td>docked_bike </td><td>2023-08-18 09:13:48</td><td>2023-08-20 16:14:38</td><td> 55:00:50</td><td>6</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>9</th><td>A795B5420E15A65B</td><td>docked_bike </td><td>2023-05-10 18:42:11</td><td>2023-05-13 00:47:58</td><td> 54:05:47</td><td>4</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>10</th><td>280CB8109510E280</td><td>docked_bike </td><td>2023-07-06 21:34:55</td><td>2023-07-08 14:32:46</td><td> 40:57:51</td><td>5</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>11</th><td>D88D5192DF6A4536</td><td>docked_bike </td><td>2023-04-13 17:46:11</td><td>2023-04-15 08:55:32</td><td> 39:09:21</td><td>5</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>12</th><td>81526396CBFBD708</td><td>docked_bike </td><td>2023-05-06 12:53:46</td><td>2023-05-07 18:21:09</td><td> 29:27:23</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>13</th><td>ABA068CBC4FFDA47</td><td>docked_bike </td><td>2023-07-26 02:23:38</td><td>2023-07-27 03:22:27</td><td> 24:58:49</td><td>4</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>14</th><td>7AC23ADF3F785C89</td><td>classic_bike</td><td>2023-09-29 12:32:03</td><td>2023-09-30 13:29:57</td><td> 24:57:54</td><td>6</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>15</th><td>89AB3E68A1FE1D42</td><td>classic_bike</td><td>2023-01-13 18:00:46</td><td>2023-01-14 18:58:38</td><td> 24:57:52</td><td>6</td><td>member</td></tr>\n",
-       "\t<tr><th scope=row>16</th><td>CB93E203A174AC97</td><td>classic_bike</td><td>2023-05-16 18:06:24</td><td>2023-05-17 19:03:53</td><td> 24:57:29</td><td>3</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>17</th><td>C65FD7B15C4C410F</td><td>classic_bike</td><td>2023-09-18 17:57:10</td><td>2023-09-19 18:54:33</td><td> 24:57:23</td><td>2</td><td>member</td></tr>\n",
-       "\t<tr><th scope=row>18</th><td>3309CF3DBCAD8E84</td><td>docked_bike </td><td>2023-08-20 19:43:06</td><td>2023-08-21 20:40:23</td><td> 24:57:17</td><td>1</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>19</th><td>4ED7BD1172CB09B6</td><td>classic_bike</td><td>2023-03-01 14:44:02</td><td>2023-03-02 15:40:52</td><td> 24:56:50</td><td>4</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>20</th><td>36628734F611A53C</td><td>classic_bike</td><td>2023-06-03 10:40:32</td><td>2023-06-04 11:36:15</td><td> 24:55:43</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>21</th><td>6EA5C4A03EE52C44</td><td>classic_bike</td><td>2023-07-17 18:57:07</td><td>2023-07-18 19:50:27</td><td> 24:53:20</td><td>2</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>22</th><td>3B64CE3CC611F18A</td><td>classic_bike</td><td>2022-11-07 16:52:50</td><td>2022-11-08 17:46:04</td><td> 24:53:14</td><td>2</td><td>member</td></tr>\n",
-       "\t<tr><th scope=row>23</th><td>596C6E432ADA6786</td><td>classic_bike</td><td>2023-08-02 16:26:13</td><td>2023-08-03 17:19:14</td><td> 24:53:01</td><td>4</td><td>member</td></tr>\n",
-       "\t<tr><th scope=row>24</th><td>A6AA6DAD829D4861</td><td>classic_bike</td><td>2023-09-02 15:34:43</td><td>2023-09-03 16:27:42</td><td> 24:52:59</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>25</th><td>9C9DBBD2DC872B6A</td><td>classic_bike</td><td>2023-07-22 09:19:03</td><td>2023-07-23 10:11:43</td><td> 24:52:40</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>26</th><td>7629FBAAB4B43EFD</td><td>docked_bike </td><td>2023-05-14 11:54:51</td><td>2023-05-15 12:47:25</td><td> 24:52:34</td><td>1</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>27</th><td>A9521ACAE3830A3E</td><td>classic_bike</td><td>2023-07-27 16:45:18</td><td>2023-07-28 17:37:34</td><td> 24:52:16</td><td>5</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>28</th><td>AA9833D38C531DC2</td><td>classic_bike</td><td>2023-06-17 17:26:27</td><td>2023-06-18 18:16:40</td><td> 24:50:13</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>29</th><td>0AC4676CD2F383AE</td><td>classic_bike</td><td>2023-09-30 16:20:05</td><td>2023-10-01 17:10:15</td><td> 24:50:10</td><td>7</td><td>casual</td></tr>\n",
-       "\t<tr><th scope=row>30</th><td>4699A7D7CE7C52DF</td><td>classic_bike</td><td>2023-05-30 19:00:50</td><td>2023-05-31 19:50:42</td><td> 24:49:52</td><td>3</td><td>casual</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A data.frame: 30 × 7\n",
-       "\\begin{tabular}{r|lllllll}\n",
-       "  & ride\\_id & rideable\\_type & started\\_at & ended\\_at & ride\\_length & day\\_of\\_week & member\\_casual\\\\\n",
-       "  & <chr> & <chr> & <dttm> & <dttm> & <time> & <dbl> & <chr>\\\\\n",
-       "\\hline\n",
-       "\t1 & 59AD7EE868FC6588 & docked\\_bike  & 2023-05-30 12:48:08 & 2023-06-07 23:04:26 & 202:16:18 & 3 & casual\\\\\n",
-       "\t2 & FA287922CA358CE0 & docked\\_bike  & 2023-06-03 17:52:15 & 2023-06-11 11:44:31 & 185:52:16 & 7 & casual\\\\\n",
-       "\t3 & B139FE7DF42819B0 & docked\\_bike  & 2022-10-24 14:37:54 & 2022-10-30 08:01:42 & 137:23:48 & 2 & casual\\\\\n",
-       "\t4 & 47158A16C754A9F4 & docked\\_bike  & 2023-08-10 22:17:49 & 2023-08-15 17:09:02 & 114:51:13 & 5 & casual\\\\\n",
-       "\t5 & 4031082BC503CC84 & docked\\_bike  & 2023-08-02 17:28:57 & 2023-08-06 11:07:57 &  89:39:00 & 4 & casual\\\\\n",
-       "\t6 & 3BC5FFFDF7503DAA & docked\\_bike  & 2023-06-15 13:28:59 & 2023-06-18 23:12:06 &  81:43:07 & 5 & casual\\\\\n",
-       "\t7 & 6786F74C5A6183FB & docked\\_bike  & 2023-06-18 19:21:22 & 2023-06-21 10:59:46 &  63:38:24 & 1 & casual\\\\\n",
-       "\t8 & D2273A0F45CDD4CC & docked\\_bike  & 2023-08-18 09:13:48 & 2023-08-20 16:14:38 &  55:00:50 & 6 & casual\\\\\n",
-       "\t9 & A795B5420E15A65B & docked\\_bike  & 2023-05-10 18:42:11 & 2023-05-13 00:47:58 &  54:05:47 & 4 & casual\\\\\n",
-       "\t10 & 280CB8109510E280 & docked\\_bike  & 2023-07-06 21:34:55 & 2023-07-08 14:32:46 &  40:57:51 & 5 & casual\\\\\n",
-       "\t11 & D88D5192DF6A4536 & docked\\_bike  & 2023-04-13 17:46:11 & 2023-04-15 08:55:32 &  39:09:21 & 5 & casual\\\\\n",
-       "\t12 & 81526396CBFBD708 & docked\\_bike  & 2023-05-06 12:53:46 & 2023-05-07 18:21:09 &  29:27:23 & 7 & casual\\\\\n",
-       "\t13 & ABA068CBC4FFDA47 & docked\\_bike  & 2023-07-26 02:23:38 & 2023-07-27 03:22:27 &  24:58:49 & 4 & casual\\\\\n",
-       "\t14 & 7AC23ADF3F785C89 & classic\\_bike & 2023-09-29 12:32:03 & 2023-09-30 13:29:57 &  24:57:54 & 6 & casual\\\\\n",
-       "\t15 & 89AB3E68A1FE1D42 & classic\\_bike & 2023-01-13 18:00:46 & 2023-01-14 18:58:38 &  24:57:52 & 6 & member\\\\\n",
-       "\t16 & CB93E203A174AC97 & classic\\_bike & 2023-05-16 18:06:24 & 2023-05-17 19:03:53 &  24:57:29 & 3 & casual\\\\\n",
-       "\t17 & C65FD7B15C4C410F & classic\\_bike & 2023-09-18 17:57:10 & 2023-09-19 18:54:33 &  24:57:23 & 2 & member\\\\\n",
-       "\t18 & 3309CF3DBCAD8E84 & docked\\_bike  & 2023-08-20 19:43:06 & 2023-08-21 20:40:23 &  24:57:17 & 1 & casual\\\\\n",
-       "\t19 & 4ED7BD1172CB09B6 & classic\\_bike & 2023-03-01 14:44:02 & 2023-03-02 15:40:52 &  24:56:50 & 4 & casual\\\\\n",
-       "\t20 & 36628734F611A53C & classic\\_bike & 2023-06-03 10:40:32 & 2023-06-04 11:36:15 &  24:55:43 & 7 & casual\\\\\n",
-       "\t21 & 6EA5C4A03EE52C44 & classic\\_bike & 2023-07-17 18:57:07 & 2023-07-18 19:50:27 &  24:53:20 & 2 & casual\\\\\n",
-       "\t22 & 3B64CE3CC611F18A & classic\\_bike & 2022-11-07 16:52:50 & 2022-11-08 17:46:04 &  24:53:14 & 2 & member\\\\\n",
-       "\t23 & 596C6E432ADA6786 & classic\\_bike & 2023-08-02 16:26:13 & 2023-08-03 17:19:14 &  24:53:01 & 4 & member\\\\\n",
-       "\t24 & A6AA6DAD829D4861 & classic\\_bike & 2023-09-02 15:34:43 & 2023-09-03 16:27:42 &  24:52:59 & 7 & casual\\\\\n",
-       "\t25 & 9C9DBBD2DC872B6A & classic\\_bike & 2023-07-22 09:19:03 & 2023-07-23 10:11:43 &  24:52:40 & 7 & casual\\\\\n",
-       "\t26 & 7629FBAAB4B43EFD & docked\\_bike  & 2023-05-14 11:54:51 & 2023-05-15 12:47:25 &  24:52:34 & 1 & casual\\\\\n",
-       "\t27 & A9521ACAE3830A3E & classic\\_bike & 2023-07-27 16:45:18 & 2023-07-28 17:37:34 &  24:52:16 & 5 & casual\\\\\n",
-       "\t28 & AA9833D38C531DC2 & classic\\_bike & 2023-06-17 17:26:27 & 2023-06-18 18:16:40 &  24:50:13 & 7 & casual\\\\\n",
-       "\t29 & 0AC4676CD2F383AE & classic\\_bike & 2023-09-30 16:20:05 & 2023-10-01 17:10:15 &  24:50:10 & 7 & casual\\\\\n",
-       "\t30 & 4699A7D7CE7C52DF & classic\\_bike & 2023-05-30 19:00:50 & 2023-05-31 19:50:42 &  24:49:52 & 3 & casual\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A data.frame: 30 × 7\n",
-       "\n",
-       "| <!--/--> | ride_id &lt;chr&gt; | rideable_type &lt;chr&gt; | started_at &lt;dttm&gt; | ended_at &lt;dttm&gt; | ride_length &lt;time&gt; | day_of_week &lt;dbl&gt; | member_casual &lt;chr&gt; |\n",
-       "|---|---|---|---|---|---|---|---|\n",
-       "| 1 | 59AD7EE868FC6588 | docked_bike  | 2023-05-30 12:48:08 | 2023-06-07 23:04:26 | 202:16:18 | 3 | casual |\n",
-       "| 2 | FA287922CA358CE0 | docked_bike  | 2023-06-03 17:52:15 | 2023-06-11 11:44:31 | 185:52:16 | 7 | casual |\n",
-       "| 3 | B139FE7DF42819B0 | docked_bike  | 2022-10-24 14:37:54 | 2022-10-30 08:01:42 | 137:23:48 | 2 | casual |\n",
-       "| 4 | 47158A16C754A9F4 | docked_bike  | 2023-08-10 22:17:49 | 2023-08-15 17:09:02 | 114:51:13 | 5 | casual |\n",
-       "| 5 | 4031082BC503CC84 | docked_bike  | 2023-08-02 17:28:57 | 2023-08-06 11:07:57 |  89:39:00 | 4 | casual |\n",
-       "| 6 | 3BC5FFFDF7503DAA | docked_bike  | 2023-06-15 13:28:59 | 2023-06-18 23:12:06 |  81:43:07 | 5 | casual |\n",
-       "| 7 | 6786F74C5A6183FB | docked_bike  | 2023-06-18 19:21:22 | 2023-06-21 10:59:46 |  63:38:24 | 1 | casual |\n",
-       "| 8 | D2273A0F45CDD4CC | docked_bike  | 2023-08-18 09:13:48 | 2023-08-20 16:14:38 |  55:00:50 | 6 | casual |\n",
-       "| 9 | A795B5420E15A65B | docked_bike  | 2023-05-10 18:42:11 | 2023-05-13 00:47:58 |  54:05:47 | 4 | casual |\n",
-       "| 10 | 280CB8109510E280 | docked_bike  | 2023-07-06 21:34:55 | 2023-07-08 14:32:46 |  40:57:51 | 5 | casual |\n",
-       "| 11 | D88D5192DF6A4536 | docked_bike  | 2023-04-13 17:46:11 | 2023-04-15 08:55:32 |  39:09:21 | 5 | casual |\n",
-       "| 12 | 81526396CBFBD708 | docked_bike  | 2023-05-06 12:53:46 | 2023-05-07 18:21:09 |  29:27:23 | 7 | casual |\n",
-       "| 13 | ABA068CBC4FFDA47 | docked_bike  | 2023-07-26 02:23:38 | 2023-07-27 03:22:27 |  24:58:49 | 4 | casual |\n",
-       "| 14 | 7AC23ADF3F785C89 | classic_bike | 2023-09-29 12:32:03 | 2023-09-30 13:29:57 |  24:57:54 | 6 | casual |\n",
-       "| 15 | 89AB3E68A1FE1D42 | classic_bike | 2023-01-13 18:00:46 | 2023-01-14 18:58:38 |  24:57:52 | 6 | member |\n",
-       "| 16 | CB93E203A174AC97 | classic_bike | 2023-05-16 18:06:24 | 2023-05-17 19:03:53 |  24:57:29 | 3 | casual |\n",
-       "| 17 | C65FD7B15C4C410F | classic_bike | 2023-09-18 17:57:10 | 2023-09-19 18:54:33 |  24:57:23 | 2 | member |\n",
-       "| 18 | 3309CF3DBCAD8E84 | docked_bike  | 2023-08-20 19:43:06 | 2023-08-21 20:40:23 |  24:57:17 | 1 | casual |\n",
-       "| 19 | 4ED7BD1172CB09B6 | classic_bike | 2023-03-01 14:44:02 | 2023-03-02 15:40:52 |  24:56:50 | 4 | casual |\n",
-       "| 20 | 36628734F611A53C | classic_bike | 2023-06-03 10:40:32 | 2023-06-04 11:36:15 |  24:55:43 | 7 | casual |\n",
-       "| 21 | 6EA5C4A03EE52C44 | classic_bike | 2023-07-17 18:57:07 | 2023-07-18 19:50:27 |  24:53:20 | 2 | casual |\n",
-       "| 22 | 3B64CE3CC611F18A | classic_bike | 2022-11-07 16:52:50 | 2022-11-08 17:46:04 |  24:53:14 | 2 | member |\n",
-       "| 23 | 596C6E432ADA6786 | classic_bike | 2023-08-02 16:26:13 | 2023-08-03 17:19:14 |  24:53:01 | 4 | member |\n",
-       "| 24 | A6AA6DAD829D4861 | classic_bike | 2023-09-02 15:34:43 | 2023-09-03 16:27:42 |  24:52:59 | 7 | casual |\n",
-       "| 25 | 9C9DBBD2DC872B6A | classic_bike | 2023-07-22 09:19:03 | 2023-07-23 10:11:43 |  24:52:40 | 7 | casual |\n",
-       "| 26 | 7629FBAAB4B43EFD | docked_bike  | 2023-05-14 11:54:51 | 2023-05-15 12:47:25 |  24:52:34 | 1 | casual |\n",
-       "| 27 | A9521ACAE3830A3E | classic_bike | 2023-07-27 16:45:18 | 2023-07-28 17:37:34 |  24:52:16 | 5 | casual |\n",
-       "| 28 | AA9833D38C531DC2 | classic_bike | 2023-06-17 17:26:27 | 2023-06-18 18:16:40 |  24:50:13 | 7 | casual |\n",
-       "| 29 | 0AC4676CD2F383AE | classic_bike | 2023-09-30 16:20:05 | 2023-10-01 17:10:15 |  24:50:10 | 7 | casual |\n",
-       "| 30 | 4699A7D7CE7C52DF | classic_bike | 2023-05-30 19:00:50 | 2023-05-31 19:50:42 |  24:49:52 | 3 | casual |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "   ride_id          rideable_type started_at          ended_at           \n",
-       "1  59AD7EE868FC6588 docked_bike   2023-05-30 12:48:08 2023-06-07 23:04:26\n",
-       "2  FA287922CA358CE0 docked_bike   2023-06-03 17:52:15 2023-06-11 11:44:31\n",
-       "3  B139FE7DF42819B0 docked_bike   2022-10-24 14:37:54 2022-10-30 08:01:42\n",
-       "4  47158A16C754A9F4 docked_bike   2023-08-10 22:17:49 2023-08-15 17:09:02\n",
-       "5  4031082BC503CC84 docked_bike   2023-08-02 17:28:57 2023-08-06 11:07:57\n",
-       "6  3BC5FFFDF7503DAA docked_bike   2023-06-15 13:28:59 2023-06-18 23:12:06\n",
-       "7  6786F74C5A6183FB docked_bike   2023-06-18 19:21:22 2023-06-21 10:59:46\n",
-       "8  D2273A0F45CDD4CC docked_bike   2023-08-18 09:13:48 2023-08-20 16:14:38\n",
-       "9  A795B5420E15A65B docked_bike   2023-05-10 18:42:11 2023-05-13 00:47:58\n",
-       "10 280CB8109510E280 docked_bike   2023-07-06 21:34:55 2023-07-08 14:32:46\n",
-       "11 D88D5192DF6A4536 docked_bike   2023-04-13 17:46:11 2023-04-15 08:55:32\n",
-       "12 81526396CBFBD708 docked_bike   2023-05-06 12:53:46 2023-05-07 18:21:09\n",
-       "13 ABA068CBC4FFDA47 docked_bike   2023-07-26 02:23:38 2023-07-27 03:22:27\n",
-       "14 7AC23ADF3F785C89 classic_bike  2023-09-29 12:32:03 2023-09-30 13:29:57\n",
-       "15 89AB3E68A1FE1D42 classic_bike  2023-01-13 18:00:46 2023-01-14 18:58:38\n",
-       "16 CB93E203A174AC97 classic_bike  2023-05-16 18:06:24 2023-05-17 19:03:53\n",
-       "17 C65FD7B15C4C410F classic_bike  2023-09-18 17:57:10 2023-09-19 18:54:33\n",
-       "18 3309CF3DBCAD8E84 docked_bike   2023-08-20 19:43:06 2023-08-21 20:40:23\n",
-       "19 4ED7BD1172CB09B6 classic_bike  2023-03-01 14:44:02 2023-03-02 15:40:52\n",
-       "20 36628734F611A53C classic_bike  2023-06-03 10:40:32 2023-06-04 11:36:15\n",
-       "21 6EA5C4A03EE52C44 classic_bike  2023-07-17 18:57:07 2023-07-18 19:50:27\n",
-       "22 3B64CE3CC611F18A classic_bike  2022-11-07 16:52:50 2022-11-08 17:46:04\n",
-       "23 596C6E432ADA6786 classic_bike  2023-08-02 16:26:13 2023-08-03 17:19:14\n",
-       "24 A6AA6DAD829D4861 classic_bike  2023-09-02 15:34:43 2023-09-03 16:27:42\n",
-       "25 9C9DBBD2DC872B6A classic_bike  2023-07-22 09:19:03 2023-07-23 10:11:43\n",
-       "26 7629FBAAB4B43EFD docked_bike   2023-05-14 11:54:51 2023-05-15 12:47:25\n",
-       "27 A9521ACAE3830A3E classic_bike  2023-07-27 16:45:18 2023-07-28 17:37:34\n",
-       "28 AA9833D38C531DC2 classic_bike  2023-06-17 17:26:27 2023-06-18 18:16:40\n",
-       "29 0AC4676CD2F383AE classic_bike  2023-09-30 16:20:05 2023-10-01 17:10:15\n",
-       "30 4699A7D7CE7C52DF classic_bike  2023-05-30 19:00:50 2023-05-31 19:50:42\n",
-       "   ride_length day_of_week member_casual\n",
-       "1  202:16:18   3           casual       \n",
-       "2  185:52:16   7           casual       \n",
-       "3  137:23:48   2           casual       \n",
-       "4  114:51:13   5           casual       \n",
-       "5   89:39:00   4           casual       \n",
-       "6   81:43:07   5           casual       \n",
-       "7   63:38:24   1           casual       \n",
-       "8   55:00:50   6           casual       \n",
-       "9   54:05:47   4           casual       \n",
-       "10  40:57:51   5           casual       \n",
-       "11  39:09:21   5           casual       \n",
-       "12  29:27:23   7           casual       \n",
-       "13  24:58:49   4           casual       \n",
-       "14  24:57:54   6           casual       \n",
-       "15  24:57:52   6           member       \n",
-       "16  24:57:29   3           casual       \n",
-       "17  24:57:23   2           member       \n",
-       "18  24:57:17   1           casual       \n",
-       "19  24:56:50   4           casual       \n",
-       "20  24:55:43   7           casual       \n",
-       "21  24:53:20   2           casual       \n",
-       "22  24:53:14   2           member       \n",
-       "23  24:53:01   4           member       \n",
-       "24  24:52:59   7           casual       \n",
-       "25  24:52:40   7           casual       \n",
-       "26  24:52:34   1           casual       \n",
-       "27  24:52:16   5           casual       \n",
-       "28  24:50:13   7           casual       \n",
-       "29  24:50:10   7           casual       \n",
-       "30  24:49:52   3           casual       "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Top 20 trips by ride length\n",
-    "trips_cleaned %>% \n",
-    "    select(ride_id, rideable_type, started_at, ended_at, ride_length, day_of_week, member_casual) %>%\n",
-    "    arrange(desc(ride_length)) %>%\n",
-    "    head(30)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "6fcfa77d",
-   "metadata": {
-    "papermill": {
-     "duration": 0.010134,
-     "end_time": "2023-11-04T22:13:17.070578",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:17.060444",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "This may indicate a correlation with casual riders and longer trips. We can analyze this further by grouping the two rider types and summarizing the amount of each rider type and average ride length."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 14,
-   "id": "f0475f99",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:17.093950Z",
-     "iopub.status.busy": "2023-11-04T22:13:17.092695Z",
-     "iopub.status.idle": "2023-11-04T22:13:17.732997Z",
-     "shell.execute_reply": "2023-11-04T22:13:17.731566Z"
-    },
-    "papermill": {
-     "duration": 0.654355,
-     "end_time": "2023-11-04T22:13:17.735051",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:17.080696",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>1549175</td><td>00:22:46.765914</td></tr>\n",
-       "\t<tr><td>member</td><td>2742392</td><td>00:12:07.097680</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
+       "A data.frame: 14 × 3\n",
        "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$day\\_of\\_week\\_name & as\\_hms(trips\\_cleaned\\$ride\\_length)\\\\\n",
+       " <chr> & <chr> & <drtn>\\\\\n",
        "\\hline\n",
-       "\t casual & 1549175 & 00:22:46.765914\\\\\n",
-       "\t member & 2742392 & 00:12:07.097680\\\\\n",
+       "\t casual & Friday    & 1334.3852 secs\\\\\n",
+       "\t member & Friday    &  724.0071 secs\\\\\n",
+       "\t casual & Monday    & 1345.2952 secs\\\\\n",
+       "\t member & Monday    &  691.9274 secs\\\\\n",
+       "\t casual & Saturday  & 1546.5415 secs\\\\\n",
+       "\t member & Saturday  &  816.7629 secs\\\\\n",
+       "\t casual & Sunday    & 1572.2558 secs\\\\\n",
+       "\t member & Sunday    &  815.1951 secs\\\\\n",
+       "\t casual & Thursday  & 1197.0999 secs\\\\\n",
+       "\t member & Thursday  &  693.6336 secs\\\\\n",
+       "\t casual & Tuesday   & 1213.4091 secs\\\\\n",
+       "\t member & Tuesday   &  694.6126 secs\\\\\n",
+       "\t casual & Wednesday & 1157.1306 secs\\\\\n",
+       "\t member & Wednesday &  692.9693 secs\\\\\n",
        "\\end{tabular}\n"
       ],
       "text/markdown": [
        "\n",
-       "A tibble: 2 × 3\n",
+       "A data.frame: 14 × 3\n",
        "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$day_of_week_name &lt;chr&gt; | as_hms(trips_cleaned$ride_length) &lt;drtn&gt; |\n",
        "|---|---|---|\n",
-       "| casual | 1549175 | 00:22:46.765914 |\n",
-       "| member | 2742392 | 00:12:07.097680 |\n",
+       "| casual | Friday    | 1334.3852 secs |\n",
+       "| member | Friday    |  724.0071 secs |\n",
+       "| casual | Monday    | 1345.2952 secs |\n",
+       "| member | Monday    |  691.9274 secs |\n",
+       "| casual | Saturday  | 1546.5415 secs |\n",
+       "| member | Saturday  |  816.7629 secs |\n",
+       "| casual | Sunday    | 1572.2558 secs |\n",
+       "| member | Sunday    |  815.1951 secs |\n",
+       "| casual | Thursday  | 1197.0999 secs |\n",
+       "| member | Thursday  |  693.6336 secs |\n",
+       "| casual | Tuesday   | 1213.4091 secs |\n",
+       "| member | Tuesday   |  694.6126 secs |\n",
+       "| casual | Wednesday | 1157.1306 secs |\n",
+       "| member | Wednesday |  692.9693 secs |\n",
        "\n"
       ],
       "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        1549175          00:22:46.765914 \n",
-       "2 member        2742392          00:12:07.097680 "
+       "   trips_cleaned$member_casual trips_cleaned$day_of_week_name\n",
+       "1  casual                      Friday                        \n",
+       "2  member                      Friday                        \n",
+       "3  casual                      Monday                        \n",
+       "4  member                      Monday                        \n",
+       "5  casual                      Saturday                      \n",
+       "6  member                      Saturday                      \n",
+       "7  casual                      Sunday                        \n",
+       "8  member                      Sunday                        \n",
+       "9  casual                      Thursday                      \n",
+       "10 member                      Thursday                      \n",
+       "11 casual                      Tuesday                       \n",
+       "12 member                      Tuesday                       \n",
+       "13 casual                      Wednesday                     \n",
+       "14 member                      Wednesday                     \n",
+       "   as_hms(trips_cleaned$ride_length)\n",
+       "1  1334.3852 secs                   \n",
+       "2   724.0071 secs                   \n",
+       "3  1345.2952 secs                   \n",
+       "4   691.9274 secs                   \n",
+       "5  1546.5415 secs                   \n",
+       "6   816.7629 secs                   \n",
+       "7  1572.2558 secs                   \n",
+       "8   815.1951 secs                   \n",
+       "9  1197.0999 secs                   \n",
+       "10  693.6336 secs                   \n",
+       "11 1213.4091 secs                   \n",
+       "12  694.6126 secs                   \n",
+       "13 1157.1306 secs                   \n",
+       "14  692.9693 secs                   "
       ]
      },
      "metadata": {},
@@ -1526,7 +1371,238 @@
     },
     {
      "data": {
-      "image/png": "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"
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A data.frame: 14 × 3</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>trips_cleaned$member_casual</th><th scope=col>trips_cleaned$day_of_week_name</th><th scope=col>trips_cleaned$ride_length</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;ord&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>Sunday   </td><td>1572.2558 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Sunday   </td><td> 815.1951 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Monday   </td><td>1345.2952 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Monday   </td><td> 691.9274 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Tuesday  </td><td>1213.4091 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Tuesday  </td><td> 694.6126 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Wednesday</td><td>1157.1306 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Wednesday</td><td> 692.9693 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Thursday </td><td>1197.0999 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Thursday </td><td> 693.6336 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Friday   </td><td>1334.3852 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Friday   </td><td> 724.0071 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Saturday </td><td>1546.5415 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Saturday </td><td> 816.7629 secs</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A data.frame: 14 × 3\n",
+       "\\begin{tabular}{lll}\n",
+       " trips\\_cleaned\\$member\\_casual & trips\\_cleaned\\$day\\_of\\_week\\_name & trips\\_cleaned\\$ride\\_length\\\\\n",
+       " <chr> & <ord> & <drtn>\\\\\n",
+       "\\hline\n",
+       "\t casual & Sunday    & 1572.2558 secs\\\\\n",
+       "\t member & Sunday    &  815.1951 secs\\\\\n",
+       "\t casual & Monday    & 1345.2952 secs\\\\\n",
+       "\t member & Monday    &  691.9274 secs\\\\\n",
+       "\t casual & Tuesday   & 1213.4091 secs\\\\\n",
+       "\t member & Tuesday   &  694.6126 secs\\\\\n",
+       "\t casual & Wednesday & 1157.1306 secs\\\\\n",
+       "\t member & Wednesday &  692.9693 secs\\\\\n",
+       "\t casual & Thursday  & 1197.0999 secs\\\\\n",
+       "\t member & Thursday  &  693.6336 secs\\\\\n",
+       "\t casual & Friday    & 1334.3852 secs\\\\\n",
+       "\t member & Friday    &  724.0071 secs\\\\\n",
+       "\t casual & Saturday  & 1546.5415 secs\\\\\n",
+       "\t member & Saturday  &  816.7629 secs\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A data.frame: 14 × 3\n",
+       "\n",
+       "| trips_cleaned$member_casual &lt;chr&gt; | trips_cleaned$day_of_week_name &lt;ord&gt; | trips_cleaned$ride_length &lt;drtn&gt; |\n",
+       "|---|---|---|\n",
+       "| casual | Sunday    | 1572.2558 secs |\n",
+       "| member | Sunday    |  815.1951 secs |\n",
+       "| casual | Monday    | 1345.2952 secs |\n",
+       "| member | Monday    |  691.9274 secs |\n",
+       "| casual | Tuesday   | 1213.4091 secs |\n",
+       "| member | Tuesday   |  694.6126 secs |\n",
+       "| casual | Wednesday | 1157.1306 secs |\n",
+       "| member | Wednesday |  692.9693 secs |\n",
+       "| casual | Thursday  | 1197.0999 secs |\n",
+       "| member | Thursday  |  693.6336 secs |\n",
+       "| casual | Friday    | 1334.3852 secs |\n",
+       "| member | Friday    |  724.0071 secs |\n",
+       "| casual | Saturday  | 1546.5415 secs |\n",
+       "| member | Saturday  |  816.7629 secs |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "   trips_cleaned$member_casual trips_cleaned$day_of_week_name\n",
+       "1  casual                      Sunday                        \n",
+       "2  member                      Sunday                        \n",
+       "3  casual                      Monday                        \n",
+       "4  member                      Monday                        \n",
+       "5  casual                      Tuesday                       \n",
+       "6  member                      Tuesday                       \n",
+       "7  casual                      Wednesday                     \n",
+       "8  member                      Wednesday                     \n",
+       "9  casual                      Thursday                      \n",
+       "10 member                      Thursday                      \n",
+       "11 casual                      Friday                        \n",
+       "12 member                      Friday                        \n",
+       "13 casual                      Saturday                      \n",
+       "14 member                      Saturday                      \n",
+       "   trips_cleaned$ride_length\n",
+       "1  1572.2558 secs           \n",
+       "2   815.1951 secs           \n",
+       "3  1345.2952 secs           \n",
+       "4   691.9274 secs           \n",
+       "5  1213.4091 secs           \n",
+       "6   694.6126 secs           \n",
+       "7  1157.1306 secs           \n",
+       "8   692.9693 secs           \n",
+       "9  1197.0999 secs           \n",
+       "10  693.6336 secs           \n",
+       "11 1334.3852 secs           \n",
+       "12  724.0071 secs           \n",
+       "13 1546.5415 secs           \n",
+       "14  816.7629 secs           "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\u001b[1m\u001b[22m`summarise()` has grouped output by 'member_casual'. You can override using the\n",
+      "`.groups` argument.\n"
+     ]
+    },
+    {
+     "data": {
+      "text/html": [
+       "<table class=\"dataframe\">\n",
+       "<caption>A grouped_df: 14 × 4</caption>\n",
+       "<thead>\n",
+       "\t<tr><th scope=col>member_casual</th><th scope=col>weekday</th><th scope=col>number_of_rides</th><th scope=col>average_duration</th></tr>\n",
+       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;ord&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;drtn&gt;</th></tr>\n",
+       "</thead>\n",
+       "<tbody>\n",
+       "\t<tr><td>casual</td><td>Sun</td><td>256618</td><td>1572.2558 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Mon</td><td>176520</td><td>1345.2952 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Tue</td><td>176874</td><td>1213.4091 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Wed</td><td>182783</td><td>1157.1306 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Thu</td><td>201668</td><td>1197.0999 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Fri</td><td>230996</td><td>1334.3852 secs</td></tr>\n",
+       "\t<tr><td>casual</td><td>Sat</td><td>323716</td><td>1546.5415 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Sun</td><td>302414</td><td> 815.1951 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Mon</td><td>379478</td><td> 691.9274 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Tue</td><td>431666</td><td> 694.6126 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Wed</td><td>440917</td><td> 692.9693 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Thu</td><td>441710</td><td> 693.6336 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Fri</td><td>391916</td><td> 724.0071 secs</td></tr>\n",
+       "\t<tr><td>member</td><td>Sat</td><td>354291</td><td> 816.7629 secs</td></tr>\n",
+       "</tbody>\n",
+       "</table>\n"
+      ],
+      "text/latex": [
+       "A grouped\\_df: 14 × 4\n",
+       "\\begin{tabular}{llll}\n",
+       " member\\_casual & weekday & number\\_of\\_rides & average\\_duration\\\\\n",
+       " <chr> & <ord> & <int> & <drtn>\\\\\n",
+       "\\hline\n",
+       "\t casual & Sun & 256618 & 1572.2558 secs\\\\\n",
+       "\t casual & Mon & 176520 & 1345.2952 secs\\\\\n",
+       "\t casual & Tue & 176874 & 1213.4091 secs\\\\\n",
+       "\t casual & Wed & 182783 & 1157.1306 secs\\\\\n",
+       "\t casual & Thu & 201668 & 1197.0999 secs\\\\\n",
+       "\t casual & Fri & 230996 & 1334.3852 secs\\\\\n",
+       "\t casual & Sat & 323716 & 1546.5415 secs\\\\\n",
+       "\t member & Sun & 302414 &  815.1951 secs\\\\\n",
+       "\t member & Mon & 379478 &  691.9274 secs\\\\\n",
+       "\t member & Tue & 431666 &  694.6126 secs\\\\\n",
+       "\t member & Wed & 440917 &  692.9693 secs\\\\\n",
+       "\t member & Thu & 441710 &  693.6336 secs\\\\\n",
+       "\t member & Fri & 391916 &  724.0071 secs\\\\\n",
+       "\t member & Sat & 354291 &  816.7629 secs\\\\\n",
+       "\\end{tabular}\n"
+      ],
+      "text/markdown": [
+       "\n",
+       "A grouped_df: 14 × 4\n",
+       "\n",
+       "| member_casual &lt;chr&gt; | weekday &lt;ord&gt; | number_of_rides &lt;int&gt; | average_duration &lt;drtn&gt; |\n",
+       "|---|---|---|---|\n",
+       "| casual | Sun | 256618 | 1572.2558 secs |\n",
+       "| casual | Mon | 176520 | 1345.2952 secs |\n",
+       "| casual | Tue | 176874 | 1213.4091 secs |\n",
+       "| casual | Wed | 182783 | 1157.1306 secs |\n",
+       "| casual | Thu | 201668 | 1197.0999 secs |\n",
+       "| casual | Fri | 230996 | 1334.3852 secs |\n",
+       "| casual | Sat | 323716 | 1546.5415 secs |\n",
+       "| member | Sun | 302414 |  815.1951 secs |\n",
+       "| member | Mon | 379478 |  691.9274 secs |\n",
+       "| member | Tue | 431666 |  694.6126 secs |\n",
+       "| member | Wed | 440917 |  692.9693 secs |\n",
+       "| member | Thu | 441710 |  693.6336 secs |\n",
+       "| member | Fri | 391916 |  724.0071 secs |\n",
+       "| member | Sat | 354291 |  816.7629 secs |\n",
+       "\n"
+      ],
+      "text/plain": [
+       "   member_casual weekday number_of_rides average_duration\n",
+       "1  casual        Sun     256618          1572.2558 secs  \n",
+       "2  casual        Mon     176520          1345.2952 secs  \n",
+       "3  casual        Tue     176874          1213.4091 secs  \n",
+       "4  casual        Wed     182783          1157.1306 secs  \n",
+       "5  casual        Thu     201668          1197.0999 secs  \n",
+       "6  casual        Fri     230996          1334.3852 secs  \n",
+       "7  casual        Sat     323716          1546.5415 secs  \n",
+       "8  member        Sun     302414           815.1951 secs  \n",
+       "9  member        Mon     379478           691.9274 secs  \n",
+       "10 member        Tue     431666           694.6126 secs  \n",
+       "11 member        Wed     440917           692.9693 secs  \n",
+       "12 member        Thu     441710           693.6336 secs  \n",
+       "13 member        Fri     391916           724.0071 secs  \n",
+       "14 member        Sat     354291           816.7629 secs  "
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\u001b[1m\u001b[22m`summarise()` has grouped output by 'member_casual'. You can override using the\n",
+      "`.groups` argument.\n",
+      "\u001b[1m\u001b[22m`summarise()` has grouped output by 'member_casual'. You can override using the\n",
+      "`.groups` argument.\n",
+      "\u001b[1m\u001b[22mDon't know how to automatically pick scale for object of type \u001b[34m<difftime>\u001b[39m.\n",
+      "Defaulting to continuous.\n"
+     ]
+    },
+    {
+     "data": {
+      "image/png": "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"
+     },
+     "metadata": {
+      "image/png": {
+       "height": 420,
+       "width": 420
+      }
+     },
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "image/png": "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\nkFh6ik0ate3elz/Tpd82u2696S6b7zBqzAZfHj7omG9+uMNWp9z6zfDTH3zw0Wef++cLT95y\n1w2Xn3jCpg+++cygJU4o1kolf/TGiOXuvF7SfY3dWc8/9t/Ndz76yuIxI3dp97+zhQAAIYSi\ntjvlJo6vmrv29ttvVruxavG7kx5+reMGJSu2zzlvPhjCoNqr1eWfPPJtWcsB2zbE4VqutVEI\nT77w79lh9Za1GyefeuTt37a5/vLBQy5/pttOEz599PDam25e4rGVC9+b+tbcdhtsPPTwk4Ye\nflII4Z3Hx/bZ6Y/HnTnt7esG1My+5LFmvjqn9nLFgpfr3nl9pXuKcpd9Ri9edbXrjt9jlZIW\nnbqu3v3HfsEAAMCvXl5Rz3P6tH3/9oOe/vqHF4fdffRu++6772fptsZPLZxx7Rl/++h/16rv\nOmm3hdXJ3S7evCEO13L10zdoXvCvY0/6uOz7CKuY99KBV9zw6L87VJW+W51Ktd1w49o7l371\n4mVfLgjh+xNvi2Zet+mmm+5z4bTaO6yxyW9CCFWLqkIIJbk5ZXP+Nvt/Lxws+/bloyZ/WXvP\n5e68vtI9Y1dUVBRC5513/ukJTwCAEMLxj117w1r779hj3T2GDt64V9s3J997+5PT1xt++7AO\nK3jGrnCVogsH93lz/0N+06PFtGfue2DKJ922H3vNgFUb4nCJ3FYP3XFUrz2uWK/nwIMP2L5j\n/twHbpjwVXWzayYOL1mlaLt2Rz1zyS7H5J+0cdeSj956+cYJD/foWFTx+dQr7/zrofvu1WqN\nc7db5c9Pj91qp48O3rTvmsm5nzx4419y89udc36/EMLgYWude94rG2xz4CkHbFP59bu3jLti\nZvuC8EVVzXFLVhla987ru5B0w+6RRx6p764BgKaj+Wr7vP56q1NPveCh+296sKJgzbX6nH3D\n42ceusMK77D/+BcPnH7d1bc98OTdc1p0XvuQM2+4/JxDa18Et9IPt/pul7/zWO8Tz7/6tqvG\nliea9+2/663njT9grdYhhAenPXL04aMfvOrs2/NX3WjjzW549aNNF9/4m0HnnHzE0b/fe89m\nBa0efuOpU487+6HH73zyzkXFbTpttOV+E8++aPeuzUMI/c599urSEVdNevrkI++qTKW6bH7g\nPy6ZtcVmj39/1Jyiunde31UkUqm0zvXNmzevjltbtWpV3wNnxty5c6uqquq+T4tLxmRmmFqJ\n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\ngg=="
      },
      "metadata": {
       "image/png": {
@@ -1538,481 +1614,108 @@
     }
    ],
    "source": [
-    "trips_by_rider <- trips_cleaned %>% \n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    )\n",
+    "# Add a more descriptive name to the dataset variable\n",
+    "trips_cleaned <- df_cleaned\n",
     "\n",
-    "View(trips_by_rider)\n",
+    "# Descriptive analysis on the ride length (figures in the format of HH:MM:SS)\n",
+    "as_hms(mean(trips_cleaned$ride_length))\n",
+    "as_hms(max(trips_cleaned$ride_length))\n",
+    "as_hms(min(trips_cleaned$ride_length))\n",
+    "\n",
+    "# Compare members and casual users\n",
+    "print(\"By Average Ride Length\")\n",
+    "aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual, FUN = mean)\n",
+    "\n",
+    "print(\"By Median Ride Length\")\n",
+    "aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual, FUN = median)\n",
+    "\n",
+    "print(\"By Maximum Ride Length\")\n",
+    "aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual, FUN = max)\n",
+    "\n",
+    "print(\"By Minimum Ride Length\")\n",
+    "aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual, FUN = min)\n",
+    "\n",
+    "# See the average ride time by each day for members vs casual users\n",
+    "aggregate(as_hms(trips_cleaned$ride_length) ~ trips_cleaned$member_casual + trips_cleaned$day_of_week_name, FUN = mean)\n",
+    "\n",
+    "# Notice that the days of the week are out of order. Let's fix that.\n",
+    "trips_cleaned$day_of_week_name <- ordered(trips_cleaned$day_of_week_name, levels=c(\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"))\n",
+    "\n",
+    "# Now, let's run the average ride time by each day for members vs casual users\n",
+    "aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual + trips_cleaned$day_of_week_name, FUN = mean)\n",
+    "\n",
+    "# analyze ridership data by type and weekday\n",
+    "trips_cleaned %>% \n",
+    "  mutate(weekday = wday(started_at, label = TRUE)) %>%  #creates weekday field using wday()\n",
+    "  group_by(member_casual, weekday) %>%  #groups by usertype and weekday\n",
+    "  summarise(number_of_rides = n()\t\t\t\t\t\t\t#calculates the number of rides and average duration \n",
+    "  ,average_duration = mean(ride_length)) %>% \t\t# calculates the average duration\n",
+    "  arrange(member_casual, weekday)\n",
+    "\n",
+    "# Let's visualize the number of rides by rider type\n",
+    "trips_cleaned %>% \n",
+    "    mutate(weekday = wday(started_at, label = TRUE)) %>% \n",
+    "    group_by(member_casual, weekday) %>% \n",
+    "    summarise(number_of_rides = n(),average_duration = mean(ride_length)) %>% \n",
+    "    arrange(member_casual, weekday)  %>% \n",
+    "    ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +\n",
+    "    geom_col(position = \"dodge\")\n",
     "\n",
     "\n",
-    "# Display column chart to \n",
-    "ggplot(data=trips_by_rider) +\n",
-    "    geom_col(mapping=aes(x=member_casual, y=mean_ride_length, color=member_casual, fill=member_casual)) +\n",
-    "    labs(title=\"Average ride length by rider type\", x=\"Rider Type\", y=\"Average rider length (HH:MM:SS)\") +\n",
-    "    theme_dark()"
+    "# Let's create a visualization for average duration\n",
+    "trips_cleaned %>% \n",
+    "    mutate(weekday = wday(started_at, label = TRUE)) %>% \n",
+    "    group_by(member_casual, weekday) %>% \n",
+    "    summarise(number_of_rides = n(),average_duration = mean(ride_length)) %>% \n",
+    "    arrange(member_casual, weekday)  %>% \n",
+    "    ggplot(aes(x = weekday, y = average_duration, fill = member_casual)) +\n",
+    "    geom_col(position = \"dodge\")"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "a8828ab3",
+   "id": "da5ce7ec",
    "metadata": {
     "papermill": {
-     "duration": 0.011049,
-     "end_time": "2023-11-04T22:13:17.756873",
+     "duration": 0.010646,
+     "end_time": "2023-11-06T07:29:46.626280",
      "exception": false,
-     "start_time": "2023-11-04T22:13:17.745824",
+     "start_time": "2023-11-06T07:29:46.615634",
      "status": "completed"
     },
     "tags": []
    },
    "source": [
-    "Here we can see our initial assumption is correct that Casual riders do on average take longer trips than members. But let's dig a bit deeper. We'll want to see how much longer a trips are the riders taking by checking intervals above the averages. We're interested in intervals of between 22 minutes to an hour, from an hour to 6 hours, 6 to 12 hours, 12 to 24 hours and above 24 hours. "
+    "This analysis reveals a higher average ride time for casual riders and weekend rides are more favourible. Also reveals that Subscribed members take more rides. We'll export this pivoted data for visualization purposes with other tools."
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
-   "id": "2ef9ac90",
+   "execution_count": 12,
+   "id": "3b2b60ae",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:17.782082Z",
-     "iopub.status.busy": "2023-11-04T22:13:17.780725Z",
-     "iopub.status.idle": "2023-11-04T22:13:18.342247Z",
-     "shell.execute_reply": "2023-11-04T22:13:18.340854Z"
+     "iopub.execute_input": "2023-11-06T07:29:46.650764Z",
+     "iopub.status.busy": "2023-11-06T07:29:46.649421Z",
+     "iopub.status.idle": "2023-11-06T07:29:49.189318Z",
+     "shell.execute_reply": "2023-11-06T07:29:49.187742Z"
     },
     "papermill": {
-     "duration": 0.57592,
-     "end_time": "2023-11-04T22:13:18.344161",
+     "duration": 2.554969,
+     "end_time": "2023-11-06T07:29:49.191547",
      "exception": false,
-     "start_time": "2023-11-04T22:13:17.768241",
+     "start_time": "2023-11-06T07:29:46.636578",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1] \"Trips from 22 mins to an hour\"\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>332864</td><td>00:34:24.258165</td></tr>\n",
-       "\t<tr><td>member</td><td>315179</td><td>00:31:19.222401</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
-       "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
-       "\\hline\n",
-       "\t casual & 332864 & 00:34:24.258165\\\\\n",
-       "\t member & 315179 & 00:31:19.222401\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A tibble: 2 × 3\n",
-       "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
-       "|---|---|---|\n",
-       "| casual | 332864 | 00:34:24.258165 |\n",
-       "| member | 315179 | 00:31:19.222401 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        332864           00:34:24.258165 \n",
-       "2 member        315179           00:31:19.222401 "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
+   "outputs": [],
    "source": [
-    "trips_from_22_mins_1_hr <- trips_cleaned %>%\n",
-    "    filter(ride_length >= 1320, ride_length <= 3600)\n",
+    "counts <- aggregate(trips_cleaned$ride_length ~ trips_cleaned$member_casual + trips_cleaned$day_of_week_name, FUN = mean)\n",
+    "write_csv(counts, file='/kaggle/working/summary_counts.csv')\n",
     "\n",
-    "trips_from_1_hr_6_hrs <- trips_cleaned %>%\n",
-    "    filter(ride_length > 3600, ride_length <= 21600)\n",
-    "\n",
-    "trips_from_6_hrs_12_hrs <- trips_cleaned %>%\n",
-    "    filter(ride_length > 21600, ride_length <= 43200)\n",
-    "\n",
-    "trips_from_12_hrs_24_hrs <- trips_cleaned %>%\n",
-    "    filter(ride_length > 43200, ride_length <= 86400)\n",
-    "\n",
-    "trips_above_24_hrs <- trips_cleaned %>%\n",
-    "    filter(ride_length > 86400)\n",
-    "\n",
-    "# Here are all the trips within those iuntervals grouped by the rider subscription type\n",
-    "    \n",
-    "# Here are trips from 22 mins to an hour\n",
-    "print(\"Trips from 22 mins to an hour\")\n",
-    "trips_from_22_mins_1_hr %>%\n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    ) %>%\n",
-    "    head()"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 16,
-   "id": "01430578",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:18.369116Z",
-     "iopub.status.busy": "2023-11-04T22:13:18.367715Z",
-     "iopub.status.idle": "2023-11-04T22:13:18.409972Z",
-     "shell.execute_reply": "2023-11-04T22:13:18.408368Z"
-    },
-    "papermill": {
-     "duration": 0.057079,
-     "end_time": "2023-11-04T22:13:18.412086",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:18.355007",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1] \"Trips from 1 hour to 6 hours\"\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>96722</td><td>01:39:48.864374</td></tr>\n",
-       "\t<tr><td>member</td><td>15492</td><td>01:40:26.600891</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
-       "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
-       "\\hline\n",
-       "\t casual & 96722 & 01:39:48.864374\\\\\n",
-       "\t member & 15492 & 01:40:26.600891\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A tibble: 2 × 3\n",
-       "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
-       "|---|---|---|\n",
-       "| casual | 96722 | 01:39:48.864374 |\n",
-       "| member | 15492 | 01:40:26.600891 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        96722            01:39:48.864374 \n",
-       "2 member        15492            01:40:26.600891 "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Here are trips above 1 hour to 6 hours\n",
-    "print(\"Trips from 1 hour to 6 hours\")\n",
-    "trips_from_1_hr_6_hrs %>%\n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    ) %>%\n",
-    "    head()\n",
-    "    "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 17,
-   "id": "233d1e26",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:18.438005Z",
-     "iopub.status.busy": "2023-11-04T22:13:18.436488Z",
-     "iopub.status.idle": "2023-11-04T22:13:18.473258Z",
-     "shell.execute_reply": "2023-11-04T22:13:18.471723Z"
-    },
-    "papermill": {
-     "duration": 0.05272,
-     "end_time": "2023-11-04T22:13:18.475918",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:18.423198",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1] \"Trips from 6 hours to 12 hours\"\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>1679</td><td>08:30:52.109589</td></tr>\n",
-       "\t<tr><td>member</td><td> 570</td><td>08:22:12.680702</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
-       "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
-       "\\hline\n",
-       "\t casual & 1679 & 08:30:52.109589\\\\\n",
-       "\t member &  570 & 08:22:12.680702\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A tibble: 2 × 3\n",
-       "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
-       "|---|---|---|\n",
-       "| casual | 1679 | 08:30:52.109589 |\n",
-       "| member |  570 | 08:22:12.680702 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        1679             08:30:52.109589 \n",
-       "2 member         570             08:22:12.680702 "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Here are trips above 6 hours to 12 hours\n",
-    "print(\"Trips from 6 hours to 12 hours\")\n",
-    "trips_from_6_hrs_12_hrs %>%\n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    ) %>%\n",
-    "    head()"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 18,
-   "id": "1ba55cda",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:18.501734Z",
-     "iopub.status.busy": "2023-11-04T22:13:18.500222Z",
-     "iopub.status.idle": "2023-11-04T22:13:18.536806Z",
-     "shell.execute_reply": "2023-11-04T22:13:18.535284Z"
-    },
-    "papermill": {
-     "duration": 0.051708,
-     "end_time": "2023-11-04T22:13:18.538915",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:18.487207",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1] \"Trips from 12 hours to 24 hours\"\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>1838</td><td>17:05:01.603917</td></tr>\n",
-       "\t<tr><td>member</td><td> 626</td><td>16:47:46.321086</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
-       "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
-       "\\hline\n",
-       "\t casual & 1838 & 17:05:01.603917\\\\\n",
-       "\t member &  626 & 16:47:46.321086\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A tibble: 2 × 3\n",
-       "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
-       "|---|---|---|\n",
-       "| casual | 1838 | 17:05:01.603917 |\n",
-       "| member |  626 | 16:47:46.321086 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        1838             17:05:01.603917 \n",
-       "2 member         626             16:47:46.321086 "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Here are trips above 12 hours to 24 hours\n",
-    "print(\"Trips from 12 hours to 24 hours\")\n",
-    "trips_from_12_hrs_24_hrs %>%\n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    ) %>%\n",
-    "    head()"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 19,
-   "id": "e7f459ec",
-   "metadata": {
-    "execution": {
-     "iopub.execute_input": "2023-11-04T22:13:18.566212Z",
-     "iopub.status.busy": "2023-11-04T22:13:18.564755Z",
-     "iopub.status.idle": "2023-11-04T22:13:18.599906Z",
-     "shell.execute_reply": "2023-11-04T22:13:18.598435Z"
-    },
-    "papermill": {
-     "duration": 0.051935,
-     "end_time": "2023-11-04T22:13:18.602717",
-     "exception": false,
-     "start_time": "2023-11-04T22:13:18.550782",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1] \"Trips above 24 hours\"\n"
-     ]
-    },
-    {
-     "data": {
-      "text/html": [
-       "<table class=\"dataframe\">\n",
-       "<caption>A tibble: 2 × 3</caption>\n",
-       "<thead>\n",
-       "\t<tr><th scope=col>member_casual</th><th scope=col>rider_type_count</th><th scope=col>mean_ride_length</th></tr>\n",
-       "\t<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;time&gt;</th></tr>\n",
-       "</thead>\n",
-       "<tbody>\n",
-       "\t<tr><td>casual</td><td>102</td><td>32:18:53.480392</td></tr>\n",
-       "\t<tr><td>member</td><td> 25</td><td>24:29:56.880000</td></tr>\n",
-       "</tbody>\n",
-       "</table>\n"
-      ],
-      "text/latex": [
-       "A tibble: 2 × 3\n",
-       "\\begin{tabular}{lll}\n",
-       " member\\_casual & rider\\_type\\_count & mean\\_ride\\_length\\\\\n",
-       " <chr> & <int> & <time>\\\\\n",
-       "\\hline\n",
-       "\t casual & 102 & 32:18:53.480392\\\\\n",
-       "\t member &  25 & 24:29:56.880000\\\\\n",
-       "\\end{tabular}\n"
-      ],
-      "text/markdown": [
-       "\n",
-       "A tibble: 2 × 3\n",
-       "\n",
-       "| member_casual &lt;chr&gt; | rider_type_count &lt;int&gt; | mean_ride_length &lt;time&gt; |\n",
-       "|---|---|---|\n",
-       "| casual | 102 | 32:18:53.480392 |\n",
-       "| member |  25 | 24:29:56.880000 |\n",
-       "\n"
-      ],
-      "text/plain": [
-       "  member_casual rider_type_count mean_ride_length\n",
-       "1 casual        102              32:18:53.480392 \n",
-       "2 member         25              24:29:56.880000 "
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
-    }
-   ],
-   "source": [
-    "# Here are trips above 24 hours\n",
-    "print(\"Trips above 24 hours\")\n",
-    "trips_above_24_hrs %>%\n",
-    "    group_by(member_casual) %>%\n",
-    "    summarise(\n",
-    "        rider_type_count=n(),\n",
-    "        mean_ride_length=as_hms(mean(ride_length))\n",
-    "    ) %>%\n",
-    "    head()"
+    "# This can be updated later to set up a google drive connection to export files\n",
+    "# for storage and security"
    ]
   }
  ],
@@ -2032,14 +1735,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 111.892428,
-   "end_time": "2023-11-04T22:13:18.936642",
+   "duration": 155.440938,
+   "end_time": "2023-11-06T07:29:49.524106",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2023-11-04T22:11:27.044214",
+   "start_time": "2023-11-06T07:27:14.083168",
    "version": "2.4.0"
   }
  },
